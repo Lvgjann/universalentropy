@@ -2,128 +2,218 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CosmicVoid/continental.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/dante/menu.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/dante/portfolio.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/footer.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/menu.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/portfolio.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/rpg/menu.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CosmicVoid/rpg/portfolio.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/footer.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/menu.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/portfolio.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/projects/poems/menu.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/projects/poems/portfolio.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/alt_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/blackflag.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/blackflag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/columbia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/icedearth.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/icedearth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/island.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastchance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/nukes.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/nukes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/quarantine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/quarantine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/rapture.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/rapture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/theend.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/theend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/thunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/thunder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/virus.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/virus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/rpg/game_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/rpg_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/computing/com_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/computing/com_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/litterature/lit_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/litterature/lit_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/music/mus_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/music/mus_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/g_game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/g_game_system.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/g_multiverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/g_multiverse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/g_templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/g_templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/g_trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/g_trivia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/rpg_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/rpg_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/u_last_chance.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/u_last_chance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/u_lc_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/u_lc_characters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constellations/projects/rpg/u_mad_max.html" beforeDir="false" afterPath="$PROJECT_DIR$/Constellations/projects/rpg/u_mad_max.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/continental.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/continental.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/asylum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/blackflag.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/blackflag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/columbia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/icedearth.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/icedearth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/island.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/island.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastchance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/nukes.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/nukes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/quarantine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/quarantine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/rapture.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/rapture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/theend.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/theend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/thunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/thunder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/virus.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/dante/virus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/rpg/game_system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/rpg/templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmicVoid/rpg/trivia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/alt_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/drafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/drafts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/novels.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/novels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/poems.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/poems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/computing/com_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/music/mus_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/ind_pd.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/ind_pd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_14.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_15.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_17.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_18.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_19.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_20.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_21.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_22.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/collections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/trivia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardust/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardust/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardust/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardust/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversalEntropy/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversalEntropy/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversalEntropy/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/null/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/null/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1066170471">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="10" />
+          <entry key="php" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="10" />
+          <entry key="PHP" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="68" />
+          <entry key="php" value="1019" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="71" />
+          <entry key="PHP" value="1016" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.command.options" />
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bloodcells.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FireNebula/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastchance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FireNebula/menu.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastchance_characters.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/menu.inc.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/portfolio.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastsurvivor.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="972" column="10" lean-forward="true" selection-start-line="972" selection-start-column="10" selection-end-line="972" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nukes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/nukes.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quarantine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/quarantine.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rapture.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/rapture.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theend.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/theend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thunder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/thunder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="virus.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/virus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="680">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -162,47 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FireNebula/projects/poems/collections.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/poems/trivia.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/ind_pd.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_3.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_2.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_1.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_3.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_1.html" />
-        <option value="$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_2.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/end.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/contact.html" />
-        <option value="$PROJECT_DIR$/_style/style_const.css" />
-        <option value="$PROJECT_DIR$/_style/style_fire.css" />
-        <option value="$PROJECT_DIR$/_style/style_stardust.css" />
-        <option value="$PROJECT_DIR$/_style/style_null.css" />
-        <option value="$PROJECT_DIR$/resources/template.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/g_templates.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/g_trivia.html" />
-        <option value="$PROJECT_DIR$/UniversalEntropy/index.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/rpg_index.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/about.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/templates.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/trivia.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/projects.html" />
-        <option value="$PROJECT_DIR$/_style/style_cosmic.css" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/fury.html" />
-        <option value="$PROJECT_DIR$/UniversalEntropy/about.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/index.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/gallery.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/continental.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/rpg/game_system.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/blackflag.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/columbia.html" />
-        <option value="$PROJECT_DIR$/CosmicVoid/dante/icedearth.html" />
         <option value="$PROJECT_DIR$/CosmicVoid/dante/island.html" />
         <option value="$PROJECT_DIR$/CosmicVoid/dante/lastchance.html" />
         <option value="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html" />
@@ -213,6 +262,47 @@
         <option value="$PROJECT_DIR$/CosmicVoid/dante/theend.html" />
         <option value="$PROJECT_DIR$/CosmicVoid/dante/thunder.html" />
         <option value="$PROJECT_DIR$/CosmicVoid/dante/virus.html" />
+        <option value="$PROJECT_DIR$/CosmicVoid/head.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/index.html" />
+        <option value="$PROJECT_DIR$/CosmicVoid/footer.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/index.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/continental.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/portfolio.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/portfolio.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/header.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/asylum.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/blackflag.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/columbia.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/icedearth.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/island.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/lastchance.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/nukes.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/quarantine.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/rapture.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/theend.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/virus.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/header.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/rpg/portfolio.inc.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/rpg/game_system.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/rpg/templates.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/rpg/trivia.php" />
+        <option value="$PROJECT_DIR$/CosmicVoid/dante/thunder.php" />
+        <option value="$PROJECT_DIR$/FireNebula/portfolio.inc.php" />
+        <option value="$PROJECT_DIR$/FireNebula/footer.inc.php" />
+        <option value="$PROJECT_DIR$/FireNebula/index.html" />
+        <option value="$PROJECT_DIR$/FireNebula/index.php" />
+        <option value="$PROJECT_DIR$/FireNebula/drafts.php" />
+        <option value="$PROJECT_DIR$/FireNebula/gallery.php" />
+        <option value="$PROJECT_DIR$/FireNebula/novels.php" />
+        <option value="$PROJECT_DIR$/FireNebula/poems.php" />
+        <option value="$PROJECT_DIR$/FireNebula/menu.inc.php" />
+        <option value="$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php" />
+        <option value="$PROJECT_DIR$/FireNebula/projects/poems/portfolio.inc.php" />
       </list>
     </option>
   </component>
@@ -222,9 +312,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="PhpServers">
+    <servers />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="422" />
     <option name="y" value="-12" />
@@ -249,19 +340,20 @@
             <path>
               <item name="Universal_Entropy" type="b2602c69:ProjectViewProjectNode" />
               <item name="universalentropy" type="462c0819:PsiDirectoryNode" />
-              <item name="CosmicVoid" type="462c0819:PsiDirectoryNode" />
+              <item name="FireNebula" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Universal_Entropy" type="b2602c69:ProjectViewProjectNode" />
               <item name="universalentropy" type="462c0819:PsiDirectoryNode" />
-              <item name="CosmicVoid" type="462c0819:PsiDirectoryNode" />
-              <item name="dante" type="462c0819:PsiDirectoryNode" />
+              <item name="FireNebula" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Universal_Entropy" type="b2602c69:ProjectViewProjectNode" />
               <item name="universalentropy" type="462c0819:PsiDirectoryNode" />
-              <item name="CosmicVoid" type="462c0819:PsiDirectoryNode" />
-              <item name="rpg" type="462c0819:PsiDirectoryNode" />
+              <item name="FireNebula" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="poems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,29 +365,29 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs/XAMPP/XAMPP Control Panel.lnk" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy\resources\rpg_bg" />
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy\resources" />
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy\CosmicVoid\dante" />
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy\CosmicVoid" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\FireNebula\projects\poems" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy\_style" />
-      <recent name="C:\Users\florian.crampe\Downloads\CosmicVoid\UniversalEntropy\null" />
-      <recent name="C:\Users\florian.crampe\Downloads\CosmicVoid\UniversalEntropy\_style" />
-      <recent name="C:\Users\florian.crampe\Downloads\CosmicVoid\UniversalEntropy\Stardust" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\res" />
+      <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,34 +474,38 @@
       <workItem from="1538178166580" duration="357000" />
       <workItem from="1538667525104" duration="729000" />
       <workItem from="1539025320024" duration="1198000" />
-      <workItem from="1539532102861" duration="557000" />
+      <workItem from="1539532102861" duration="1772000" />
+      <workItem from="1539960654721" duration="923000" />
+      <workItem from="1539961651842" duration="6944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296427000" />
+    <option name="totallyTimeSpent" value="304544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16200215" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16372657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299435" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,147 +515,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" lean-forward="true" selection-start-line="7" selection-start-column="88" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/pd/tome_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-end-line="245" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/novels/nov/nov_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_22.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FireNebula/poems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UniversalEntropy/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/contact.html" />
-    <entry file="file://$PROJECT_DIR$/_style/style_const.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="351" column="43" selection-start-line="351" selection-start-column="43" selection-end-line="351" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_style/style_fire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="350" column="18" lean-forward="true" selection-start-line="350" selection-start-column="18" selection-end-line="350" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_style/style_stardust.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="319" column="9" lean-forward="true" selection-start-line="319" selection-start-column="9" selection-end-line="319" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_style/style_null.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -574,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="117" column="7" lean-forward="true" selection-start-line="112" selection-end-line="117" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CosmicVoid/about.html" />
     <entry file="file://$PROJECT_DIR$/_style/style_cosmic.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,183 +537,349 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/trivia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/alt_index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/rpg_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/game_system.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/rpg_index.html" />
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/gallery.html" />
     <entry file="file://$PROJECT_DIR$/UniversalEntropy/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/menu.inc.php" />
+    <entry file="file://$PROJECT_DIR$/null/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/null/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
-            <element signature="e#5347#5353#0" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/continental.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/continental.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/blackflag.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/portfolio.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="6" />
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/asylum.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="323">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/columbia.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/menu.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/icedearth.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/blackflag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/island.html">
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/asylum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/columbia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/bloodcells.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/icedearth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/island.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/theend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/nukes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/quarantine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/rapture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/portfolio.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/portfolio.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/virus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/footer.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/trivia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/thunder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CosmicVoid/rpg/game_system.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="258" column="6" lean-forward="true" selection-start-line="258" selection-start-column="6" selection-end-line="258" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/portfolio.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="612">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/footer.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="799">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="357">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/nukes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/quarantine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/rapture.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/drafts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/theend.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/thunder.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/poems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CosmicVoid/dante/virus.html">
+    <entry file="file://$PROJECT_DIR$/FireNebula/novels.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="972" column="10" lean-forward="true" selection-start-line="972" selection-start-column="10" selection-end-line="972" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FireNebula/menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/portfolio.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>
