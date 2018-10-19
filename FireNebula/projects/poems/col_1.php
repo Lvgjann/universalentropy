@@ -11,16 +11,10 @@
 </head>
 <body>
 
-<div id="menu">
-    <a href="../../index.php">Home</a>
-    <a href="../../poems.php" class="current_page_item">Poems</a>
-    <a href="../../novels.php">Novels</a>
-    <a href="../../drafts.php">Draft</a>
-    <a href="../../gallery.php">Gallery</a>
-</div>
-<div id="banner"></div>
-<!-- End menu -->
+<!-- Menu -->
+<?php include('menu.inc.php'); ?>
 
+<!-- Content -->
 <div id="page">
     <div id="page_content">
         <div class="title">
@@ -983,8 +977,8 @@
                 <h2>Collections</h2>
             </div>
             <ul class="style2" id="collections">
-                <li><a href="col_1.html" style="text-decoration: none">Égarée Solitaire</a></li>
-                <li><a href="col_2.html" style="text-decoration: none">Nuit éternelle</a></li>
+                <li><a href="col_1.php" style="text-decoration: none">Égarée Solitaire</a></li>
+                <li><a href="col_2.php" style="text-decoration: none">Nuit éternelle</a></li>
                 <li><a href="col_3.html" style="text-decoration: none">Aléatoires</a></li>
                 <li><a href="col_4.html" style="text-decoration: none">Nuit des coeurs oubliés</a></li>
                 <li><a href="col_5.html" style="text-decoration: none">Souffle des morts</a></li>
@@ -1011,83 +1005,10 @@
 </div>
 
 <!-- Portfolio -->
-<div id="portfolio-wrapper">
-    <div id="portfolio" class="content">
-        <div id="column1">
-            <div class="title">
-                <h2>The Cosmic Void</h2>
-            </div>
-            <a href="../../../CosmicVoid/index.php" class="image image-full">
-                <img src="../../../_style/images/mbg_cosmic.png" alt=""/></a>
-            <a href="../../../CosmicVoid/index.php" class="icon icon-arrow-right button">Read More</a></div>
-        <div id="column2">
-            <div class="title">
-                <h2>Fire Nebula</h2>
-            </div>
-            <a href="../../index.php" class="image image-full">
-                <img src="../../../_style/images/mbg_fire.jpg" alt=""/></a>
-            <a href="../../index.php" class="icon icon-arrow-right button">Read More</a></div>
-        <div id="column3">
-            <div class="title">
-                <h2>Stardust</h2>
-            </div>
-            <a href="../../../Stardust/index.php" class="image image-full">
-                <img src="../../../_style/images/mbg_stardust.jpg" alt=""/></a>
-            <a href="../../../Stardust/index.php" class="icon icon-arrow-right button">Read More</a></div>
-        <div id="column4">
-            <div class="title">
-                <h2>Work in progress</h2>
-            </div>
-            <a href="#" class="image image-full"><img src="../../../_style/images/h_wip.jpg" alt=""/></a>
-            <p>Coming soon !</p>
-        </div>
-    </div>
-</div>
+<?php include('portfolio.inc.php'); ?>
 
-<div id="footer-wrapper">
-    <div id="footer" class="content">
-        <div id="box1">
-            <div class="title">
-                <h2>Latest Post</h2>
-            </div>
-            <ul class="style1">
-                <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                <li><a href="#">Consequat etiam lorem phasellus</a></li>
-            </ul>
-        </div>
-        <div id="box2">
-            <div class="title">
-                <h2>Popular Links</h2>
-            </div>
-            <ul class="style1">
-                <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                <li><a href="#">Consequat etiam lorem phasellus</a></li>
-            </ul>
-        </div>
-        <div id="box3">
-            <div class="title">
-                <h2>Follow Us</h2>
-            </div>
-            <p>Follow me on my social media !</p>
-            <ul class="contact">
-                <li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
-                <li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
-                <li><a href="#" class="icon icon-linkedin"><span>Linkedin</span></a></li>
-                <li><a href="#" class="icon icon-github"><span>Github</span></a></li>
-                <li><a href="#" class="icon icon-youtube"><span>Youtube</span></a></li>
-            </ul>
-            <a href="../../drafts.php" class="icon icon-arrow-right button">Read More</a>
-        </div>
-    </div>
-</div>
-<div id="copyright" class="content">
-    <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
-            href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
+<!-- Footer -->
+<?php include('../../footer.inc.php'); ?>
 
 <script type="application/javascript" src="../../../_scripts/general_script.js"></script>
 </body>

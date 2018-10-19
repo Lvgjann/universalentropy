@@ -30,12 +30,12 @@
         <div class="title"><span class="byline">Égarée Solitaire (2015)</span></div>
         <p>
             Premier recueil écrit entre 2012 et 2015.
-            <a href="projects/poems/col_1.html">Read more...</a>
+            <a href="projects/poems/col_1.php">Read more...</a>
         </p>
         <div class="title"><span class="byline">Nuit éternelle (2015)</span></div>
         <p>
             Second recueil écrit entre 2013 et 2015.
-            <a href="projects/poems/col_2.html">Read more...</a>
+            <a href="projects/poems/col_2.php">Read more...</a>
         </p>
         <div class="title"><span class="byline">Aléatoire (2018)</span></div>
         <p>
