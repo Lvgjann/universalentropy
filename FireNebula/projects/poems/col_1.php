@@ -60,11 +60,26 @@
             <button class="poemlinks" onclick="openPoem(event, 'P38')">38</button>
             <button class="poemlinks" onclick="openPoem(event, 'P39')">39</button>
             <button class="poemlinks" onclick="openPoem(event, 'P40')">40</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P41')">41</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P42')">42</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P43')">43</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P44')">44</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P45')">45</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P46')">46</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P47')">47</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P48')">48</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P49')">49</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P50')">50</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P51')">51</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P52')">52</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P53')">53</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P54')">54</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P55')">55</button>
+            <button class="poemlinks" onclick="openPoem(event, 'P56')">56</button>
         </div>
 
         <div class="poem_content" id="P1">
             <p class="poem">
-
                 Mes forces s’épuisent, je suis terrassé,<br>
                 La mort m’observe, elle est aux aguets,<br>
                 Les profondeurs de l’ombre peu à peu me harcèlent,<br>
@@ -600,7 +615,7 @@
                 Sans se prendre la tête dans la nuit et l’angoisse,<br>
                 Sans le malheur de la vie auxquels on fait face.<br>
             </p>
-            <p class="poem_title">Nuit des étoiles</p>
+            <p class="poem_title">Nuit d'étoiles</p>
         </div>
         <div class="poem_content" id="P23">
             <p class="poem">
@@ -964,44 +979,299 @@
             </p>
             <p class="poem_title">Sommeil du veileur</p>
         </div>
-    </div>
-    <div id="sidebar">
-        <div class="box2">
-            <div class="title">
-                <h2>Home</h2>
-            </div>
-            <ul class="style2">
-                <li><a href="../../index.php">Index</a></li>
-            </ul>
-            <div class="title">
-                <h2>Collections</h2>
-            </div>
-            <ul class="style2" id="collections">
-                <li><a href="col_1.php" style="text-decoration: none">Égarée Solitaire</a></li>
-                <li><a href="col_2.php" style="text-decoration: none">Nuit éternelle</a></li>
-                <li><a href="col_3.html" style="text-decoration: none">Aléatoires</a></li>
-                <li><a href="col_4.html" style="text-decoration: none">Nuit des coeurs oubliés</a></li>
-                <li><a href="col_5.html" style="text-decoration: none">Souffle des morts</a></li>
-                <li><a href="col_6.html" style="text-decoration: none">Souffle des morts II : Deuil</a></li>
-                <li><a href="col_7.html" style="text-decoration: none">Aux ailes éthérées</a></li>
-                <li><a href="col_8.html" style="text-decoration: none">Lettres de sang</a></li>
-                <li><a href="col_9.html" style="text-decoration: none">Vies épars</a></li>
-                <li><a href="col_10.html" style="text-decoration: none">Asylum 31</a></li>
-                <li><a href="col_11.html" style="text-decoration: none">Lune de Sang</a></li>
-                <li><a href="col_12.html" style="text-decoration: none">Engrenages</a></li>
-                <li><a href="col_13.html" style="text-decoration: none">Le Voyageur</a></li>
-                <li><a href="col_14.html" style="text-decoration: none">Le Vagabond</a></li>
-                <li><a href="col_15.html" style="text-decoration: none">Sur la bouche des aveugles</a></li>
-                <li><a href="col_16.html" style="text-decoration: none">Remercié</a></li>
-                <li><a href="col_17.html" style="text-decoration: none">Sur les chemins</a></li>
-                <li><a href="col_18.html" style="text-decoration: none">Guerre totale</a></li>
-                <li><a href="col_19.html" style="text-decoration: none">Utopies</a></li>
-                <li><a href="col_20.html" style="text-decoration: none">Élémentaires</a></li>
-                <li><a href="col_21.html" style="text-decoration: none">Coeurs noirs</a></li>
-                <li><a href="col_22.html" style="text-decoration: none">Dante 313</a></li>
-            </ul>
+        <div class="poem_content" id="P41">
+            <p class="poem">
+                Des éclats de vie verre viennent briser la nuit,<br>
+                Les miroirs reflétant de morceaux de vie,<br>
+                Toutes les larmes, toutes les joies d’une jeunesse amnésique,<br>
+                Des morceaux de cœur brisé, mélancolique.<br><br>
+
+                La nuit, de sa Lune le ciel illumine,<br>
+                Réfléchit les âmes dans sa lueur cristalline,<br>
+                Au milieu du néant les fragments encore impurs,<br>
+                D’une perle de vie qui a été si dure.<br><br>
+
+                Le ciel s’assombrit et laisse place au silence,<br>
+                À nouveau au sommeil, les étoiles dansent,<br>
+                Pendant que le miroir brisé se tait et s’enterre,<br>
+                Toute une vécu, un esprit, enfermé dans sa cage de verre.<br>
+            </p>
+            <p class="poem_title">Cristal de vie</p>
+        </div>
+        <div class="poem_content" id="P42">
+            <p class="poem">
+                Le regard égaré dans l’infini des étoiles,<br>
+                Une fraîcheur nocturne sur mon visage terne,<br>
+                Lumières et artifices qui recouvrent de leur voile,<br>
+                L’obscurité qui lentement me cerne.<br>
+                <br>
+                Le son de la ville dans un silence d’hiver,<br>
+                Des souffles et des sourires qui réchauffent le cœur,<br>
+                Dans un vent glacial qui fait taire mes colères,<br>
+                Et offre à chaque coin de rue un morceau de bonheur.<br>
+                <br>
+                Le regard égaré dans la foule d’un soir,<br>
+                Où je fus seul à observer ce ballet d’âmes joyeuses,<br>
+                Marchant sans penser qu’il se faisait tard,<br>
+                Marchant en oubliant mes tristesses malheureuses.<br>
+            </p>
+            <p class="poem_title">Sous le feu de la nuit</p>
+        </div>
+        <div class="poem_content" id="P43">
+            <p class="poem">
+                À l’heure où le jour s’achève,<br>
+                Où le temps n’est que le souvenir,<br>
+                Une époque où la vie paraissait brève,<br>
+                Où la souffrance était avenir.<br>
+                <br>
+                Ancienne réussite, magie et passion,<br>
+                De la douleur qui n’est qu’un progrès,<br>
+                Aujourd’hui je contemple avec désolation<br>
+                Le retard qu’il me faut rattraper.<br>
+                <br>
+                Aujourd’hui et hier, à présent, j’étais,<br>
+                Puisqu’il n’est plus qu’une trace de colère,<br>
+                De reconstruire ce qui me constituait,<br>
+                Contre le temps et la douleur dont je me libère.<br>
+            </p>
+            <p class="poem_title">"Somewhere back in time"</p>
+        </div>
+        <div class="poem_content" id="P44">
+            <p class="poem">
+                Dans un monde extérieur où je ne suis ni Dieu ni maître,<br>
+                Une terre qui promet la liberté et la vie,<br>
+                Pendant que nous voyons les nôtres disparaître,<br>
+                Derrière, dans un enfer que l’on a fui.<br>
+                <br>
+                Les jours qui se ressemblent, sans saveur et sans couleur,<br>
+                Qui deviendront certitude et merveilles,<br>
+                Paysages d’air, de goûts et d’odeurs,<br>
+                Qui viendront ouvrir nos yeux vers le soleil.<br>
+                <br>
+                Je vois au loin, cette terre qui nous attend,<br>
+                Vers un horizon idyllique de lumières,<br>
+                Derrière les vagues, les tempêtes et les orages déments,<br>
+                Peut-être, un jour, atteindrons-nous ce monde de mystère.<br>
+            </p>
+            <p class="poem_title">Envolez-nous</p>
+        </div>
+        <div class="poem_content" id="P45">
+            <p class="poem">
+                Je ne suis que l’ermite qui erre sur Terre,<br>
+                Traverseur d’horizons peuplé de mystères,<br>
+                Marchant quelques part vers sa destiné,<br>
+                Qui a fait le tour du monde et continue de chercher.<br>
+                <br>
+                Je ne suis que l’hirondelle contre le vent,<br>
+                Ne cherchant qu’à retrouver son âme d’enfant,<br>
+                Volant les terres bâties par la vie,<br>
+                Ne sachant parmi elles laquelle est son logis.<br>
+                <br>
+                Je ne suis que le dauphin dans le courant du silence,<br>
+                Souverain destitué de sa puissance,<br>
+                Qui dérive les mers en quête de trésors,<br>
+                Qui fouille les abysses, toujours et encore.<br>
+                <br>
+                Je ne suis que la flamme d’un brasier qui s’éteint,<br>
+                La chaleur d’une vie au futur incertain,<br>
+                Éclairant mes pas aveugles, sous le couvert de la nuit,<br>
+                Avançant dans le noir sans avoir ce que je suis.<br>
+                <br>
+                Je ne suis que l’homme du temps qui passe,<br>
+                L’homme qui n’a jamais trouvé sa place,<br>
+                Qui défile les univers uns à uns,<br>
+                Qui les regarde tous et n’en choisit aucun.<br>
+            </p>
+            <p class="poem_title">Quintessence de l'incertain</p>
+        </div>
+        <div class="poem_content" id="P46">
+            <p class="poem">
+                Les frontières n’existent point lorsque volent les ailes,<br>
+                Entre nos pieds au sol et nos yeux vers le Ciel,<br>
+                Liberté étroite dans un creux de nuage,<br>
+                Terre des rêves, éternel et sans âge.<br>
+                <br>
+                Dans une voie lactée où dansent les étoiles,<br>
+                La beauté de l’univers devant nous se dévoile,<br>
+                Des horizons inconnus, de lumières et de couleurs,<br>
+                Un monde avec une nouvelle saveur.<br>
+                <br>
+                Au-delà de nos cieux, sur une terre lointaine,<br>
+                Se dresse un continent à la beauté incertaine,<br>
+                Une illusion, un paradis, une vie idyllique,<br>
+                Le monde de nos rêves, enchanté, magnifique.<br>
+            </p>
+            <p class="poem_title">Au-delà des étoiles</p>
+        </div>
+        <div class="poem_content" id="P47">
+            <p class="poem">
+                L’horloge du Temps domine la Vie,<br>
+                La magie des Éléments et leur pouvoir infini,<br>
+                Les Sources fondatrices d’un monde qui nous abrite,<br>
+                Face au Chaos et à la Mort, réalités sans suite.<br>
+                <br>
+                Univers limité aux frontières ridicules,<br>
+                Devant le vide infini, nous sommes minuscules,<br>
+                La Matière n’est rien si elle n’a point d’espace,<br>
+                Alors que le Néant, largement s’en passe.<br>
+                <br>
+                Voyage éternel vers l’horizon spatial,<br>
+                Fuite de la réalité, soif d’idéal,<br>
+                Volant vers les étoiles aux frontières de l’univers,<br>
+                Fuir cette humanité qui tristement me désespère.<br>
+            </p>
+            <p class="poem_title">Fortune du voyageur</p>
+        </div>
+        <div class="poem_content" id="P48">
+            <p class="poem">
+                Parfois la parole est de trop,<br>
+                Le silence emporte les mots,<br>
+                Rien qu’un bruit laisse comprendre,<br>
+                Qu’écouter revient à attendre.<br>
+                <br>
+                Souvent le vent fend l’air,<br>
+                Parler rime avec colère,<br>
+                Contredit la nature et sa paix,<br>
+                Sur les mots de l’impureté.<br>
+                <br>
+                Jamais ne se taira mon espèce,<br>
+                Qui se voit offrir la vie et la délaisse,<br>
+                Sans parole, muet, il pourrait écouter,<br>
+                Cette nature lui rappelant qu’il est imparfait.<br>
+            </p>
+            <p class="poem_title">Nuée hurlante</p>
+        </div>
+        <div class="poem_content" id="P49">
+            <p class="poem">
+                Jeu de mots, je de vies, sur le plateau du destin,<br>
+                Hasard et chance dansent sur nos vœux incertains,<br>
+                Probable, improbable, est l'issue de la vie,<br>
+                Quelque part parmi les possibilités infinies.<br>
+                <br>
+                Perdre ou gagner, gains ou dettes,<br>
+                J'envie, je jalouse, et souvent je regrette,<br>
+                Sort imprévisible, victime de mon avenir,<br>
+                Je suis Homme, qui a peur de son devenir.<br>
+                <br>
+                Destin ou hasard, raison de mon trépas,<br>
+                D'un malheur ou d'un vice ma vie se terminera,<br>
+                Jeu d'avenir, jeu de mort, je ne crains le futur,<br>
+                Sur le tapis de l'infortune, mon enfer j'endure.<br>
+            </p>
+            <p class="poem_title">Ténèbres hasardeuses</p>
+        </div>
+        <div class="poem_content" id="P50">
+            <p class="poem">
+                A l’envol des papillons d’une vie trop succincte,<br>
+                D’un monde à l’autre, aux couleurs nouvelles,<br>
+                Une tombe, des ailes et une jacinthe,<br>
+                En souvenirs du passé intemporel.<br>
+                <br>
+                Vers une autre liberté, Lune blanche et pure,<br>
+                Dans une nuit où les ténèbres m’oppressent,<br>
+                Cette lueur qui m’éclaire et me rassure,<br>
+                Une image d’espoir et de sagesse.<br>
+                <br>
+                Esprit insensé mais qui doit avancer,<br>
+                Envol de l’aube, d’un matin tant attendu,<br>
+                Quelle force m’empêcherait de m’évader ?<br>
+                Alors que j’ai déjà tout perdu.<br>
+            </p>
+            <p class="poem_title">Dell'Inferno</p>
+        </div>
+        <div class="poem_content" id="P51">
+            <p class="poem">
+                Art de nuance, couleur sans peinture,<br>
+                Bâtir des édifices, monuments sans architecture,<br>
+                D’une seule arme, passive, auteur de non-violence,<br>
+                Brisant comme seule loi celle du silence.<br>
+                <br>
+                Résonnent cœurs et mots, justice indirecte,<br>
+                Une arme si inoffensive qu’elle en paraît suspecte,<br>
+                Face aux larmes de vérité, ardentes de sang,<br>
+                D’une justice violente, ténèbres d néant.<br>
+                <br>
+                L’épée ou la plume, comment se défendre ?<br>
+                Faut-il parler, agir, ou s’asseoir et entendre ?<br>
+                Choisir son arme, frapper ou parler,<br>
+                Devant un monde qui veut le silence imposer.<br>
+            </p>
+            <p class="poem_title">L'épée ou la plume</p>
+        </div>
+        <div class="poem_content" id="P52">
+            <p class="poem">
+                Devant le monde qu’il a créé,<br>
+                Vieux fleuves abandonnés,<br>
+                Dans la brise estivale,<br>
+                Les airs d'un bal.<br>
+                <br>
+                Larmes douces et solitaires,<br>
+                Gouttes de pluie dans la mer,<br>
+                Le toucher de grâce,<br>
+                Qui s'imprime et s'efface.<br>
+                <br>
+                Mélodie joyeuse sans danseurs,<br>
+                Harmonie sans humeurs,<br>
+                Tristes crins flottant dans l'altitude,<br>
+                Frottant leur mince Solitude.<br>
+                <br>
+                Devant le monde qu'il a créé,<br>
+                Mille gammes envolées,<br>
+                Des accords aux ailes d'argent,<br>
+                Qui s'évadent au soleil couchant.<br>
+                <br>
+                Devant un monde émerveillé,<br>
+                La joie qu'il a apportée,<br>
+                Au fruit de mille labeurs,<br>
+                Dans à peine sept ou huit cœurs.<br>
+                <br>
+                Dans le monde que j'ai croisé,<br>
+                Quelques instants de légèreté,<br>
+                Inexplorées terres d'une courte liberté,<br>
+                D'un rêveur solitaire inspiré.<br>
+            </p>
+            <p class="poem_title">Le chant du cygne solitaire</p>
+        </div>
+        <div class="poem_content" id="P53">
+            <p class="poem">
+                Sire des Royaumes Oubliés,<br>
+                Luttant contre sa destiné,<br>
+                Trompant la Mort et la Vie<br>
+                Dans un trépas infini.<br>
+                <br>
+                Chasseur d'inconnu, pilleur de tertres,<br>
+                Tout est voué à disparaître,<br>
+                Fossoyeur du Temps, en Sovngarde et Oblivion,<br>
+                Monde où les morts ne posent pas de question.<br>
+                <br>
+                Esclave du Temps, rescapé de la Vie,<br>
+                Maître des Ombres, lumière abolie,<br>
+                Insoumis aux Sources, errant dans l'univers,<br>
+                Cherchant son chemin dans les Neuf Enfers.<br>
+            </p>
+            <p class="poem_title">Seigneur des Néants</p>
+        </div>
+        <div class="poem_content" id="P54">
+            <p class="poem">
+                Je me noyais sous la cascade,<br>
+                D’astres et d’étoiles brillants de mille feux,<br>
+                Le vertige à me rendre malade,<br>
+                En dessous des mers, au dessus des cieux.<br>
+                <br>
+                Océan de vérité aux courants de sanglots,<br>
+                L’écume ramenait sur terre mes tristes défaites,<br>
+                Submergé par les cris, les rires et les mots,<br>
+                Qui appris et écrit ont créé le poète.<br>
+                <br>
+                Noyé dans le passé, le présent et le Ciel,<br>
+                J’attends que la mort, ma jumelle, m’emporte à nouveau,<br>
+                Rendant aux défunts mon hommage infidèle,<br>
+                Devant la Source primordiale, mon ultime tombeau.<br>
+            </p>
+            <p class="poem_title">Celestia</p>
         </div>
     </div>
+    <?php include('sidebar.inc.php') ?>
 </div>
 
 <!-- Portfolio -->
