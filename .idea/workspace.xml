@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/FireNebula/projects/poems/avancement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_14.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_15.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_17.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_18.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_19.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_19.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_20.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_21.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_22.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/col_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/col_9.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/sidebar.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/resources/background/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rpg_bg/Thumbs.db" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,8 +81,8 @@
       <file leaf-file-name="col_2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-1173">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -262,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,14 +400,16 @@
       <workItem from="1540116910340" duration="6491000" />
       <workItem from="1540639330248" duration="1988000" />
       <workItem from="1541529308561" duration="598000" />
+      <workItem from="1542909512467" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319540000" />
+    <option name="totallyTimeSpent" value="320068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16822916" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -449,9 +423,9 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3997923" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="0" weight="0.32917964" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="0" weight="0.32917964" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -809,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FireNebula/projects/poems/col_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-1173">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -34,7 +34,6 @@
             <button class="poemlinks" onclick="openPoem(event, 'P12')">12</button>
         </div>
 
-
         <div class="poem_content" id="P1">
             <p class="poem">
                 Ce qui résulte de l'âme est le fruit d'anciennes vies,<br>
