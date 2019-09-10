@@ -2,6 +2,7 @@
 
 TODO : Prepare PHP migration by creating inc.php files that will be included in the main HTML pages (which will be PHP pages).
 * Contact page must only be in the Universal Entropy section.
+
 =========================
 
 
