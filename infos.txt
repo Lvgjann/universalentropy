@@ -1,0 +1,23 @@
+=== Universal Entropy ===
+
+TODO : Prepare PHP migration by creating inc.php files that will be included in the main HTML pages (which will be PHP pages).
+* Contact page must only be in the Universal Entropy section.
+=========================
+
+
+Cosmic Void : RPG section
+
+TODO : Update the section corresponding to the current state of the universes.
+
+
+Fire Nebula : Literature section
+
+TODO : Create and fill collection > sections.
+
+Constellations : Computer science section
+
+TODO : Explain and expose CS projects and studies.
+
+Stardust : Music section
+
+TODO : Create this section.
