@@ -1,8 +1,8 @@
 <div id="menu">
-    <a href="../index.html">Universal Entropy</a>
-    <a href="index.html">Home</a>
-    <a href="poems.html">Poems</a>
-    <a href="novels.html">Novels</a>
-    <a href="drafts.html">Drafts</a>
+    <a href="../index.html">Entropy</a>
+    <a href="index.html" class="current_page_item">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="gallery.html">Gallery</a>
 </div>
 <div id="banner"></div>
