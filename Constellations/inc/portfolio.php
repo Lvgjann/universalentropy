@@ -12,9 +12,9 @@
             <div class="title">
                 <h2>Fire Nebula</h2>
             </div>
-            <a href="index.html" class="image image-full">
+            <a href="../FireNebula/index.html" class="image image-full">
                 <img src="../resources/background/mbg_fire.jpg" alt=""/></a>
-            <a href="index.html" class="icon icon-arrow-right button">Read More</a></div>
+            <a href="../FireNebula/index.html" class="icon icon-arrow-right button">Read More</a></div>
         <div id="column3">
             <div class="title">
                 <h2>Stardust</h2>
@@ -26,7 +26,7 @@
             <div class="title">
                 <h2>Stardust</h2>
             </div>
-            <a href="../Constellations/index.html" class="image image-full">
+            <a href="index.html" class="image image-full">
                 <img src="../resources/background/mbg_const.jpg" alt=""/></a>
             <a href="../Constellations/index.html" class="icon icon-arrow-right button">Read More</a>
         </div>
