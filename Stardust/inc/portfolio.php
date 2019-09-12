@@ -1,4 +1,3 @@
-
 <!-- Portfolio -->
 <div id="portfolio-wrapper">
     <div id="portfolio" class="content">
@@ -34,10 +33,10 @@
                 <h2>Constellations</h2>
             </div>
             <a href="../Constellations/index.html" class="image image-full">
-                <img src="../resources/background/mbg_stardust.jpg" alt=""/></a>
+                <img src="../resources/background/mbg_const.jpg" alt=""/></a>
             <a href="../Constellations/index.html" class="icon icon-arrow-right button">
                 My musical projects
             </a></div>
-        <p>0My projects in computer science</p>
+        <p>My projects in computer science</p>
     </div>
 </div>
