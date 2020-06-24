@@ -1,0 +1,615 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    font-family: 'Chivo', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #363636;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+p, ol, ul {
+    margin-top: 0;
+}
+
+p {
+    line-height: 190%;
+}
+
+strong {
+}
+
+a {
+    color: #171717;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+table, td, th {
+    border: 1px black;
+    column-width: 200px;
+}
+
+.general {
+    text-indent: 25px;
+}
+
+.image {
+    display: inline-block;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image-full {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
+hr {
+    display: none;
+}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+ul.style1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.style1 li {
+    border-top: solid 1px #E5E5E5;
+    padding: 0.80em 0;
+}
+
+ul.style1 li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+ul.style2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.style2 li {
+    border-top: solid 1px #E5E5E5;
+    padding: 0.80em 0;
+}
+
+ul.style2 li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 10px;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.skill {
+    width: 100%;
+    text-align: left;
+}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+ul.contact {
+    margin: 0;
+    padding: 1.5em 0 2.5em 0;
+    list-style: none;
+}
+
+ul.contact li {
+    display: inline-block;
+    padding: 0 0.30em;
+    font-size: 1em;
+}
+
+ul.contact li span {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact li a {
+    color: #FFF;
+}
+
+ul.contact li a:before {
+    display: inline-block;
+    background: #3f3f3f;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ul.contact li a.icon-twitter:before {
+    background: #2DAAE4;
+}
+
+ul.contact li a.icon-facebook:before {
+    background: #39599F;
+}
+
+ul.contact li a.icon-dribbble:before {
+    background: #0000b3;
+}
+
+ul.contact li a.icon-tumblr:before {
+    background: #31516A;
+}
+
+ul.contact li a.icon-rss:before {
+    background: #F2600B;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    font-weight: 400;
+    font-size: 2em;
+    color: #000000;
+}
+
+.title .byline {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #000000;
+}
+
+/** WRAPPER */
+
+#wrapper {
+    background: #c0c0c0;
+}
+
+.main_content {
+    width: 100%;
+}
+
+.content {
+    padding: 2% 2%;
+    width: 96%;
+}
+
+#footer-wrapper {
+    background: #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#header-wrapper {
+    overflow: hidden;
+    background-size: 100%;
+    padding: 0 0 2em 0;
+    background: #333333;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-transform: uppercase;
+}
+
+#logo h1 {
+    letter-spacing: 0.10em;
+    font-size: 3em;
+}
+
+#logo p {
+    letter-spacing: 0.10em;
+    color: #FFF;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner {
+    overflow: hidden;
+    height: 330px;
+    background: url(../img/background/mbg_null.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner .image {
+}
+
+/** MENU */
+
+#menu-wrapper {
+    background: #000000;
+}
+
+#menu {
+    background: #000000;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50px;
+    line-height: normal;
+    text-align: center;
+    box-shadow: 0 2px #000000;
+}
+
+#menu .tablinks{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding: 0 2.5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+#menu a {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 0 2.5%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.30em;
+    line-height: 50px;
+    color: #FFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+    color: #FFFFFF;
+}
+
+
+/** PAGE */
+
+#page {
+    background: #c0c0c0;
+    overflow: hidden;
+}
+
+/** CONTENT */
+
+#content_index {
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+
+#index_page_content {
+    float: right;
+    padding: 0 0;
+    width: 80%;
+}
+
+#page_content {
+    float: right;
+    padding: 2% 2%;
+    width: 76%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .main_content {
+    padding-top: 60px;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#index_sidebar {
+    float: left;
+    padding: 0 0;
+    width: 20%;
+}
+
+#index_sidebar .title h2{
+    font-size: 1.6em;
+}
+
+#index_sidebar {
+    margin-bottom: 3em;
+}
+
+#sidebar {
+    float: left;
+    padding: 2% 2%;
+    width: 16%;
+}
+
+#sidebar .title h2 {
+    font-size: 1.6em;
+}
+
+#sidebar .box1 {
+    margin-bottom: 3em;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright {
+    overflow: hidden;
+    padding: 5em 0;
+    text-align: center;
+}
+
+#copyright p {
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255, 255, 255, .5);
+}
+
+#copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+#welcome {
+    overflow: hidden;
+    padding: 5em 0;
+    border-bottom: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+#welcome h2 {
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    font-size: 2.6em;
+}
+
+#welcome p {
+    font-size: 1.3em;
+}
+
+#welcome .byline {
+    display: block;
+    padding: 0 0 1.5em 0;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+#portfolio-wrapper {
+    background: rgba(0, 0, 0, .04);
+    padding: 1% 2%;
+    color: rgba(255, 255, 255, .7);
+}
+
+#portfolio {
+    overflow: hidden;
+}
+
+#portfolio .title h2 {
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+#portfolio .byline {
+    font-size: 0.75em;
+    color: #000000;
+}
+
+#column1, #column2, #column3, #column4, #column5 {
+    width: 22%;
+}
+
+#column1, #column2, #column3, #column4, #column5 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.50em 3em 0.50em 2em;
+    background: #000000;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+}
+
+.button:before {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer-wrapper {
+    overflow: hidden;
+    padding: 2em 0;
+    background: #1E1B1A;
+}
+
+#footer {
+    color: #ADADAD;
+}
+
+#footer .title h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+#footer .title {
+    border-color: #2D2926 !important;
+}
+
+#footer .style1 li {
+    border-color: #2D2926 !important;
+}
+
+#footer .style1 a {
+    font-size: 1em;
+    color: #B1B1B1;
+}
+
+#box1 {
+    float: left;
+    width: 354px;
+    margin-right: 24px;
+    padding-right: 30px;
+}
+
+#box2 {
+    float: left;
+    width: 354px;
+    margin-left: 24px;
+    padding-right: 30px;
+}
+
+#box3 {
+    float: right;
+    width: 344px;
+    padding-left: 40px;
+}
