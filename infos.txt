@@ -6,19 +6,42 @@ TODO : Prepare PHP migration by creating inc.php files that will be included in 
 =========================
 
 
-Cosmic Void : RPG section
+Cosmic Void : Dante313
 
-TODO : Update the section corresponding to the current state of the universes.
+TODO : Update the content
 
+Fire Nebula : N13 Entertainment
 
-Fire Nebula : Literature section
+TODO : Create and fill collections > sections.
 
-TODO : Create and fill collection > sections.
+Constellations : Erentia
 
-Constellations : Computer science section
+TODO : Myo's part.
 
-TODO : Explain and expose CS projects and studies.
-
-Stardust : Music section
+Stardust : Empty
 
 TODO : Create this section.
+
+
+
+============================
+# Menu
+
+Home
+| About
+| Contact
+| Projects
+Cosmid Void
+| Dante313
+| The Continental
+| No Way Out
+Fire Nebula
+| N13 Entertainment
+| N13 Production
+Constellations
+| TODO : Erentia
+Stardust
+| [None]
+Langues
+| FR
+| EN

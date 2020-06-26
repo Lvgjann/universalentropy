@@ -2,198 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/decide-lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang/en-lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang/fr-lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/cosmicvoid/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/cosmic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/images/pleasestandby.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/lessons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constellations/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/continental.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/continental.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/asylum.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/asylum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/blackflag.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/blackflag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/bloodcells.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/bloodcells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/columbia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/icedearth.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/icedearth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/island.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/lastchance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastchance_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/lastchance_characters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/lastsurvivor.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/lastsurvivor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/nukes.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/nukes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/quarantine.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/quarantine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/rapture.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/rapture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/theend.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/theend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/thunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/thunder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/dante/virus.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/dante/virus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/game_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosmicVoid/rpg/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/CosmicVoid/rpg/trivia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/drafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/drafts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/novels.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/novels.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/poems.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/poems.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/doutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/doutes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/evidence.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/evidence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/hypothese.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/hypothese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/ind_pd.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_pd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_shd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/alternatifs.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/alternatifs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/asylum31.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/asylum31.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nuances.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/nuances.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/aleatoires.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/aleatoires.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/asylum_31.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/asylum_31.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/dante_313.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/dante_313.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/guerre_totale.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/guerre_totale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/le_vagabond.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_vagabond.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/le_voyageur.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_voyageur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/remercie.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/remercie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/coeurs_noirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/coeurs_noirs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/egaree.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/egaree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/lune_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/lune_de_sang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/souffle_des_morts.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/souffle_des_morts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/sur_les_chemins.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/sur_les_chemins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/vies_epars.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/vies_epars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/ego/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/ego/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/ego/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/ego/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/ego/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/engrenages.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/engrenages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/rouages.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/rouages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/trivia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireNebula/projects/poems/utopies/utopies.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/utopies/utopies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/inc/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardust/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversalEntropy/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversalEntropy/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversalEntropy/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scripts/general_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scripts/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-social-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-social-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-social-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-social-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-social-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-social-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-social-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-social-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/style_const.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_const.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/style_cosmic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_cosmic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/style_fire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_fire.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/style_null.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_null.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_style/style_stardust.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_stardust.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/blood_poem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/blood_poem.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/mbg_const.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/mbg_const.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/mbg_cosmic.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/mbg_cosmic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/mbg_fire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/mbg_fire.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/mbg_null.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/mbg_null.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/background/mbg_stardust.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/mbg_stardust.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/dice_use.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/images/dice_use.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/dice_value.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/images/dice_value.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/wip.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/images/wip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_asylum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_asylum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_blackflag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_blackflag.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_blood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_blood.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_columbia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_columbia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_end.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_end.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_fury.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_fury.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_iced.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_iced.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_island.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_island.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_last.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_last.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_nukes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_nukes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_quarantine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_quarantine.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_rapture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_rapture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_survivor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_survivor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/b_virus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/b_virus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_asylum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_asylum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_blackflag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_blackflag.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_blood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_blood.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_columbia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_columbia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_end.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_end.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_fury.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_fury.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_iced.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_iced.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_island.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_island.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_last.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_last.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_nukes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_nukes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_quarantine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_quarantine.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_rapture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_rapture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_survivor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_survivor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rpg_bg/t_virus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/rpg_bg/t_virus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/css/gen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/lessons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/continental.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/continental.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/asylum.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/blackflag.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/bloodcells.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/columbia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/icedearth.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/inc/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/island.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/island.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/lastchance.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/lastchance_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance_characters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/lastsurvivor.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastsurvivor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/nukes.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/nukes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/quarantine.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/quarantine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/rapture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/theend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/thunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/thunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/dante/virus.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/virus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/inc/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CosmicVoid/rpg/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/drafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/drafts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/novels.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/novels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/poems.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/poems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/doutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/doutes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/evidence.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/evidence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/hypothese.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/hypothese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_pd.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_pd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_shd.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_shd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/alternatifs.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/alternatifs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/asylum31.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/asylum31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/nuances.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/nuances.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/aleatoires.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/aleatoires.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/asylum_31.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/asylum_31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/dante_313.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/dante_313.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/guerre_totale.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/guerre_totale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_vagabond.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_vagabond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_voyageur.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_voyageur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/remercie.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/remercie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/coeurs_noirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/coeurs_noirs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/egaree.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/egaree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/lune_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/lune_de_sang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/souffle_des_morts.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/souffle_des_morts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/sur_les_chemins.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/sur_les_chemins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/vies_epars.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/vies_epars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/engrenages.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/engrenages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/rouages.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/rouages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/trivia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/utopies/utopies.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/poems/utopies/utopies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/inc/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/UniversalEntropy/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/decide-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/decide-lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_cosmic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_fire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_fire.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_null.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_null.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/infos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/en-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/en-lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/fr-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/fr-lang.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,32 +133,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pic</find>
-      <find>style1</find>
-      <find>The Apocalypse has decimated more than 90% of the population, there are less than 300 million people scattered all over the planet. The Earth is unrecognizable after the drying up of the oceans, so that almost all of its surface is uninhabitable because too far from a water point or because the ozone layer has been completely destroyed. Although groups formed to try to find a normal life, wars quickly broke out for the monopoly of essential resources: water and oil. Each megalopolis is a fortress run by its own tyrant. We do not know the alliances between each leader, nor how far they can extend. The reign is in mystery and terror.</find>
-      <find>tablink</find>
-      <find>general</find>
-      <find>th</find>
-      <find>tablinks</find>
-      <find>poem</find>
-      <find>collection</find>
-      <find>602020</find>
-      <find>table</find>
-      <find>port</find>
-      <find>cop</find>
-      <find>collec</find>
-      <find>crista</find>
-      <find>ténèbres</find>
-      <find>exo</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -252,11 +158,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common/index.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -273,19 +181,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\cosmicvoid" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\css" />
+      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\FireNebula\projects\poems" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy\_style" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\res" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Univ">
@@ -300,15 +208,6 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="PHP Built-in Web Server.Univ" />
-      <item itemvalue="PHP Script.index.php" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.index.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -412,6 +311,9 @@
       <workItem from="1592946092710" duration="599000" />
       <workItem from="1592982224069" duration="2280000" />
       <workItem from="1593012235360" duration="4181000" />
+      <workItem from="1593080849010" duration="395000" />
+      <workItem from="1593081321326" duration="10519000" />
+      <workItem from="1593153059755" duration="32000" />
     </task>
     <servers />
   </component>
@@ -427,10 +329,14 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="636" y="182" key="#PHP/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593013745938" />
-    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593014441322">
+    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593082383645">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014441322" />
+    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593082383645" />
+    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593171652810">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593171652810" />
     <state x="709" y="294" key="FileChooserDialogImpl" timestamp="1593014230517">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -451,14 +357,18 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593030917332" />
-    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1593012347455">
+    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1593090693609">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593012347455" />
+    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593090693609" />
     <state x="430" y="184" key="SettingsEditor" timestamp="1593014504308">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="430" y="184" key="SettingsEditor/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014504308" />
+    <state x="738" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593167000041">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="738" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593167000041" />
     <state x="592" y="235" key="search.everywhere.popup" timestamp="1593014279791">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

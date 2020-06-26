@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #4D004D;
+    font-family: 'Chivo', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #363636;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title h2 {
+    font-weight: 400;
+    font-size: 2em;
+    color: #6F6F6F;
+}
+
+.title .byline {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #B10058;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner {
+    overflow: hidden;
+    height: 330px;
+    background: url(../img/background/mbg_cosmic.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner .image {
+}
+
+/** MENU */
+
+#menu-wrapper {
+    background: #4D004D;
+}
+
+#menu {
+    background: #4D004D;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50px;
+    line-height: normal;
+    text-align: center;
+    box-shadow: 0 2px #410b41;
+}
+
+/** PAGE */
+
+#page {
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+#portfolio .byline {
+    font-size: 0.75em;
+    color: #55009F;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.50em 3em 0.50em 2em;
+    background: #602060;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+}

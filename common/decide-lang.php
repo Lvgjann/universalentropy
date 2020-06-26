@@ -9,9 +9,11 @@ if(isset($_COOKIE['lang'])){
 
 // Language selector
 if ($_GET['lang']=='fr') {
-    include('../lang/fr-lang.php');
+    include(__DIR__.'/../lang/fr-lang.php');
 } elseif ($_GET['lang']=='en') {
-    include('../lang/en-lang.php');
+    include(__DIR__.'/../lang/en-lang.php');
+} else {
+    include(__DIR__.'/../lang/fr-lang.php');
 }
 
 // Cookie duration
