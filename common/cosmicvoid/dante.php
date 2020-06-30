@@ -13,12 +13,7 @@ require_once('../../inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<div id="menu">
-    <ul>
-        <?php set_menu(1);?>
-    </ul>
-</div>
-<div id="banner"></div>
+<?php set_menu(1);?>
 
 <!-- Content -->
 <div id="page">
@@ -72,43 +67,8 @@ require_once('../../inc/common.php'); ?>
         At the end of The End ?, the United Government nukes the Earth. The survivors are few. New population coming
         from tears from Rapture’s sinking and Columbia’s fall are arriving. <br>
     </div>
-    <div id="sidebar">
-        <div class="box2">
-            <div class="title">
-                <h2><?php echo TXT_CV_MECHANICS_TITLE;?></h2>
-            </div>
-            <ul class="style2">
-                <li><a href="rpg/game_system.html"><?php echo TXT_CV_GAME_SYSTEM?></a></li>
-                <li><a href="rpg/trivia.html">Trivia</a></li>
-                <li><a href="rpg/templates.html"><?php echo TXT_CV_TEMPLATES?></a></li>
-            </ul>
-            <div class="title">
-                <h2><?php echo TXT_DANTE_PHASE1?></h2>
-            </div>
-            <ul class="style2">
-                <li><a href="dante/nukes.html"><?php echo TXT_DANTE_NUKES?></a></li>
-                <li><a href="dante/thunder.html"><?php echo TXT_DANTE_THUNDER_ROAD?></a></li>
-                <li><a href="dante/icedearth.html"><?php echo TXT_DANTE_ICED_EARTH?></a></li>
-                <li><a href="dante/bloodcells.html"><?php echo TXT_DANTE_BLOODCELLS?></a></li>
-            </ul>
-            <div class="title">
-                <h2><?php echo TXT_DANTE_PHASE2?></h2>
-            </div>
-            <ul class="style2">
-                <li><a href="dante/nukes.html"><?php echo TXT_DANTE_LAST_CHANCE?></a></li>
-                <li><a href="dante/thunder.html"><?php echo TXT_DANTE_QUARANTINE?></a></li>
-                <li><a href="dante/icedearth.html"><?php echo TXT_DANTE_THE_END?></a></li>
-                <li><a href="dante/bloodcells.html"><?php echo TXT_DANTE_BEREZINA?></a></li>
-            </ul>
-            <div class="title">
-                <h2><?php echo TXT_DANTE_PHASE13?></h2>
-            </div>
-            <ul class="style2">
-                <li><a href="dante/nukes.html"><?php echo TXT_DANTE_BROTHERHOOD?></a></li>
-                <li><a href="dante/asylum.html">Asylum 31</a></li>
-            </ul>
-        </div>
-    </div>
+    <!-- Sidebar -->
+    <?php set_dante_sidebar(0);?>
 </div>
 
 <!-- Portfolio -->

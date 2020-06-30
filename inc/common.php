@@ -56,7 +56,8 @@ function target($n)
 function set_menu($n)
 {
     $target = target($n);
-    $menu = '
+    $menu = '<div id="menu">
+    <ul>
         <li><a href="' . $target . 'index.php" class="current_page_item">Home</a></li>
         <li><a href="' . $target . 'UniversalEntropy/about.html">About me</a></li>
         <li><a href="' . $target . 'UniversalEntropy/projects.html">My projects</a></li>
@@ -68,7 +69,10 @@ function set_menu($n)
                 <li><a href="#?lang=en">English</a></li>
                 <li><a href="#?lang=fr">French</a></li>
             </ul>
-        </li>-->';
+        </li>-->
+    </ul>
+</div>
+<div id="banner"></div>';
     echo $menu;
 }
 
@@ -117,4 +121,47 @@ function set_portfolio($n)
     </div>
 </div>';
     echo $portfolio;
+}
+
+function set_dante_sidebar($n)
+{
+    $target = target($n);
+    $sidebar = '<div id="sidebar">
+        <div class="box2">
+            <div class="title">
+                <h2>' . TXT_CV_MECHANICS_TITLE . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'rpg/game_system.php">' . TXT_CV_GAME_SYSTEM . '</a></li>
+                <li><a href="' . $target . 'rpg/trivia.php">Trivia</a></li>
+                <li><a href="' . $target . 'rpg/templates.php">' . TXT_CV_TEMPLATES . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE1 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_NUKES . '</a></li>
+                <li><a href="' . $target . 'dante/thunder.php">' . TXT_DANTE_THUNDER_ROAD . '</a></li>
+                <li><a href="' . $target . 'dante/icedearth.php">' . TXT_DANTE_ICED_EARTH . '</a></li>
+                <li><a href="' . $target . 'dante/bloodcells.php">' . TXT_DANTE_BLOODCELLS . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE2 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/virus.php">' . TXT_DANTE_LAST_CHANCE . '</a></li>
+                <li><a href="' . $target . 'dante/quarantine.php">' . TXT_DANTE_QUARANTINE . '</a></li>
+                <li><a href="' . $target . 'dante/blackflag.php">' . TXT_DANTE_BLACK_FLAG . '</a></li>
+                <li><a href="' . $target . 'dante/berezina.php">' . TXT_DANTE_BEREZINA . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE13 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_BROTHERHOOD . '</a></li>
+                <li><a href="' . $target . 'dante/asylum.php">Asylum 31</a></li>
+            </ul>
+        </div>
+    </div>';
+    echo $sidebar;
 }
