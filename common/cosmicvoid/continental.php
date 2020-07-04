@@ -13,7 +13,7 @@
 
 <!-- Menu -->
 <div id="menu">
-    <a href="../index.php">Universal Entropy</a>
+    <a href="../../index.php">Universal Entropy</a>
     <a href="index.php">Cosmic Void</a>
     <a href="dante.php">Dante 313</a>
     <a href="continental.php">The Continental</a>

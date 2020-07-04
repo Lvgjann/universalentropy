@@ -47,8 +47,10 @@ define('TXT_COPYRIGHT', '<div id="copyright" class="content">
 function target($n)
 {
     $target = '';
-    for ($i = 0; $i < $n; $i++) {
-        $target = $target . '../';
+    if ($n != -1) {
+        for ($i = 0; $i < $n; $i++) {
+            $target = $target . '../';
+        }
     }
     return $target;
 }
@@ -58,7 +60,7 @@ function set_menu($n)
     $target = target($n);
     $menu = '<div id="menu">
     <ul>
-        <li><a href="' . $target . 'index.php" class="current_page_item">Home</a></li>
+        <li><a href="' . $target . $target . 'index.php" class="current_page_item">Home</a></li>
         <li><a href="' . $target . 'UniversalEntropy/about.html">About me</a></li>
         <li><a href="' . $target . 'UniversalEntropy/projects.html">My projects</a></li>
         <li><a href="' . $target . 'UniversalEntropy/contact.html">Contact</a></li>
@@ -79,6 +81,10 @@ function set_menu($n)
 function set_portfolio($n)
 {
     $target = target($n);
+    $root = '';
+    if ($n == -1) {
+        $root = 'common/';
+    }
     $portfolio = '
 <div id="portfolio-wrapper">
     <div id="portfolio" class="content">
@@ -86,36 +92,36 @@ function set_portfolio($n)
             <div class="title">
                 <h2>Cosmic Void</h2>
             </div>
-            <a href="' . $target . 'cosmicvoid/index.php" class="image image-full">
-                <img src="' . $target . '../img/background/mbg_cosmic.png" alt=""/></a>
-            <a href="' . $target . 'cosmicvoid/index.php" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'cosmicvoid/index.php" class="image image-full">
+                <img src="' . $target . $target . 'img/background/mbg_cosmic.png" alt=""/></a>
+            <a href="' . $target . $root . 'cosmicvoid/index.php" class="icon icon-arrow-right button">
                 My Roleplay Games
             </a></div>
         <div id="column2">
             <div class="title">
                 <h2>Fire Nebula</h2>
             </div>
-            <a href="' . $target . 'FireNebula/index.php" class="image image-full">
-                <img src="' . $target . '../img/background/mbg_fire.jpg" alt=""/></a>
-            <a href="' . $target . 'FireNebula/index.php" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'FireNebula/index.php" class="image image-full">
+                <img src="' . $target . $target . 'img/background/mbg_fire.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'FireNebula/index.php" class="icon icon-arrow-right button">
                 My literature projects
             </a></div>
         <div id="column3">
             <div class="title">
                 <h2>Stardust</h2>
             </div>
-            <a href="' . $target . 'Stardust/index.html" class="image image-full">
-                <img src="' . $target . '../img/background/mbg_stardust.jpg" alt=""/></a>
-            <a href="' . $target . 'Stardust/index.html" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'Stardust/index.html" class="image image-full">
+                <img src="' . $target . $target . 'img/background/mbg_stardust.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'Stardust/index.html" class="icon icon-arrow-right button">
                 My musical projects
             </a></div>
         <div id="column4">
             <div class="title">
                 <h2>Constellations</h2>
             </div>
-            <a href="' . $target . 'Constellations/index.html" class="image image-full">
-                <img src="' . $target . '../img/background/mbg_const.jpg" alt=""/></a>
-            <a href="' . $target . 'Constellations/index.html" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'Constellations/index.html" class="image image-full">
+                <img src="' . $target . $target . 'img/background/mbg_const.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'Constellations/index.html" class="icon icon-arrow-right button">
                 My IT projects
             </a></div>
     </div>
