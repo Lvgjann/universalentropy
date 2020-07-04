@@ -25,7 +25,7 @@ require_once('../../../inc/common.php'); ?>
             <!--<img target="_parent" src="../../../img/rpg_bg/b_blackflag.jpg" style="max-width: 75%" alt="Nukes">-->
         </div>
         <p class="general"><span style="font-style: italic;">
-            TODO
+            <?php echo TXT_DANTE_BEREZINA_CONTENT;?>
         </span></p>
         <div class="title">
             <h2>Game System</h2>
@@ -35,10 +35,6 @@ require_once('../../../inc/common.php'); ?>
 
         </p>
         <h4>Objectives</h4>
-        <p class="general">
-            [Description]
-        </p>
-        <h4>Mental health</h4>
         <p class="general">
             [Description]
         </p>

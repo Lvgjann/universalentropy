@@ -17,7 +17,7 @@
     <a href="index.php">Cosmic Void</a>
     <a href="dante.php">Dante 313</a>
     <a href="continental.php">The Continental</a>
-    <a href="rpg/game_system.html">Game System</a>
+    <a href="rpg/game_system.php">Game System</a>
 </div>
 <div id="banner"></div>
 <!-- TODO For PHP update : <?php include('inc/header.php'); ?> -->
@@ -127,9 +127,9 @@
                 <h2>Projects</h2>
             </div>
             <ul class="style2">
-                <li><a href="rpg/game_system.html">Game systems</a></li>
-                <li><a href="rpg/trivia.html">Trivia</a></li>
-                <li><a href="rpg/templates.html">Character sheet and templates</a></li>
+                <li><a href="rpg/game_system.php">Game systems</a></li>
+                <li><a href="rpg/trivia.php">Trivia</a></li>
+                <li><a href="rpg/templates.php">Character sheet and templates</a></li>
             </ul>
         </div>
     </div>

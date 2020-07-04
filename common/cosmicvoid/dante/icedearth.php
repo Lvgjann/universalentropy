@@ -27,8 +27,7 @@ require_once('../../../inc/common.php'); ?>
             Krakatoa, a volcanic event that led to global cooling. <br> A group of ex-criminal explorator is charged to
             find a coal mine to supply London, but if they come back with empty hands, London government will kill them.
             Unfortunately, the mine they have to dig in is already empty. Three solutions appear, face London’s Captain,
-            try to find another mine, or escape from London’s hunters.
-<br>
+            try to find another mine, or escape from London’s hunters. <br>
         </span></p>
         <div class="title">
             <h2>Soluce</h2>

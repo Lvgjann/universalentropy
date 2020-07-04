@@ -13,12 +13,7 @@ require_once('../../../inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<div id="menu">
-    <ul>
-        <?php set_menu(2); ?>
-    </ul>
-</div>
-<div id="banner"></div>
+<?php set_menu(2); ?>
 
 <!-- End menu -->
 <div id="page">
@@ -27,10 +22,7 @@ require_once('../../../inc/common.php'); ?>
             <img target="_parent" src="../../../img/rpg_bg/b_asylum.jpg" style="max-width: 75%" alt="Nukes">
         </div>
         <p class="general"><span style="font-style: italic;">
-            You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot
-            escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape.
-            You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot
-            escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape. You cannot escape. <br>
+                <?php echo TXT_DANTE_ASYLUM_CONTENT; ?>
         </span></p>
         <div class="title">
             <h2>Game System</h2>

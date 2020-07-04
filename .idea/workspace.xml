@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/berezina.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/island.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/island.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance_characters.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance_characters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastsurvivor.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/nowayout/lastsurvivor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/continental.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/continental.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/berezina.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/berezina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/island.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/nowayout/island.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/infos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/en-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/en-lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/fr-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/fr-lang.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\cosmicvoid\nowayout" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\cosmicvoid" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\css" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\FireNebula\projects\poems" />
@@ -211,7 +211,9 @@
       <workItem from="1593081321326" duration="10519000" />
       <workItem from="1593153059755" duration="32000" />
       <workItem from="1593496323128" duration="2523000" />
-      <workItem from="1593529405065" duration="1531000" />
+      <workItem from="1593529405065" duration="1851000" />
+      <workItem from="1593757284019" duration="6457000" />
+      <workItem from="1593899385839" duration="906000" />
     </task>
     <servers />
   </component>
@@ -239,22 +241,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="709" y="294" key="FileChooserDialogImpl/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014230517" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1593030917332">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1593554011313">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593030917332" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1593030917332">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1593554011313">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593030917332" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1593030917331">
+    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1593554011313">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593030917331" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1593030917332">
+    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1593554011313">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593030917332" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
     <state x="763" y="463" key="NewPhpFileDialog" timestamp="1593498056453">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

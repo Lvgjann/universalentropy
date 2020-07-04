@@ -23,24 +23,19 @@ require_once('../../../inc/common.php'); ?>
             <img target="_parent" src="../../../img/rpg_bg/b_blackflag.jpg" style="max-width: 75%" alt="Nukes">
         </div>
         <p class="general"><span style="font-style: italic;">
-            The war between the White Unit and the Black Unit is tearing Galboa apart for the sharing of power and
-            supplies. Moreover, a malaria epidemic has already killed 40% of the country and still decimates the
-            population. <br>
+                <?php echo TXT_DANTE_BLACK_FLAG_CONTENT;?>
         </span></p>
         <div class="title">
             <h2>Game System</h2>
             <span class="byline">Plot</span></div>
         <p class="general">
-            The players are either from the Black Unit or the White Unit and have to steal supplies (ammo, gas and food)
-            from the opposite unit. Two of them have contracted malaria and have to keep leahing themselves dring their
-            adventure. In consequence, they constantly need medical supplies and painkillers, otherwise they would dead.
-
+            <?php echo TXT_DANTE_BLACK_FLAG_SYSTEM;?>
         </p>
         <h4>Objectives</h4>
         <p class="general">
             [Description]
         </p>
-        <h4>Mental health</h4>
+        <h4>Health</h4>
         <p class="general">
             [Description]
         </p>
