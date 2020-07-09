@@ -61,9 +61,9 @@ function set_menu($n)
     $menu = '<div id="menu">
     <ul>
         <li><a href="' . $target . $target . 'index.php" class="current_page_item">Home</a></li>
-        <li><a href="' . $target . 'UniversalEntropy/about.html">About me</a></li>
-        <li><a href="' . $target . 'UniversalEntropy/projects.html">My projects</a></li>
-        <li><a href="' . $target . 'UniversalEntropy/contact.html">Contact</a></li>
+        <li><a href="' . $target . 'Constellations/index.php">About me</a></li>
+        <li><a href="' . $target . 'cosmicvoid/index.php">My projects</a></li>
+        <li><a href="' . $target . 'FireNebula/index.php">Contact</a></li>
         <li><a href="?lang=fr">Français</a></li>
         <li><a href="?lang=en">English</a></li>
         <!--<li><a href="#">Language</a>
@@ -93,7 +93,7 @@ function set_portfolio($n)
                 <h2>Cosmic Void</h2>
             </div>
             <a href="' . $target . $root . 'cosmicvoid/index.php" class="image image-full">
-                <img src="' . $target . $target . 'img/background/mbg_cosmic.png" alt=""/></a>
+                <img src="' . $target . '../img/background/mbg_cosmic.png" alt=""/></a>
             <a href="' . $target . $root . 'cosmicvoid/index.php" class="icon icon-arrow-right button">
                 My Roleplay Games
             </a></div>
@@ -102,7 +102,7 @@ function set_portfolio($n)
                 <h2>Fire Nebula</h2>
             </div>
             <a href="' . $target . $root . 'FireNebula/index.php" class="image image-full">
-                <img src="' . $target . $target . 'img/background/mbg_fire.jpg" alt=""/></a>
+                <img src="' . $target . '../img/background/mbg_fire.jpg" alt=""/></a>
             <a href="' . $target . $root . 'FireNebula/index.php" class="icon icon-arrow-right button">
                 My literature projects
             </a></div>
@@ -110,18 +110,18 @@ function set_portfolio($n)
             <div class="title">
                 <h2>Stardust</h2>
             </div>
-            <a href="' . $target . $root . 'Stardust/index.html" class="image image-full">
-                <img src="' . $target . $target . 'img/background/mbg_stardust.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'Stardust/index.html" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'Stardust/index.php" class="image image-full">
+                <img src="' . $target . '../img/background/mbg_stardust.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'Stardust/index.php" class="icon icon-arrow-right button">
                 My musical projects
             </a></div>
         <div id="column4">
             <div class="title">
                 <h2>Constellations</h2>
             </div>
-            <a href="' . $target . $root . 'Constellations/index.html" class="image image-full">
-                <img src="' . $target . $target . 'img/background/mbg_const.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'Constellations/index.html" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'Constellations/index.php" class="image image-full">
+                <img src="' . $target . '../img/background/mbg_const.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'Constellations/index.php" class="icon icon-arrow-right button">
                 My IT projects
             </a></div>
     </div>
@@ -136,6 +136,50 @@ function set_dante_sidebar($n)
         <div class="box2">
             <div class="title">
                 <h2>' . TXT_CV_MECHANICS_TITLE . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'rpg/game_system.php">' . TXT_CV_GAME_SYSTEM . '</a></li>
+                <li><a href="' . $target . 'rpg/trivia.php">Trivia</a></li>
+                <li><a href="' . $target . 'rpg/templates.php">' . TXT_CV_TEMPLATES . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE1 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_NUKES . '</a></li>
+                <li><a href="' . $target . 'dante/thunder.php">' . TXT_DANTE_THUNDER_ROAD . '</a></li>
+                <li><a href="' . $target . 'dante/icedearth.php">' . TXT_DANTE_ICED_EARTH . '</a></li>
+                <li><a href="' . $target . 'dante/bloodcells.php">' . TXT_DANTE_BLOODCELLS . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE2 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/virus.php">' . TXT_DANTE_LAST_CHANCE . '</a></li>
+                <li><a href="' . $target . 'dante/quarantine.php">' . TXT_DANTE_QUARANTINE . '</a></li>
+                <li><a href="' . $target . 'dante/blackflag.php">' . TXT_DANTE_BLACK_FLAG . '</a></li>
+                <li><a href="' . $target . 'dante/berezina.php">' . TXT_DANTE_BEREZINA . '</a></li>
+            </ul>
+            <div class="title">
+                <h2>' . TXT_DANTE_PHASE13 . '</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_BROTHERHOOD . '</a></li>
+                <li><a href="' . $target . 'dante/asylum.php">Asylum 31</a></li>
+            </ul>
+        </div>
+    </div>';
+    echo $sidebar;
+}
+
+
+function set_mezalando_sidebar($n)
+{
+    $target = target($n);
+    $sidebar = '<div id="sidebar">
+        <div class="box2">
+            <div class="title">
+                <h2>Contexte général</h2>
             </div>
             <ul class="style2">
                 <li><a href="' . $target . 'rpg/game_system.php">' . TXT_CV_GAME_SYSTEM . '</a></li>

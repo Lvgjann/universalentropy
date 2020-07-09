@@ -12,6 +12,7 @@ p, ol, ul {
 }
 
 p {
+    text-align: justify;
     line-height: 190%;
 }
 
@@ -36,7 +37,7 @@ table, td, th {
 }
 
 .general {
-    text-indent: 25px;
+    text-align: justify;
 }
 
 .image {

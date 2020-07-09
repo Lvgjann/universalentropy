@@ -23,19 +23,19 @@ require_once('../../../inc/common.php'); ?>
             <span class="byline">Overview</span></div>
         <p>Here are the 13 character sheets of the survivors.</p>
         <div class="tab">
-            <button class="tablinks" onclick="openSheet(event, 'Ravil')">Ravil Yefimov</button>
-            <button class="tablinks" onclick="openSheet(event, 'Lily')">Lily Vinogradova</button>
-            <button class="tablinks" onclick="openSheet(event, 'Marina')">Marina Kornilova</button>
-            <button class="tablinks" onclick="openSheet(event, 'Andrei')">Andrei Aleksei</button>
-            <button class="tablinks" onclick="openSheet(event, 'Dmitri')">Dmitri Petrenko</button>
-            <button class="tablinks" onclick="openSheet(event, 'Victoria')">Vicoria Kormarova</button>
-            <button class="tablinks" onclick="openSheet(event, 'Pavlov')">Pavlov Aristof</button>
-            <button class="tablinks" onclick="openSheet(event, 'Laina')">Laina Porfirievitch</button>
-            <button class="tablinks" onclick="openSheet(event, 'Erast')">Erast Belousov</button>
-            <button class="tablinks" onclick="openSheet(event, 'Antoine')">Antoine Beauvoir</button>
-            <button class="tablinks" onclick="openSheet(event, 'Alice')">Alice Beauvoir</button>
-            <button class="tablinks" onclick="openSheet(event, 'Prokhor')">Prokhor Laventriev</button>
-            <button class="tablinks" onclick="openSheet(event, 'Vladimir')">Vladimir</button>
+            <button class="tablinks" onclick="openTabs(event, 'Ravil')">Ravil Yefimov</button>
+            <button class="tablinks" onclick="openTabs(event, 'Lily')">Lily Vinogradova</button>
+            <button class="tablinks" onclick="openTabs(event, 'Marina')">Marina Kornilova</button>
+            <button class="tablinks" onclick="openTabs(event, 'Andrei')">Andrei Aleksei</button>
+            <button class="tablinks" onclick="openTabs(event, 'Dmitri')">Dmitri Petrenko</button>
+            <button class="tablinks" onclick="openTabs(event, 'Victoria')">Vicoria Kormarova</button>
+            <button class="tablinks" onclick="openTabs(event, 'Pavlov')">Pavlov Aristof</button>
+            <button class="tablinks" onclick="openTabs(event, 'Laina')">Laina Porfirievitch</button>
+            <button class="tablinks" onclick="openTabs(event, 'Erast')">Erast Belousov</button>
+            <button class="tablinks" onclick="openTabs(event, 'Antoine')">Antoine Beauvoir</button>
+            <button class="tablinks" onclick="openTabs(event, 'Alice')">Alice Beauvoir</button>
+            <button class="tablinks" onclick="openTabs(event, 'Prokhor')">Prokhor Laventriev</button>
+            <button class="tablinks" onclick="openTabs(event, 'Vladimir')">Vladimir</button>
         </div>
 
         <div id="Ravil" class="tabcontent">

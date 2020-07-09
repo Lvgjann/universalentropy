@@ -17,6 +17,8 @@ TODO : Create and fill collections > sections.
 
 Constellations : Erentia
 
+Contexte général : 1/5
+Races : WIP
 TODO : Myo's part.
 
 Stardust : Empty

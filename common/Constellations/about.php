@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Home</title>
+    <title>About</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
@@ -13,24 +13,36 @@
 
 <div id="menu">
     <a href="../../index.php" class="current_page_item">Entropy</a>
-    <a href="index.html" class="current_page_item">Home</a>
-    <a href="about.html">About</a>
+    <a href="index.php" class="current_page_item">Home</a>
+    <a href="about.php">About</a>
     <a href="projects.html">Projects</a>
     <a href="lessons.html">Lessons</a>
 </div>
 <div id="banner"></div>
-<!-- TODO For PHP update : <?php include "inc/header.php"; ?>-->
+<!-- TODO For PHP update : <?php include('inc/header.php'); ?>-->
 
-<div class="main_content">
-    <div id="page" class="content">
-        <div id="content_index">
-            <div class="title">
-                <h2>Welcome to the stardust !</h2>
-                <span class="byline">Nowhere</span></div>
-            <p>Hi, I am Fi, and you are nowhere, in my nowhere. You will find here some of my projects, in many domains
-                such as role-play, literature or music. I don't have much to say, so I wish you a nice tour on my
-                website</p>
+<div id="page" class="content">
+    <div id="content_index">
+        <div class="title">
+            <h2>About me</h2> <br>
+            <span class="byline">Who am I ?</span>
         </div>
+        <p>My name is Florian Crampe - Fi Skirata, I work in computer science since 2018. am a 19 student in computer
+            science at the <a
+                    href="https://www.iut.u-bordeaux.fr/info/">IUT Informatique de Bordeaux</a>. I am also a musician,
+            composer, writer and rolist.</p>
+        <div class="title">
+            <span class="byline">My studies</span>
+        </div>
+        <p class="general">I began computer science in high school in 2015. Then I passed my Associate's Degree at the
+            <a href="https://www.iut.u-bordeaux.fr/info/">IUT Informatique de Bordeaux</a> in 2018 and my Bachelor's
+        Degree in 2020.</p>
+        <br>
+        <div class="title">
+            <span class="byline">My career</span>
+        </div>
+        <p class="general">I worked a IRSTEA (National Research Institute in Science and Technology for Environment and
+        Agriculture) in 2018 and Enedis (ex-ERFD) from 2019 to 2020.</p>
     </div>
 </div>
 
@@ -68,9 +80,9 @@
             <div class="title">
                 <h2>Constellations</h2>
             </div>
-            <a href="../Constellations/index.html" class="image image-full">
+            <a href="index.php" class="image image-full">
                 <img src="../../img/background/mbg_const.jpg" alt=""/></a>
-            <a href="../Constellations/index.html" class="icon icon-arrow-right button">
+            <a href="index.php" class="icon icon-arrow-right button">
                 My IT projects
             </a></div>
     </div>

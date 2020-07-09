@@ -13,12 +13,7 @@ require_once('../../inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<div id="menu">
-    <ul>
-        <?php set_menu(1);?>
-    </ul>
-</div>
-<div id="banner"></div>
+<?php set_menu(1);?>
 
 <!-- Content -->
 <div class="main_content">

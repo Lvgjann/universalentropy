@@ -16,30 +16,32 @@ function myFunction() {
     }
 }
 
-function openSheet(evt, contentName) {
+function activeTab(links) {
+    for (let i = 0; i < links.length; i++) {
+        links[i].className = links[i].className.replace("active", "");
+    }
+}
+
+function openTabs(contentName) {
     let i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
     tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
+    activeTab(tablinks);
     document.getElementById(contentName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
-function openPoem(evt, contentName) {
+function openPoems(evt, contentName) {
     let i, poemContent, poemlinks;
     poemContent = document.getElementsByClassName("poem_content");
     for (i = 0; i < poemContent.length; i++) {
         poemContent[i].style.display = "none";
     }
     poemlinks = document.getElementsByClassName("poemlinks");
-    for (i = 0; i < poemlinks.length; i++) {
-        poemlinks[i].className = poemlinks[i].className.replace(" active", "");
-    }
+    activeTab(poemlinks);
     document.getElementById(contentName).style.display = "block";
     evt.currentTarget.className += " active";
 }

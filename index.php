@@ -30,7 +30,46 @@ require_once('inc/common.php'); ?>
 </div>
 
 <!-- Portfolio -->
-<?php set_portfolio(-1);
+<div id="portfolio-wrapper">
+    <div id="portfolio" class="content">
+        <div id="column1">
+            <div class="title">
+                <h2>Cosmic Void</h2>
+            </div>
+            <a href="common/cosmicvoid/index.php" class="image image-full">
+                <img src="img/background/mbg_cosmic.png" alt=""/></a>
+            <a href="common/cosmicvoid/index.php" class="icon icon-arrow-right button">
+                My Roleplay Games
+            </a></div>
+        <div id="column2">
+            <div class="title">
+                <h2>Fire Nebula</h2>
+            </div>
+            <a href="common/FireNebula/index.php" class="image image-full">
+                <img src="img/background/mbg_fire.jpg" alt=""/></a>
+            <a href="common/FireNebula/index.php" class="icon icon-arrow-right button">
+                My literature projects
+            </a></div>
+        <div id="column3">
+            <div class="title">
+                <h2>Stardust</h2>
+            </div>
+            <a href="common/Stardust/index.php" class="image image-full">
+                <img src="img/background/mbg_stardust.jpg" alt=""/></a>
+            <a href="common/Stardust/index.php" class="icon icon-arrow-right button">
+                My musical projects
+            </a></div>
+        <div id="column4">
+            <div class="title">
+                <h2>Constellations</h2>
+            </div>
+            <a href="common/Constellations/index.php" class="image image-full">
+                <img src="img/background/mbg_const.jpg" alt=""/></a>
+            <a href="common/Constellations/index.php" class="icon icon-arrow-right button">
+                My IT projects
+            </a></div>
+    </div>
+</div>
 // Footer
 echo TXT_FOOTER;
 // Copyright
