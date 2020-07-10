@@ -378,7 +378,7 @@ require_once('../../../inc/common.php'); ?>
         </p>
 
     </div>
-    <?php set_mezalando_sidebar(2); ?>
+    <?php set_mezalando_sidebar(1); ?>
 </div>
 
 <!-- Portfolio -->

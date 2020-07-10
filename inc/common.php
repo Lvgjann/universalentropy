@@ -172,7 +172,6 @@ function set_dante_sidebar($n)
     echo $sidebar;
 }
 
-
 function set_mezalando_sidebar($n)
 {
     $target = target($n);
@@ -182,34 +181,67 @@ function set_mezalando_sidebar($n)
                 <h2>Contexte général</h2>
             </div>
             <ul class="style2">
-                <li><a href="' . $target . 'rpg/game_system.php">' . TXT_CV_GAME_SYSTEM . '</a></li>
-                <li><a href="' . $target . 'rpg/trivia.php">Trivia</a></li>
-                <li><a href="' . $target . 'rpg/templates.php">' . TXT_CV_TEMPLATES . '</a></li>
+                <li><a href="' . $target . 'index.php">Résumé</a></li>
+                <li><a href="' . $target . 'histoire/factions.php">Factions</a></li>
             </ul>
             <div class="title">
-                <h2>' . TXT_DANTE_PHASE1 . '</h2>
+                <h2>Races</h2>
             </div>
             <ul class="style2">
-                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_NUKES . '</a></li>
-                <li><a href="' . $target . 'dante/thunder.php">' . TXT_DANTE_THUNDER_ROAD . '</a></li>
-                <li><a href="' . $target . 'dante/icedearth.php">' . TXT_DANTE_ICED_EARTH . '</a></li>
-                <li><a href="' . $target . 'dante/bloodcells.php">' . TXT_DANTE_BLOODCELLS . '</a></li>
+                <li><a href="' . $target . 'races/alters.php">Les races Alters</a></li>
+                <li><a href="' . $target . 'dante/thunder.php">WIP</a></li>
+                <li><a href="' . $target . '#">WIP</a></li>
+                <li><a href="' . $target . '#">WIP</a></li>
             </ul>
             <div class="title">
-                <h2>' . TXT_DANTE_PHASE2 . '</h2>
+                <h2>Magie</h2>
             </div>
             <ul class="style2">
-                <li><a href="' . $target . 'dante/virus.php">' . TXT_DANTE_LAST_CHANCE . '</a></li>
-                <li><a href="' . $target . 'dante/quarantine.php">' . TXT_DANTE_QUARANTINE . '</a></li>
-                <li><a href="' . $target . 'dante/blackflag.php">' . TXT_DANTE_BLACK_FLAG . '</a></li>
-                <li><a href="' . $target . 'dante/berezina.php">' . TXT_DANTE_BEREZINA . '</a></li>
+                <li><a href="' . $target . 'magie/magie.php">Magie</a></li>
+                <li><a href="' . $target . 'magie/voies.php">Voies et branches</a></li>
+                <li><a href="' . $target . 'magie/objets.php">Objets enchantés</a></li>
+                <li><a href="' . $target . 'magie/invocations.php">Invocations et animations</a></li>
             </ul>
             <div class="title">
-                <h2>' . TXT_DANTE_PHASE13 . '</h2>
+                <h2>Histoire et géographie</h2>
             </div>
             <ul class="style2">
-                <li><a href="' . $target . 'dante/nukes.php">' . TXT_DANTE_BROTHERHOOD . '</a></li>
-                <li><a href="' . $target . 'dante/asylum.php">Asylum 31</a></li>
+                <li><a href="' . $target . 'histoire/histoire.php">Histoire</a></li>
+                <li><a href="' . $target . 'geographie/climat.php">Géographie et climat</a></li>
+            </ul>
+            <div class="title">
+                <h2>Société</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'societe/gouvernance.php">Gouvernance et économie</a></li>
+                <li><a href="' . $target . 'societe/lois.php">Lois de l\'île</a></li>
+                <li><a href="' . $target . 'societe/certificat.php">Certificats de magie</a></li>
+                <li><a href="' . $target . 'societe/grade.php">Garde et police</a></li>
+                <li><a href="' . $target . 'societe/guildes.php">Guildes et status</a></li>
+                <li><a href="' . $target . 'societe/religions.php">Religions et croyances</a></li>
+                <li><a href="' . $target . 'societe/enseignes.php">Enseignes</a></li>
+                <li><a href="' . $target . 'societe/traditions.php">Célébrations et traditions</a></li>
+            </ul>
+            <div class="title">
+                <h2>Vie pratique</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'vie/acces.php">Accès à l\'île</a></li>
+                <li><a href="' . $target . 'vie/communication.php">Communication</a></li>
+                <li><a href="' . $target . 'vie/deplacements.php">Déplacements</a></li>
+                <li><a href="' . $target . 'vie/drogues.php">Drogues et alcool</a></li>
+                <li><a href="' . $target . 'vie/langue.php">Langue et noms</a></li>
+                <li><a href="' . $target . 'vie/medecine.php">Médecine et accès aux soins</a></li>
+                <li><a href="' . $target . 'vie/monnaie.php">Monnaie</a></li>
+                <li><a href="' . $target . 'vie/sports.php">Sports</a></li>
+                <li><a href="' . $target . 'vie/technologie.php">Technologie</a></li>
+            </ul>
+            <div class="title">
+                <h2>Système</h2>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'systeme/mecaniques.php">Mécaniques</a></li>
+                <li><a href="' . $target . 'systeme/fiche.php">Fiche de personnage</a></li>
             </ul>
         </div>
     </div>';

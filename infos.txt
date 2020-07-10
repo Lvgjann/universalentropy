@@ -1,6 +1,5 @@
 === Universal Entropy ===
 
-TODO : Prepare PHP migration by creating inc.php files that will be included in the main HTML pages (which will be PHP pages).
 * Contact page must only be in the Universal Entropy section.
 
 =========================
@@ -13,19 +12,17 @@ TODO : Update Nukes : Blood Cells
 
 Fire Nebula : N13 Entertainment
 
+TODO : PHP migration
 TODO : Create and fill collections > sections.
 
 Constellations : Erentia
 
 Contexte général : 1/5
 Races : WIP
-TODO : Myo's part.
+Pages are created, but are currently empty.
+TODO : Update pages content
 
 Stardust : Empty
-
-TODO : Create this section.
-
-
 
 ============================
 # Menu

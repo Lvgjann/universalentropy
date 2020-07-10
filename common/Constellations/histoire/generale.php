@@ -106,11 +106,11 @@ require_once('../../../inc/common.php'); ?>
         </p>
     </div>
     <!-- Sidebar -->
-    <?php set_dante_sidebar(0); ?>
+    <?php set_mezalando_sidebar(1); ?>
 </div>
 
 <!-- Portfolio -->
-<?php set_portfolio(1);
+<?php set_portfolio(2);
 // Footer
 echo TXT_FOOTER;
 // Copyright

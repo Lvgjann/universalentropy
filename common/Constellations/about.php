@@ -19,7 +19,6 @@
     <a href="lessons.html">Lessons</a>
 </div>
 <div id="banner"></div>
-<!-- TODO For PHP update : <?php include('inc/header.php'); ?>-->
 
 <div id="page" class="content">
     <div id="content_index">
