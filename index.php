@@ -19,6 +19,7 @@ require_once('inc/common.php'); ?>
         <li><a href="common/cosmicvoid/index.php">Cosmic Void</a></li>
         <li><a href="common/Constellations/index.php">Mezalando</a></li>
         <li><a href="common/FireNebula/index.php">Litterature</a></li>
+        <li><a href="common/Stardust/index.php">Ratus</a></li>
         <!--<li><a href="?lang=fr">Français</a></li>
         <li><a href="?lang=en">English</a></li>-->
         <!--<li><a href="#">Language</a>
