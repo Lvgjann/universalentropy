@@ -13,7 +13,23 @@ require_once('inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(-1);?>
+<div id="menu">
+    <ul>
+        <li><a href="index.php" class="current_page_item">Home</a></li>
+        <li><a href="common/cosmicvoid/index.php">Cosmic Void</a></li>
+        <li><a href="common/Constellations/index.php">Mezalando</a></li>
+        <li><a href="common/FireNebula/index.php">Litterature</a></li>
+        <li><a href="?lang=fr">Français</a></li>
+        <li><a href="?lang=en">English</a></li>
+        <!--<li><a href="#">Language</a>
+            <ul>
+                <li><a href="#?lang=en">English</a></li>
+                <li><a href="#?lang=fr">French</a></li>
+            </ul>
+        </li>-->
+    </ul>
+</div>
+<div id="banner"></div>
 
 <!-- Content -->
 <div class="main_content">
