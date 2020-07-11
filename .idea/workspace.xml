@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/Constellations/geographie/climat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/histoire/factions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/magie/invocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/magie/objets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/certificat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/enseignes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/garde.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/gouvernance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/guildes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/lois.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/religions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/societe/traditions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/systeme/fiche.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/systeme/mecaniques.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/systeme/template.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/acces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/communication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/deplacements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/drogues.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/langue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/medecine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/monnaie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/sports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Constellations/vie/technologie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/histoire/generale.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/histoire/generale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/lessons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/magie.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/magie/magie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/voies.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/magie/voies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Constellations/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/systeme/mecaniques.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/systeme/mecaniques.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/infos.txt" afterDir="false" />
     </list>
@@ -240,6 +210,7 @@
       <workItem from="1594393901751" duration="30000" />
       <workItem from="1594417729768" duration="25000" />
       <workItem from="1594417879673" duration="3152000" />
+      <workItem from="1594475609500" duration="2977000" />
     </task>
     <servers />
   </component>
@@ -295,9 +266,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="738" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593167000041" />
-    <state x="592" y="235" key="search.everywhere.popup" timestamp="1593014279791">
+    <state x="592" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1594475990936">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
+    <state x="592" y="235" width="670" height="676" key="search.everywhere.popup/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1594475990936" />
     <state x="592" y="235" key="search.everywhere.popup/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014279791" />
     <state x="651" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594420593862">
       <screen x="0" y="0" width="1858" height="1080" />

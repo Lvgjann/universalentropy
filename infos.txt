@@ -4,7 +4,6 @@
 
 =========================
 
-
 Cosmic Void : Dante313
 
 TODO : Update the content
@@ -12,15 +11,20 @@ TODO : Update Nukes : Blood Cells
 
 Fire Nebula : N13 Entertainment
 
-TODO : PHP migration
-TODO : Create and fill collections > sections.
+TODO : Refactor content and update CSS.
 
-Constellations : Erentia
+Constellations : Mezalando
 
-Contexte général : 1/5
-Races : WIP
-Pages are created, but are currently empty.
 TODO : Update pages content
+Races : OK (without details)
+Magie : Objets, Invocations
+Geographie : WIP
+Histoire : OK
+Societe : WIP
+Vie pratique : WIP
+Bestiaire : WIP
+Nenien : WIP
+Systeme : OK
 
 Stardust : Empty
 

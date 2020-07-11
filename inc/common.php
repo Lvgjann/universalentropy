@@ -61,9 +61,9 @@ function set_menu($n)
     $menu = '<div id="menu">
     <ul>
         <li><a href="' . $target . $target . 'index.php" class="current_page_item">Home</a></li>
-        <li><a href="' . $target . 'Constellations/index.php">About me</a></li>
-        <li><a href="' . $target . 'cosmicvoid/index.php">My projects</a></li>
-        <li><a href="' . $target . 'FireNebula/index.php">Contact</a></li>
+        <li><a href="' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
+        <li><a href="' . $target . 'Constellations/index.php">Mezalando</a></li>
+        <li><a href="' . $target . 'FireNebula/index.php">Litterature</a></li>
         <li><a href="?lang=fr">Français</a></li>
         <li><a href="?lang=en">English</a></li>
         <!--<li><a href="#">Language</a>
