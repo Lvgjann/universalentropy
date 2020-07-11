@@ -295,7 +295,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
-
+/* TODO : Update the menu bar */
 
 #menu .tablinks{
     width: 20%;
@@ -316,9 +316,18 @@ ul.contact li a.icon-rss:before {
     text-align: center;
 }
 
+/* TODO : Upgrade to commented #menu li when languages choice is set
+/*
 #menu li {
     float: left;
     width: 16.6%;
+    margin: auto;
+    padding: 0;
+} */
+
+#menu li {
+    float: left;
+    width: 20%;
     margin: auto;
     padding: 0;
 }

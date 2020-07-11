@@ -6,7 +6,7 @@ require_once('inc/common.php'); ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Universal Entropy</title>
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
-    <link href="css/style_null.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/null.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/gen.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
@@ -19,8 +19,8 @@ require_once('inc/common.php'); ?>
         <li><a href="common/cosmicvoid/index.php">Cosmic Void</a></li>
         <li><a href="common/Constellations/index.php">Mezalando</a></li>
         <li><a href="common/FireNebula/index.php">Litterature</a></li>
-        <li><a href="?lang=fr">Français</a></li>
-        <li><a href="?lang=en">English</a></li>
+        <!--<li><a href="?lang=fr">Français</a></li>
+        <li><a href="?lang=en">English</a></li>-->
         <!--<li><a href="#">Language</a>
             <ul>
                 <li><a href="#?lang=en">English</a></li>
@@ -59,6 +59,15 @@ require_once('inc/common.php'); ?>
             </a></div>
         <div id="column2">
             <div class="title">
+                <h2>Constellations</h2>
+            </div>
+            <a href="common/Constellations/index.php" class="image image-full">
+                <img src="img/background/mbg_const.jpg" alt=""/></a>
+            <a href="common/Constellations/index.php" class="icon icon-arrow-right button">
+                My IT projects
+            </a></div>
+        <div id="column3">
+            <div class="title">
                 <h2>Fire Nebula</h2>
             </div>
             <a href="common/FireNebula/index.php" class="image image-full">
@@ -66,7 +75,7 @@ require_once('inc/common.php'); ?>
             <a href="common/FireNebula/index.php" class="icon icon-arrow-right button">
                 My literature projects
             </a></div>
-        <div id="column3">
+        <div id="column4">
             <div class="title">
                 <h2>Stardust</h2>
             </div>
@@ -74,15 +83,6 @@ require_once('inc/common.php'); ?>
                 <img src="img/background/mbg_stardust.jpg" alt=""/></a>
             <a href="common/Stardust/index.php" class="icon icon-arrow-right button">
                 My musical projects
-            </a></div>
-        <div id="column4">
-            <div class="title">
-                <h2>Constellations</h2>
-            </div>
-            <a href="common/Constellations/index.php" class="image image-full">
-                <img src="img/background/mbg_const.jpg" alt=""/></a>
-            <a href="common/Constellations/index.php" class="icon icon-arrow-right button">
-                My IT projects
             </a></div>
     </div>
 </div>

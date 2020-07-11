@@ -160,9 +160,9 @@
             <div class="title">
                 <h2>Stardust</h2>
             </div>
-            <a href="../Stardust/index.html" class="image image-full">
+            <a href="../Stardust/index.php" class="image image-full">
                 <img src="../../img/background/mbg_stardust.jpg" alt=""/></a>
-            <a href="../Stardust/index.html" class="icon icon-arrow-right button">
+            <a href="../Stardust/index.php" class="icon icon-arrow-right button">
                 My musical projects
             </a></div>
         <div id="column4">

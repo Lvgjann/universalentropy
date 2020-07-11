@@ -6,14 +6,14 @@ require_once('../../../inc/common.php'); ?>
     <title>Mécaniques</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
-    <link href="../../../css/style_const.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../../css/const.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../../../css/gen.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../../../css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>
 
 <!-- Menu -->
-<?php set_menu(1); ?>
+<?php set_menu(2); ?>
 
 <!-- Content -->
 <div id="page">
