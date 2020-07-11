@@ -95,35 +95,35 @@ function set_portfolio($n)
             <a href="' . $target . $root . 'cosmicvoid/index.php" class="image image-full">
                 <img src="' . $target . '../img/background/mbg_cosmic.png" alt=""/></a>
             <a href="' . $target . $root . 'cosmicvoid/index.php" class="icon icon-arrow-right button">
-                My Roleplay Games
-            </a></div>
+                Fi\'s RPG universe
+            </a></div>>
         <div id="column2">
+            <div class="title">
+                <h2>Mezalando</h2>
+            </div>
+            <a href="' . $target . $root . 'Constellations/index.php" class="image image-full">
+                <img src="' . $target . '../img/background/mbg_const.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'Constellations/index.php" class="icon icon-arrow-right button">
+                Myo\'s RPG universe
+            </a></div>
+        <div id="column3">
             <div class="title">
                 <h2>Fire Nebula</h2>
             </div>
             <a href="' . $target . $root . 'FireNebula/index.php" class="image image-full">
                 <img src="' . $target . '../img/background/mbg_fire.jpg" alt=""/></a>
             <a href="' . $target . $root . 'FireNebula/index.php" class="icon icon-arrow-right button">
-                My literature projects
+                Litterature projects
             </a></div>
-        <div id="column3">
+        <div id="column4">
             <div class="title">
                 <h2>Stardust</h2>
             </div>
             <a href="' . $target . $root . 'Stardust/index.php" class="image image-full">
                 <img src="' . $target . '../img/background/mbg_stardust.jpg" alt=""/></a>
             <a href="' . $target . $root . 'Stardust/index.php" class="icon icon-arrow-right button">
-                My musical projects
-            </a></div>
-        <div id="column4">
-            <div class="title">
-                <h2>Constellations</h2>
-            </div>
-            <a href="' . $target . $root . 'Constellations/index.php" class="image image-full">
-                <img src="' . $target . '../img/background/mbg_const.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'Constellations/index.php" class="icon icon-arrow-right button">
-                My IT projects
-            </a></div>
+                Work in progress
+            </a></div
     </div>
 </div>';
     echo $portfolio;
@@ -216,7 +216,7 @@ function set_mezalando_sidebar($n)
                 <li><a href="' . $target . 'societe/gouvernance.php">Gouvernance et économie</a></li>
                 <li><a href="' . $target . 'societe/lois.php">Lois de l\'île</a></li>
                 <li><a href="' . $target . 'societe/certificat.php">Certificats de magie</a></li>
-                <li><a href="' . $target . 'societe/grade.php">Garde et police</a></li>
+                <li><a href="' . $target . 'societe/garde.php">Garde et police</a></li>
                 <li><a href="' . $target . 'societe/guildes.php">Guildes et status</a></li>
                 <li><a href="' . $target . 'societe/religions.php">Religions et croyances</a></li>
                 <li><a href="' . $target . 'societe/enseignes.php">Enseignes</a></li>

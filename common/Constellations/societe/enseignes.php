@@ -21,7 +21,64 @@ require_once('../../../inc/common.php'); ?>
         <div class="title">
             <span class="byline">Enseignes</span></div>
         <p>
-            TO COMPLETE
+            Les Démons d’Ignïs, bien qu’ils soient férus d’Astronomie, n’ont pas d’équivalent de l’astrologie. Plutôt
+            que de placer une naissance sous le signe d’une constellation, les nouveaux-nés sont laissés à la protection
+            de l’enseigne dominante à sa naissance. <br>
+            Les enseignes sont les gardiens des 12 vents dominants sur Ignïs, représentés sur les roses des vents
+            traditionnelles. Chaque enseigne possède un objet symbolique, et est associé à un concept principal, et des
+            aspects positifs comme négatifs. L’objet qui les caractérise est utilisé comme nom pour désigner l’enseigne.
+            On prie les enseignes de nous accorder leur protection et de nous épargner de leur colère, à nous ou à nos
+            proches. Il est de coutume d’accompagner la prière d’un dessin représentant l’enseigne dont on cherche à
+            s’attirer les faveurs. Le dessin peut être plus ou moins complexe, et utiliser n’importe quel support
+            (feuille, mur, sol, ou un simple geste de la main). <br>
+            On retrouve aussi les enseignes dans de nombreux aspects de la vie courante des démons. Dans les horoscopes,
+            mais aussi sur certains jeux de cartes, comme symboles sur des bijoux, sur les boussoles, mais aussi en
+            décoration sur certains temples et monuments historiques. <br>
+            Bien que les vents ne soient pas les même sur Celestùn et Mezalando, les démons réfugiés continuent de prier
+            les enseignes hors de Ignïs.
+        </p>
+        <div class="title">
+            <span class="byline">Les enseignes</span></div>
+        <p>
+            L’Épée représente les combats. Elle est associée à la bravoure, mais aussi à la violence. On la prie avant
+            une épreuve difficile, un combat, ou un match. <br>
+            Le Bouclier représente la protection. Elle est associée à la prudence et au courage de protéger les autres,
+            mais on lui impute aussi la couardise et l'égoïsme. Cette enseigne fait partie des plus couramment priées.
+            <br>
+            Le Denier représente la chance, la bonne comme la mauvaise fortune. D’humeur très changeante, on espère
+            s’attirer ses bonnes grâces dans les situations sans issues. <br>
+            Le Sablier représente le temps qui passe, le passé, le présent et l’avenir. Il est associée à la patience,
+            l'inévitable et l'abandon. <br>
+            La Lanterne représente la lumière et les ténèbres, la connaissance et l'ignorance. Elle guide les démons en
+            quête de savoir et les protège du danger. <br>
+            La Flèche représente le voyage, les fausses pistes, la vérité et le mensonge. On la prie avant de prendre la
+            route ou la mer, ou pour souhaiter bon voyage à un proche. C’est aussi l’enseigne priée par ceux en quête de
+            vérité. <br>
+            Le Masque représente le monde de l’au-delà et les esprits. Dans ses bons jours, il envoie des esprits
+            gardiens bienveillants protéger les mortels. Lorsqu’il est en colère, il fait déferler des hordes d’esprits
+            vengeurs apportés par le vent. Il est très courant de voir son symbole posé sur les entrées des maisons pour
+            les protéger des mauvais esprits. <br>
+            La Cloche a un très fort lien avec le Masque. Elle purifie les mauvais esprits, ou signale un danger
+            imminent. On la trouve souvent associée au Masque, et elle est priée par les exorcistes et les prêtres. Les
+            grands chefs d’état ou militaire espèrent aussi ses faveurs pour être prévenus des dangers à venir. <br>
+            La Coupe représente la santé. Elle est associée à la vie et à la guérison, mais aussi à toutes les maladies
+            et la mort. Elle est surtout appelée dans les hôpitaux, au chevet des malades, par les proches qui leur
+            souhaitent de se rétablir. C’est aussi l’enseigne favorite des assassins qui utilisent le poison. <br>
+            La Clef représente les secrets. C’est le vent gardien des savoirs oubliés et des trésors. Elle représente la
+            sagesse, mais aussi la folie que peuvent engendrer certaines connaissances interdites. On la prie lorsqu’on
+            garde un secret, ou qu’on cherche à en découvrir un. <br>
+            Le Noeud représente la grande toile qui lie toutes les choses et les personnes entre elles. Gardien du
+            destin, des promesses et des relations humaines, on fait appel à lui devant un problème incompréhensible.
+            <br>
+            L’Épine, enfin, représente le sacrifice, la compassion envers ceux qui souffrent, mais aussi la souffrance
+            elle-même. On fait parfois appel à elle avant de se sacrifier pour quelqu’un ou quelque chose.
+        </p>
+        <div class="title">
+            <span class="byline">La rose des vents</span></div>
+        <p>
+            Elle fait figure de boussole sur Ignïs, qui a dont 12 points cardinaux.
+            Elle est ici orientée pour coïncider au mieux avec les points cardinaux de Mezalando.
+            <img src="../../../img/images/enseignes.png" alt="">
         </p>
     </div>
     <!-- Sidebar -->

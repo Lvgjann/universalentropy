@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/img/images/enseignes.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/invocation.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/magie/invocation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/objets.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/magie/objets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/certificat.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/certificat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/enseignes.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/enseignes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/garde.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/garde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/gouvernance.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/gouvernance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/guildes.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/guildes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/religions.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/religions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/traditions.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/societe/traditions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/acces.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/acces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/communication.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/communication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/deplacements.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/deplacements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/drogues.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/drogues.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/langue.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/langue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/medecine.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/medecine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/monnaie.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/monnaie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/sports.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/sports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/technologie.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Constellations/vie/technologie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +83,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\systeme" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\histoire" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\cosmicvoid\nowayout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\FireNebula\projects\poems" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
       <recent name="C:\Users\Florian\Downloads\UniversalEntropy\_style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\systeme" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\histoire" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Univ">
@@ -208,7 +227,8 @@
       <workItem from="1594393901751" duration="30000" />
       <workItem from="1594417729768" duration="25000" />
       <workItem from="1594417879673" duration="3152000" />
-      <workItem from="1594475609500" duration="3708000" />
+      <workItem from="1594475609500" duration="4513000" />
+      <workItem from="1594499821646" duration="4255000" />
     </task>
     <servers />
   </component>

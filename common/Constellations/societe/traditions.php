@@ -21,7 +21,25 @@ require_once('../../../inc/common.php'); ?>
         <div class="title">
             <span class="byline">Célébrations et traditions</span></div>
         <p>
-            TO COMPLETE
+            TO COMPLETE <br>
+            [Naissance
+
+            Les 3 passages
+            5 ans 10 ans et 15 ans
+            Vert bleu et rouge
+            15 ans = passage à l'âge adulte
+
+            Mariage
+
+            Fêtes de fin d'année (solstice d'hiver, Noël, nouvel an)
+
+            Solstice d'été
+
+            Fête des moissons
+
+            Rites funéraires
+
+            Autres fêtes]
         </p>
     </div>
     <!-- Sidebar -->

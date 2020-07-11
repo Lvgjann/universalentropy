@@ -21,7 +21,19 @@ require_once('../../../inc/common.php'); ?>
         <div class="title">
             <span class="byline">Religions et croyances</span></div>
         <p>
-            TO COMPLETE
+            TO COMPLETE <br>
+            [chat
+            lapin
+            cheval
+            renard
+            chouette
+            corbeau
+            loutre
+            sanglier
+            rat
+            cerf
+            ours
+            faucon]
         </p>
     </div>
     <!-- Sidebar -->
