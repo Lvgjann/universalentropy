@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\Florian\Documents\GitHub\universalentropy" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="" />
     </include_path>
@@ -48,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/index.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -91,7 +92,12 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.Univ" />
+      <item itemvalue="PHP Script.index.php" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,24 +217,31 @@
       <workItem from="1594475609500" duration="4513000" />
       <workItem from="1594499821646" duration="5614000" />
       <workItem from="1594505723517" duration="92000" />
+      <workItem from="1596198474210" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="319" y="66" key="#CLI_Interpreters" timestamp="1596199568080">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="319" y="66" key="#CLI_Interpreters/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199568080" />
     <state x="720" y="441" key="#Firefox_Settings" timestamp="1593014501618">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="720" y="441" key="#Firefox_Settings/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014501618" />
-    <state x="636" y="182" key="#PHP" timestamp="1593013745938">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="446" y="54" key="#PHP" timestamp="1596199569201">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="446" y="54" key="#PHP/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199569201" />
     <state x="636" y="182" key="#PHP/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593013745938" />
-    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593082383645">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="212" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596199573011">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="212" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199573011" />
     <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593082383645" />
     <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594419539186">
       <screen x="0" y="0" width="1858" height="1080" />

@@ -13,7 +13,7 @@ require_once('inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<div id="menu">
+<nav id="menu">
     <ul>
         <li><a href="index.php" class="current_page_item">Home</a></li>
         <li><a href="common/cosmicvoid/index.php">Cosmic Void</a></li>
@@ -29,7 +29,7 @@ require_once('inc/common.php'); ?>
             </ul>
         </li>-->
     </ul>
-</div>
+</nav>
 <div id="banner"></div>
 
 <!-- Content -->

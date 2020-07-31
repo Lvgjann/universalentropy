@@ -58,7 +58,7 @@ function target($n)
 function set_menu($n)
 {
     $target = target($n);
-    $menu = '<div id="menu">
+    $menu = '<nav id="menu">
     <ul>
         <li><a href="' . $target . '../index.php" class="current_page_item">Home</a></li>
         <li><a href="' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
@@ -74,7 +74,7 @@ function set_menu($n)
             </ul>
         </li>-->
     </ul>
-</div>
+</nav>
 <div id="banner"></div>';
     echo $menu;
 }
