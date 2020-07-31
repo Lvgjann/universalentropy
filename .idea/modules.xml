@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Universal_Entropy.iml" filepath="$PROJECT_DIR$/.idea/Universal_Entropy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/universalentropy.iml" filepath="$PROJECT_DIR$/.idea/universalentropy.iml" />
     </modules>
   </component>
 </project>

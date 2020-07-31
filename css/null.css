@@ -47,17 +47,10 @@ body {
     background: #000000;
 }
 
-#menu {
+nav {
     background: #000000;
-    overflow: hidden;
     width: 100%;
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    height: auto;
-    line-height: normal;
-    text-align: center;
-    box-shadow: 0 2px #000000;
+    position: sticky;
 }
 
 /** PAGE */
