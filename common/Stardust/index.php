@@ -20,10 +20,15 @@ require_once('../../inc/common.php'); ?>
     <div id="page" class="content">
         <div id="content_index">
             <div class="title">
-                <h2>Stardust</h2>
-                <span class="byline">Coming soon</span></div>
+                <h2>La tanière du ratus</h2>
+                <span class="byline">Le ratus</span></div>
             <p class="general">
-                Coming soon...
+                La tanière de ratus est un petit espace qui regroupe les "astuces ratus". Il s'agit d'astuces et de bons
+                plans pour réduire ses dépenses et des initiatives écologiques.
+            </p>
+            <p class="general">
+                Les astuces ratus sont inspirées de la streameuse <a href="https://www.twitch.tv/ultia">Ultia</a> et sa
+                Chronique Ratus.
             </p>
         </div>
     </div>
