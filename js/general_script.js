@@ -1,4 +1,5 @@
-// When the user scrolls the page, execute myFunction 
+/*
+// When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
 // Get the header
@@ -14,7 +15,7 @@ function myFunction() {
     } else {
         header.classList.remove("sticky");
     }
-}
+} */
 
 function activeTab(links) {
     for (let i = 0; i < links.length; i++) {

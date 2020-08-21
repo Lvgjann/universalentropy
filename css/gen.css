@@ -381,7 +381,7 @@ ul.contact li a.icon-rss:before {
 #page_content {
     float: right;
     padding: 2% 2%;
-    width: 76%;
+    width: 71%;
 }
 
 .sticky {
@@ -415,7 +415,7 @@ ul.contact li a.icon-rss:before {
 #sidebar {
     float: left;
     padding: 2% 2%;
-    width: 16%;
+    width: 21%;
 }
 
 #sidebar .title h2 {
@@ -528,7 +528,7 @@ ul.contact li a.icon-rss:before {
 
 #footer-wrapper {
     overflow: hidden;
-    padding: 2em 0;
+    padding: 1em 0;
     background: #1E1B1A;
 }
 
@@ -557,20 +557,20 @@ ul.contact li a.icon-rss:before {
 
 #box1 {
     float: left;
-    width: 354px;
+    width: 30%;
     margin-right: 24px;
     padding-right: 30px;
 }
 
 #box2 {
     float: left;
-    width: 354px;
+    width: 30%;
     margin-left: 24px;
     padding-right: 30px;
 }
 
 #box3 {
     float: right;
-    width: 344px;
+    width: 30%;
     padding-left: 40px;
 }

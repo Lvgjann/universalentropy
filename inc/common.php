@@ -248,3 +248,51 @@ function set_mezalando_sidebar($n)
     </div>';
     echo $sidebar;
 }
+
+function set_ratus_sidebar($n)
+{
+    $target = target($n);
+    $sidebar = '<div id="sidebar">
+        <div class="box2">
+            <div class="title">
+                <h3>Le Ratus</h3>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'index.php">Résumé</a></li>
+                <li><a href="' . $target . 'about.php">L\'histoire du ratus</a></li>
+            </ul>
+            <div class="title">
+                <h3>Au quotidien</h3>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'daily/adresses.php">Les bonnes adresses</a></li>
+                <li><a href="' . $target . 'daily/tips.php">Les astuces ratus</a></li>
+            </ul>
+            <div class="title">
+                <h3>Alternatives à...</h3>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'diy.php">Se mettre au DIY</a></li>
+                <li><a href="' . $target . 'alt/cooking.php">Cuisine</a></li>
+                <li><a href="' . $target . 'alt/health.php">Santé, Hygiène & Beauté</a></li>
+                <li><a href="' . $target . 'alt/deco.php">Mobilier & déco</a></li>
+                <li><a href="' . $target . 'alt/hobbies.php">Loisirs & Mode</a></li>
+                <li><a href="' . $target . 'alt/pets.php">Animaux</a></li>
+            </ul>
+            <div class="title">
+                <h3>Le blog du ratus</h3>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'blog/blog1.php">Blog #1</a></li>
+                <li>À suivre...</li>
+            </ul>
+            <div class="title">
+                <h3>Sources externes</h3>
+            </div>
+            <ul class="style2">
+                <li><a href="' . $target . 'sources.php">Sources</a></li>
+            </ul>
+        </div>
+    </div>';
+    echo $sidebar;
+}

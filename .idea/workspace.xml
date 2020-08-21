@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/gen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Universal_Entropy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/universalentropy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/cooking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/deco.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/health.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/hobbies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/pets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/blog/blog1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/adresses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/bases.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/js/plotly-latest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/js/script_blank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/tips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/diy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Stardust/sources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/universalentropy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/universalentropy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/FireNebula/projects/novels/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/inc/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/decide-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/decide-lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/null.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/null.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/general_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/Stardust/daily" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -104,19 +103,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\FireNebula\projects\novels" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\systeme" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Constellations\histoire" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Stardust\daily" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\inc" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\test" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\FireNebula\projects\poems" />
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
-      <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\dante" />
-      <recent name="C:\Users\Florian\Downloads\UniversalEntropy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Stardust" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\FireNebula\projects\novels" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Univ">
@@ -136,6 +135,7 @@
       <item itemvalue="PHP Script.index.php" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,11 +256,24 @@
       <workItem from="1594499821646" duration="5614000" />
       <workItem from="1594505723517" duration="92000" />
       <workItem from="1596198474210" duration="1089000" />
+      <workItem from="1596907993333" duration="2823000" />
+      <workItem from="1598032955383" duration="9372000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="319" y="66" key="#CLI_Interpreters" timestamp="1596199568080">
@@ -305,9 +318,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
-    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1596231677103">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="535" y="329" key="NewPhpFileDialog" timestamp="1598044851919">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="535" y="329" key="NewPhpFileDialog/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1598044851919" />
     <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1596231677103" />
     <state x="430" y="184" key="SettingsEditor" timestamp="1596232531816">
       <screen x="0" y="0" width="1858" height="1080" />
