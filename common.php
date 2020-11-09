@@ -69,6 +69,7 @@ function set_head($n, $param, $title)
         <link href="' . $target . 'css/' . $param . '.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/gen.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+        <script type="application/javascript" target="_parent" src="' . $target . 'js/general_script.js"></script>
     </head>';
     echo $head;
 }
