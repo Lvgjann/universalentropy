@@ -20,29 +20,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb870520-8ea3-4af2-98db-d92c41ed2eff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/cooking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/deco.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/health.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/hobbies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/alt/pets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/blog/blog1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/adresses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/bases.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/js/plotly-latest.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/js/script_blank.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/daily/tips.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/diy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Stardust/sources.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mezalando/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mezalando/geographie/climat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mezalando/histoire/factions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mezalando/systeme/fiche.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/universalentropy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/universalentropy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Stardust/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Stardust/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/general_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/geographie/climat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/histoire/factions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/histoire/generale.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/histoire/generale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/invocation.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/magie/invocation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/magie.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/magie/magie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/objets.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/magie/objets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/magie/voies.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/magie/voies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/races/alters.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/races/alters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/certificat.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/certificat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/enseignes.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/enseignes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/garde.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/garde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/gouvernance.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/gouvernance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/guildes.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/guildes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/lois.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/lois.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/religions.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/religions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/societe/traditions.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/societe/traditions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/systeme/fiche.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/systeme/mecaniques.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/systeme/mecaniques.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/systeme/template.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/systeme/template.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/acces.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/acces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/communication.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/communication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/deplacements.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/deplacements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/drogues.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/drogues.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/langue.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/langue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/medecine.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/medecine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/monnaie.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/monnaie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/sports.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/sports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Constellations/vie/technologie.php" beforeDir="false" afterPath="$PROJECT_DIR$/mezalando/vie/technologie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/drafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/drafts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/novels.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/novels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/poems.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/poems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/doutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/doutes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/evidence.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/evidence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/evidence/hypothese.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/evidence/hypothese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_pd.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/ind_pd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/ind_shd.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/ind_shd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/alternatifs.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/alternatifs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/asylum31.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/asylum31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/nov/nuances.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/nov/nuances.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/shd/nov_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/shd/nov_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/novels/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/novels/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/aleatoires.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/aleatoires.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/asylum_31.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/asylum_31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/dante_313.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/dante_313.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/guerre_totale.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/guerre_totale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_vagabond.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/le_vagabond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/le_voyageur.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/le_voyageur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/lettres_de_sang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/remercie.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/remercie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/souffle_des_morts_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/aleatoires/sur_la_bouche_des_aveugles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/aux_ailes_etherees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/coeurs_noirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/coeurs_noirs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/egaree.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/egaree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/lune_de_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/lune_de_sang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/nuit_des_coeurs_oublies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/souffle_des_morts.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/souffle_des_morts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/sur_les_chemins.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/sur_les_chemins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/egaree/vies_epars.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/egaree/vies_epars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/ego/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/ego/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/engrenages.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/engrenages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/mecaniques/rouages.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/mecaniques/rouages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/trivia.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/trivia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/FireNebula/projects/poems/utopies/utopies.html" beforeDir="false" afterPath="$PROJECT_DIR$/FireNebula/projects/poems/utopies/utopies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/alt/cooking.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/alt/cooking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/alt/deco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/alt/deco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/alt/health.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/alt/health.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/alt/hobbies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/alt/hobbies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/alt/pets.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/alt/pets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/blog/blog1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/blog/blog1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/daily/adresses.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/daily/adresses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/daily/js/plotly-latest.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/daily/js/plotly-latest.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/daily/js/script_blank.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/daily/js/script_blank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/daily/tips.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/daily/tips.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/diy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/diy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Stardust/sources.php" beforeDir="false" afterPath="$PROJECT_DIR$/Stardust/sources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/UniversalEntropy/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/UniversalEntropy/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/continental.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/continental.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/asylum.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/asylum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/berezina.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/berezina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/blackflag.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/blackflag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/bloodcells.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/bloodcells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/icedearth.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/icedearth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/lastchance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/lastchance_characters.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/lastchance_characters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/nukes.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/nukes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/quarantine.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/quarantine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/thunder.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/thunder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/dante/virus.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/dante/virus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/nowayout/island.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/nowayout/island.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/nowayout/lastsurvivor.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/nowayout/lastsurvivor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/game_system.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/rpg/game_system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/rpg/templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cosmicvoid/rpg/trivia.php" beforeDir="false" afterPath="$PROJECT_DIR$/cosmicvoid/rpg/trivia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/decide-lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/decide-lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/const.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mez.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cosmic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +199,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -111,10 +211,10 @@
       <recent name="C:\Users\Florian\Documents\GitHub\universalentropy\CosmicVoid\rpg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\Stardust" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\common\FireNebula\projects\novels" />
-      <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy" />
       <recent name="C:\Users\fiski\OneDrive\Documents\GitHub\universalentropy\img\images" />
     </key>
   </component>
@@ -257,7 +357,8 @@
       <workItem from="1594505723517" duration="92000" />
       <workItem from="1596198474210" duration="1089000" />
       <workItem from="1596907993333" duration="2823000" />
-      <workItem from="1598032955383" duration="9372000" />
+      <workItem from="1598032955383" duration="9727000" />
+      <workItem from="1604871769422" duration="9789000" />
     </task>
     <servers />
   </component>
@@ -274,71 +375,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="319" y="66" key="#CLI_Interpreters" timestamp="1596199568080">
-      <screen x="0" y="0" width="1304" height="768" />
-    </state>
-    <state x="319" y="66" key="#CLI_Interpreters/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199568080" />
-    <state x="720" y="441" key="#Firefox_Settings" timestamp="1593014501618">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="720" y="441" key="#Firefox_Settings/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014501618" />
-    <state x="446" y="54" key="#PHP" timestamp="1596199569201">
-      <screen x="0" y="0" width="1304" height="768" />
-    </state>
-    <state x="446" y="54" key="#PHP/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199569201" />
-    <state x="636" y="182" key="#PHP/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593013745938" />
-    <state x="383" y="194" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596232485667">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="212" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1596199573011" />
-    <state x="383" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1596232485667" />
-    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594419539186">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1594419539186" />
-    <state x="709" y="294" key="FileChooserDialogImpl" timestamp="1593014230517">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="709" y="294" key="FileChooserDialogImpl/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014230517" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1593554011313">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1593554011313">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1593554011313">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1593554011313">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593554011313" />
-    <state x="535" y="329" key="NewPhpFileDialog" timestamp="1598044851919">
-      <screen x="0" y="0" width="1304" height="768" />
-    </state>
-    <state x="535" y="329" key="NewPhpFileDialog/0.0.1304.768/1428.0.1304.768@0.0.1304.768" timestamp="1598044851919" />
-    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1596231677103" />
-    <state x="430" y="184" key="SettingsEditor" timestamp="1596232531816">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="430" y="184" key="SettingsEditor/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1596232531816" />
-    <state x="738" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593167000041">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="738" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593167000041" />
-    <state x="592" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1594475990936">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="592" y="235" width="670" height="676" key="search.everywhere.popup/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1594475990936" />
-    <state x="592" y="235" key="search.everywhere.popup/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1593014279791" />
-    <state x="651" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594420593862">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="651" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1594420593862" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
