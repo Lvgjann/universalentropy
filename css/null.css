@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    font-family: 'Chivo', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #363636;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title h2 {
+    font-weight: 400;
+    font-size: 2em;
+    color: #000000;
+}
+
+.title .byline {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #000000;
+}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner {
+    overflow: hidden;
+    height: 330px;
+    background: url(../img/background/mbg_null.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner .image {
+}
+
+/** MENU */
+
+#menu-wrapper {
+    background: #000000;
+}
+
+nav {
+    background: #000000;
+    width: 100%;
+    position: sticky;
+}
+
+/** PAGE */
+
+#page {
+    background: #c0c0c0;
+    overflow: hidden;
+}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+#portfolio .byline {
+    font-size: 0.75em;
+    color: #000000;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.50em 3em 0.50em 2em;
+    background: #000000;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+}

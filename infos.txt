@@ -1,0 +1,51 @@
+=== Universal Entropy ===
+
+* Contact page must only be in the Universal Entropy section.
+
+=========================
+
+Cosmic Void : Dante313
+
+TODO : Update the content
+TODO : Update Nukes : Blood Cells
+
+Fire Nebula : N13 Entertainment
+
+TODO : Refactor content and update CSS.
+
+Constellations : Mezalando
+
+TODO : Update pages content
+Races : OK (without details)
+Magie : Objets, Invocations
+Geographie : WIP
+Histoire : OK
+Societe : WIP
+Vie pratique : WIP
+Bestiaire : WIP
+Nenien : WIP
+Systeme : OK
+
+Stardust : Empty
+
+============================
+# Menu
+
+Home
+| About
+| Contact
+| Projects
+Cosmid Void
+| Dante313
+| The Continental
+| No Way Out
+Fire Nebula
+| N13 Entertainment
+| N13 Production
+Constellations
+| TODO : Erentia
+Stardust
+| [None]
+Langues
+| FR
+| EN
