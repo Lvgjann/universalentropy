@@ -36,7 +36,13 @@ define('TXT_FOOTER', '<div id="footer-wrapper">
                 <li><a href="https://github.com/Lvgjann" class="icon icon-github"><span>Github</span></a></li>
                 <li><a href="#" class="icon icon-youtube"><span>Youtube</span></a></li>
             </ul>
-            <a href="#" class="icon icon-arrow-right button">Read More</a>
+            <a href="javascript:void(0)" onclick="hideShow(\'languages\');" class="icon button">Languages</a>
+            <div id="languages" style="display: none;">
+            <ul>
+                <li style="color: white;"><a href="#?lang=en">English</a></li>
+                <li style="color: white;"><a href="#?lang=fr">French</a></li>
+            </ul>
+</div>
         </div>
     </div>
 </div>');
@@ -69,6 +75,13 @@ function set_head($n, $param, $title)
         <link href="' . $target . 'css/gen.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
         <script type="application/javascript" src="' . $target . 'js/general_script.js"></script>
+        <script>function hideShow(id) {
+    var i = document.getElementById(id);
+    if (i.style.display === "none")
+        i.style.display = "block";
+    else
+        i.style.display = "none";
+}</script>
     </head>';
     echo $head;
 }
@@ -123,7 +136,7 @@ function set_portfolio($n)
             <a href="' . $target . $root . 'mezalando/index.php" class="image image-full">
                 <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
             <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
-                Myo\'s RPG universe
+                Myo\'s universe
             </a></div>
         <div id="column3">
             <div class="title">
@@ -201,13 +214,7 @@ function set_mezalando_sidebar($n)
 {
 
     $target = target($n);
-    echo '<script>function hideShow(id) {
-    var i = document.getElementById(id);
-    if (i.style.display === "none")
-        i.style.display = "block";
-    else
-        i.style.display = "none";
-}</script>
+    echo '
     <div id="sidebar">
         <div class="box2">
             <div class="title">
