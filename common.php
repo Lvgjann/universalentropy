@@ -65,11 +65,10 @@ function set_head($n, $param, $title)
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <link rel="icon" href="' . $target . 'img/icons/p_23.PNG">
-        <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
         <link href="' . $target . 'css/' . $param . '.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/gen.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
-        <script type="application/javascript" target="_parent" src="' . $target . 'js/general_script.js"></script>
+        <script type="application/javascript" src="' . $target . 'js/general_script.js"></script>
     </head>';
     echo $head;
 }
@@ -152,7 +151,13 @@ function set_portfolio($n)
 function set_dante_sidebar($n)
 {
     $target = target($n);
-    $sidebar = '<div id="sidebar">
+    $sidebar = '<script>function hideShow(id) {
+    var i = document.getElementById(id);
+    if (i.style.display === "none")
+        i.style.display = "block";
+    else
+        i.style.display = "none";
+}</script><div id="sidebar">
         <div class="box2">
             <div class="title">
                 <h2>' . TXT_CV_MECHANICS_TITLE . '</h2>
@@ -194,8 +199,16 @@ function set_dante_sidebar($n)
 
 function set_mezalando_sidebar($n)
 {
+
     $target = target($n);
-    echo '<div id="sidebar">
+    echo '<script>function hideShow(id) {
+    var i = document.getElementById(id);
+    if (i.style.display === "none")
+        i.style.display = "block";
+    else
+        i.style.display = "none";
+}</script>
+    <div id="sidebar">
         <div class="box2">
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'context\');">
@@ -232,7 +245,7 @@ function set_mezalando_sidebar($n)
             </ul>
             </div>
             <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'histgeo\');">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick=hideShow(\'histgeo\');>
                 Histoire et géographie</a></h2>
             </div>
             <div id="histgeo" style="display: none;">

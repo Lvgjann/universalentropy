@@ -113,6 +113,5 @@ set_head(1, "mez", "Mezalando");?>
 echo TXT_FOOTER;
 // Copyright
 echo TXT_COPYRIGHT; ?>
-<script type="application/javascript" target="_parent" src="../js/general_script.js"></script>
 </body>
 </html>
