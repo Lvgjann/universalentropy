@@ -109,7 +109,7 @@ set_head(2, "mez", "Guildes"); ?>
             partout sur l’île, notamment dans les zones dangereuses et/ou protégées.
         </p>
         <div class="title">
-            <span class="byline">Justive</span></div>
+            <span class="byline">JustiCe</span></div>
         <p>
             Cette guilde est la plus petite en nombre, mais une des plus puissantes. Elle regroupe tous les métiers
             ayant trait à la justice et au droit d’Erentia (avocats, procureurs, juges, mais aussi tous les métiers qui
@@ -138,13 +138,13 @@ set_head(2, "mez", "Guildes"); ?>
             citoyens, contenant des informations basique sur leur santé (race, âge, sexe, allergies/maladies connues,
              groupe sanguin). Ils ont des lecteurs particuliers permettant de lire ces informations, qui sont
             normalement cryptées. Leurs lecteurs ne peuvent pas lire les autres rubriques des bracelets.
-        </p
+        </p>
         <div class="title">
             <span class="byline">Enseignement</span></div>
         <p>
             Le plus gros de la guilde Enseignement est constitué d’enseignants, de la primaire à l’enseignement
             supérieur, mais d’autres métiers associés à l’enfance appartiennent aussi à cette guilde (animateurs,
-            éducateurs spécialisés, personnel des crèches et écoles maternelles…. <br>
+            éducateurs spécialisés, personnel des crèches et écoles maternelles…). <br>
             L’appartenance à cette guilde ne donne pas de droits particuliers, mais la guilde, très soudée, possède de
             nombreuses ressources qu’elle met à disposition de ses membres : entraide entre professeurs, cours,
             exercices, livres, tarifs préférentiels pour assister à des évènements culturels ou des conférences…

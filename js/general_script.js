@@ -55,3 +55,11 @@ function showCollection() {
         col.style.display = "none";
     }
 }
+
+function hideShow(id) {
+    var i = document.getElementById(id);
+    if (i.style.display === "none")
+        i.style.display = "block";
+    else
+        i.style.display = "none";
+}

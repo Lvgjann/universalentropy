@@ -12,6 +12,8 @@ set_head(2, "mez", "Mécaniques"); ?>
         <div class="title">
             <h2>Mécaniques de jeu</h2>
             <span class="byline">Caractéristiques</span></div>
+        <p>Refonte en cours</p>
+        <!--
         <p>
             Les caractéristiques sont des constantes déterminées par le joueur sur [2-7] (ou 1 + 1d6 + modificateurs
             âge/race)
@@ -308,7 +310,7 @@ set_head(2, "mez", "Mécaniques"); ?>
             Il existe d’autres états encore, qui ont des effets très explicites : apeuré (le personnage essaie de fuir
             le combat à tous les tours avec un jet d’évasion), charmé (le personnage passe temporairement dans le camps
             de celui qui l’a charmé), KO (le personnage ne peut plus du tout attaquer) etc, etc...
-        </p>
+        </p>-->
     </div>
     <!-- Sidebar -->
     <?php set_mezalando_sidebar(1); ?>

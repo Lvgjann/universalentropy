@@ -27,7 +27,7 @@ set_head(2, "mez", "Sports"); ?>
             Il n’y a pas de matchs officiels entre les deux ligues mais des matchs amicaux sont fréquents. L'utilisation
             de la magie est assez limitée : seule la magie pour augmenter ses propres capacités physique est acceptée,
             et toute métamorphose ne peut pas durer plus d'un quart-temps. <br>
-            Le Woofdun se joue en 4 quart-temps de 15 minutes par équipes de 10 joueurs. C’est un sport avec des règles
+            Le Wodhun se joue en 4 quart-temps de 15 minutes par équipes de 10 joueurs. C’est un sport avec des règles
             simples, et peu dangereux s’il est bien encadré. C’est également le sport national de l’île.
         </p><p>
             Le Quinn se joue sous l’eau, dans des aquariums géants, par équipes de 8 joueurs, avec une balle en forme de

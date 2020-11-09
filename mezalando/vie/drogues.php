@@ -144,9 +144,9 @@ set_head(2, "mez", "Drogues"); ?>
         <div class="title">
             <span class="byline">HéroÏne et autres opidoïdes</span></div>
         <p>
-            <b>Actifs sur toutes les races, mais beaucoup plus faiblement sur les races non humaines. br
-                Interdits pour la plupart. Morphine et dérivée autorisés sur ordonnance. Opium et graines de pavot
-                somnifères en vente contrôlée pour les Derwenn, les valkyries, les Einherjärs et les démons.</b>
+            <b>Actifs sur toutes les races, mais beaucoup plus faiblement sur les races non humaines.<br>
+                Interdits pour la plupart. <br> Morphine et dérivée autorisés sur ordonnance. <br> Opium et graines de
+                pavot somnifères en vente contrôlée pour les Derwenn, les valkyries, les Einherjärs et les démons.</b>
         </p>
         <p>
             L’opium et tous ses dérivés sont actifs sur toutes les races, mais les races humaines y sont beaucoup plus

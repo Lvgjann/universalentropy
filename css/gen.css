@@ -217,7 +217,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 
 .title {
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
     text-transform: uppercase;
 }
 
@@ -419,7 +419,7 @@ ul.contact li a.icon-rss:before {
 }
 
 #sidebar .title h2 {
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 #sidebar .box1 {

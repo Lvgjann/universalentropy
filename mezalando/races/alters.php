@@ -418,11 +418,11 @@ set_head(2, "mez", "Les Alters"); ?>
             non rajoutées à la liste, mais leur statut est toujours un cas particulier.
         </p>
         <p>
-            Le terme "Humains" désigne l'ensemble des Derwenn, des Mutants et des Nerics, les humains sans
-            pouvoirs.
+            Le terme "Humains" ou "races humaines" désigne l'ensemble des Derwenn, des Mutants, des Einherjärs et des
+            Nerics, les humains sans pouvoirs.
         </p>
     </div>
-    <?php set_mezalando_sidebar(1);?>
+    <?php set_mezalando_sidebar(1); ?>
 </div>
 
 <!-- Portfolio -->

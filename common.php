@@ -194,43 +194,57 @@ function set_dante_sidebar($n)
 function set_mezalando_sidebar($n)
 {
     $target = target($n);
-    $sidebar = '<div id="sidebar">
+    echo '<div id="sidebar">
         <div class="box2">
             <div class="title">
-                <h2>Contexte général</h2>
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'context\');">
+                Contexte général</a></h2>
             </div>
+            <div id="context" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'index.php">Résumé</a></li>
                 <li><a href="' . $target . 'histoire/factions.php">Factions</a></li>
             </ul>
-            <div class="title">
-                <h2>Races</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" onclick="hideShow(\'races\');" style="text-decoration: none;">
+                Races</a></h2>
+            </div>
+            <div id="races" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'races/alters.php">Les races Alters</a></li>
                 <li><a href="' . $target . 'dante/thunder.php">WIP</a></li>
                 <li><a href="' . $target . '#">WIP</a></li>
                 <li><a href="' . $target . '#">WIP</a></li>
             </ul>
-            <div class="title">
-                <h2>Magie</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'magic\');">
+                Magie</a></h2>
+            </div>
+            <div id="magic" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'magie/magie.php">Magie</a></li>
                 <li><a href="' . $target . 'magie/voies.php">Voies et branches</a></li>
                 <li><a href="' . $target . 'magie/objets.php">Objets enchantés</a></li>
                 <li><a href="' . $target . 'magie/invocations.php">Invocations et animations</a></li>
             </ul>
-            <div class="title">
-                <h2>Histoire et géographie</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'histgeo\');">
+                Histoire et géographie</a></h2>
+            </div>
+            <div id="histgeo" style="display: none;">
             <ul class="style2">
-                <li><a href="' . $target . 'histoire/histoire.php">Histoire</a></li>
+                <li><a href="' . $target . 'histoire/generale.php">Histoire</a></li>
                 <li><a href="' . $target . 'geographie/climat.php">Géographie et climat</a></li>
             </ul>
-            <div class="title">
-                <h2>Société</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'society\');">
+                Société</a></h2>
+            </div>
+            <div id="society" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'societe/gouvernance.php">Gouvernance et économie</a></li>
                 <li><a href="' . $target . 'societe/lois.php">Lois de l\'île</a></li>
@@ -241,9 +255,12 @@ function set_mezalando_sidebar($n)
                 <li><a href="' . $target . 'societe/enseignes.php">Enseignes</a></li>
                 <li><a href="' . $target . 'societe/traditions.php">Célébrations et traditions</a></li>
             </ul>
-            <div class="title">
-                <h2>Vie pratique</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'life\');">
+                Vie pratique</a></h2>
+            </div>
+            <div id="life" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'vie/acces.php">Accès à l\'île</a></li>
                 <li><a href="' . $target . 'vie/communication.php">Communication</a></li>
@@ -255,16 +272,19 @@ function set_mezalando_sidebar($n)
                 <li><a href="' . $target . 'vie/sports.php">Sports</a></li>
                 <li><a href="' . $target . 'vie/technologie.php">Technologie</a></li>
             </ul>
-            <div class="title">
-                <h2>Système</h2>
             </div>
+            <div class="title">
+                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'system\');">
+                Système</a></h2>
+            </div>
+            <div id="system" style="display: none;">
             <ul class="style2">
                 <li><a href="' . $target . 'systeme/mecaniques.php">Mécaniques</a></li>
                 <li><a href="' . $target . 'systeme/fiche.php">Fiche de personnage</a></li>
             </ul>
+            </div>
         </div>
     </div>';
-    echo $sidebar;
 }
 
 function set_ratus_sidebar($n)

@@ -12,7 +12,9 @@ set_head(2, "mez", "Fiche"); ?>
         <div class="title">
             <span class="byline">Fiche de personnage</span></div>
         <p>
-            <a href="template.pdf"> Download</a>
+            <!--
+            <a href="template.pdf"> Download</a> -->
+            Refonte en cours.
         </p>
     </div>
     <!-- Sidebar -->
