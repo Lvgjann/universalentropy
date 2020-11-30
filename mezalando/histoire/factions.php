@@ -35,7 +35,7 @@ set_head(2, "mez", "Factions et conflits"); ?>
         Ils sont alliés avec les autres Alters, mais restent assez réservés, presque repliés sur eux-mêmes pour certains
         groupes.
         De ce fait, il y a une forme de méfiance des autres Alters vis-à-vis des démons, et inversement. Ce n'est pas de
-        l'histilité, mais plutôt une forme d'incompréhension. Les autres race d'Alters sont si soudées entre elles,
+        l'hostilité, mais plutôt une forme d'incompréhension. Les autres race d'Alters sont si soudées entre elles,
         surtout dans les refuges cosmopolites comme Nenien, que la réserve relative des démons saute aux yeux.
         </p>
         <div class="title">
@@ -111,15 +111,16 @@ set_head(2, "mez", "Factions et conflits"); ?>
 
         <h3>Un peu partout</h3>
         <p>
-            Yǐng liánhuā (lotus de l’ombre) : triade spécialistes en commerce de drogues
-            Kuren-kai (société de la grue) : yakuza, spécialistes en bars à hôtes/hôtesses, strip clubs, et prostitution
-            La Fratelli : mafia spécialistes en casinos, combats interdits, boîtes de nuits etc…
+            Yǐng liánhuā (lotus de l’ombre) : triade spécialistes en commerce de drogues <br/>
+            Kuren-kai (société de la grue) : yakuza, spécialistes en bars à hôtes/hôtesses, strip clubs, et prostitution <br/>
+            La Fratelli : mafia spécialistes en casinos, combats interdits, boîtes de nuits etc…<br/>
+            Parilis Maledictus Unio : pègre gérant les compétitions d'Arken et du sport en général. <br/>
         </p>
         <h3>Sur Erentia particulièrement</h3>
         <p>
-            Green Knives : or vert (cf paragraphe sur les drogues)
-            Scarlet Diamond : écarlate (cf paragraphe sur les drogues)
-            EGP (Erentia Géologie les Pierres) : récupération et revente de cristaux Maen
+            Green Knives : or vert (cf paragraphe sur les drogues)<br/>
+            Scarlet Diamond : écarlate (cf paragraphe sur les drogues)<br/>
+            EGP (Erentia Géologie les Pierres) : récupération et revente de cristaux Maen<br/>
         </p>
         <h3>Dans Nenien particulièrement</h3>
         <p>
@@ -131,14 +132,12 @@ set_head(2, "mez", "Factions et conflits"); ?>
             La Garde Royale s'occupe du maintien de l'ordre dans la vie de tous les jours, de surveiller les côtes, les
             routes et les forêts, ainsi que des arrestations.
             La Police, elle, s'occupe exclusivement des enquêtes. Le cliché veut que la Police soit la tête et la garde
-            soit les bras, un cliché possède un sérieux fond de vérité.
+            soit les bras, un cliché qui possède un sérieux fond de vérité.
             La Brigade de récupérateurs de mutants, abrégée "Brigade", a pour rôle exclusif de surveiller les faits
             divers et actualités étranges partout dans le monde, afin de repérer le plus tôt possible d'éventuels
             nouveaux mutants, et d'aller à leur rencontre pour essayer de les convaincre de rejoindre Erentia.
             Les Mutants repérés par la Brigade n'ont, en réalité, pas vraiment le choix : si la persuasion ne fonctionne
             pas, la Brigade les ramène de force sur l'île.
-            Erentia n'a pas d'armée à proprement parler, bien qu'il y ait des alters chargés de la protection de l'île
-            et du bon fonctionnement de la campagne de désinformation.
         </p>
         <div class="title">
             <span class="byline">Organisations caritatives</span></div>
@@ -157,7 +156,7 @@ set_head(2, "mez", "Factions et conflits"); ?>
             sites du gouvernement de l'île.
             Ils sont surtout actifs sur Erentia, mais ont des sympathisants dans d'autres refuges.
             Une grande partie de leurs membres sont des mutants qui ont été ramenés de force sur l'île par la Brigade.
-            Une petite partie de leurs membres revendiquent l'idée de rendre l'existence de la Magie et des Alters
+            Une minorité parmi eux revendiquent l'idée de rendre l'existence de la Magie et des Alters
             publique, et de se battre ouvertement contre les Witch Hunters. Leurs détracteurs les considèrent comme une
             bande d'autochtones de l'île pourris-gâtés qui n'ont jamais connu la menace que les WH représentent.
 

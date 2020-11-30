@@ -46,8 +46,8 @@ set_head(2, "mez", "Accès"); ?>
             côtes de l’île, et peuvent se transformer en tourelles de défense en quelques minutes en cas d’alarme.
         </p><p>
             Les Alters voulant s'installer sur l’île arrivent eux à Itzel, la capitale, par avion ou par bateau. Il
-            n’est pas possible de se téléporter entre Erentia et l’extérieur de l’île à cause de la barrière de
-            protection, mais les Valkyries sont capables de créer des portails sur et vers l’île .
+            n’est pas possible de se téléporter entre Erentia et l’extérieur de l’île, mais les Valkyries sont capables
+            de créer des portails sur et vers l’île .
         </p><p>
             Lors de l’arrivée sur l’île, on fournit un charme de traduction aux nouveaux arrivants qui ne parlent pas
             français. On convertit l’argent qu’ils ont amenés avec eux dans la monnaie de l’île, et on prend quelques

@@ -27,8 +27,8 @@ set_head(2, "mez", "Les Alters"); ?>
             <button class="tablinks" onclick="openTabs('P6')">Démons</button>
             <button class="tablinks" onclick="openTabs('P7')">Anges</button>
             <button class="tablinks" onclick="openTabs('P8')">Esprits</button>
-            <button class="tablinks" onclick="openTabs('P9')">Einherjär</button>
-            <button class="tablinks" onclick="openTabs('P10')">Gardwen</button>
+            <button class="tablinks" onclick="openTabs('P9')">Gwarden</button>
+            <button class="tablinks" onclick="openTabs('P10')">Einherjär</button>
             <button class="tablinks" onclick="openTabs('P11')">Maestri</button>
         </div>
 
@@ -140,7 +140,7 @@ set_head(2, "mez", "Les Alters"); ?>
             </p>
         </div>
         <div class="tabcontent" id="P9">
-            <h2>Gardwen</h2>
+            <h2>Gwarden</h2>
             <p class="general">
                 Les Gwarden sont un cas un peu à part des esprits, une anomalie dans le fonctionnement classique de la
                 vie et de la mort. <br>

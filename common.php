@@ -136,7 +136,7 @@ function set_portfolio($n)
             <a href="' . $target . $root . 'mezalando/index.php" class="image image-full">
                 <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
             <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
-                Myo\'s universe
+                Encyclopedia and projects
             </a></div>
         <div id="column3">
             <div class="title">
@@ -219,7 +219,7 @@ function set_mezalando_sidebar($n)
         <div class="box2">
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'context\');">
-                Contexte général</a></h2>
+                Contexte général &#9662</a></h2>
             </div>
             <div id="context" style="display: none;">
             <ul class="style2">
@@ -229,7 +229,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" onclick="hideShow(\'races\');" style="text-decoration: none;">
-                Races</a></h2>
+                Races &#9662</a></h2>
             </div>
             <div id="races" style="display: none;">
             <ul class="style2">
@@ -241,7 +241,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'magic\');">
-                Magie</a></h2>
+                Magie &#9662</a></h2>
             </div>
             <div id="magic" style="display: none;">
             <ul class="style2">
@@ -253,7 +253,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick=hideShow(\'histgeo\');>
-                Histoire et géographie</a></h2>
+                Histoire et géographie &#9662</a></h2>
             </div>
             <div id="histgeo" style="display: none;">
             <ul class="style2">
@@ -263,7 +263,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'society\');">
-                Société</a></h2>
+                Société &#9662</a></h2>
             </div>
             <div id="society" style="display: none;">
             <ul class="style2">
@@ -279,7 +279,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'life\');">
-                Vie pratique</a></h2>
+                Vie pratique &#9662</a></h2>
             </div>
             <div id="life" style="display: none;">
             <ul class="style2">
@@ -296,7 +296,7 @@ function set_mezalando_sidebar($n)
             </div>
             <div class="title">
                 <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'system\');">
-                Système</a></h2>
+                Système &#9662</a></h2>
             </div>
             <div id="system" style="display: none;">
             <ul class="style2">
