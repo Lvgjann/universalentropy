@@ -261,7 +261,13 @@ function set_dante_sidebar($n)
 
 function set_mezalando_sidebar($n)
 {
-    $target = target($n);
+    //$target = target($n);
+
+    if ($n == 1) {
+        $target = target($n) . 'mezalando/';
+    } else if ($n == 2) {
+        $target = target($n);
+    }
     echo '
     <div id="sidebar">
         <div class="box2">
