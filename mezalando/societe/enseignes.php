@@ -1,15 +1,7 @@
 <?php include '../../decide-lang.php';
 require_once('../../common.php');
-set_head(2, "mez", "Enseignes"); ?>
-<body>
-
-<!-- Menu -->
-<?php set_menu(2); ?>
-
-<!-- Content -->
-<div id="page">
-    <div id="page_content">
-        <div class="title">
+generate(2, "mez", '
+<div class="title">
             <span class="byline">Enseignes</span></div>
         <p>
             Les Démons d’Ignïs, bien qu’ils soient férus d’Astronomie, n’ont pas d’équivalent de l’astrologie. Plutôt
@@ -34,13 +26,13 @@ set_head(2, "mez", "Enseignes"); ?>
             L’Épée représente les combats. Elle est associée à la bravoure, mais aussi à la violence. On la prie avant
             une épreuve difficile, un combat, ou un match. <br>
             Le Bouclier représente la protection. Elle est associée à la prudence et au courage de protéger les autres,
-            mais on lui impute aussi la couardise et l'égoïsme. Cette enseigne fait partie des plus couramment priées.
+            mais on lui impute aussi la couardise et l`\'égoïsme. Cette enseigne fait partie des plus couramment priées.
             <br>
-            Le Denier représente la chance, la bonne comme la mauvaise fortune. D’humeur très changeante, on espère
+Le Denier représente la chance, la bonne comme la mauvaise fortune. D’humeur très changeante, on espère
             s’attirer ses bonnes grâces dans les situations sans issues. <br>
-            Le Sablier représente le temps qui passe, le passé, le présent et l’avenir. Il est associée à la patience,
-            l'inévitable et l'abandon. <br>
-            La Lanterne représente la lumière et les ténèbres, la connaissance et l'ignorance. Elle guide les démons en
+Le Sablier représente le temps qui passe, le passé, le présent et l’avenir. Il est associée à la patience,
+            l\'inévitable et l\'abandon. <br>
+La Lanterne représente la lumière et les ténèbres, la connaissance et l\'ignorance. Elle guide les démons en
             quête de savoir et les protège du danger. <br>
             La Flèche représente le voyage, les fausses pistes, la vérité et le mensonge. On la prie avant de prendre la
             route ou la mer, ou pour souhaiter bon voyage à un proche. C’est aussi l’enseigne priée par ceux en quête de
@@ -71,17 +63,4 @@ set_head(2, "mez", "Enseignes"); ?>
             Elle est ici orientée pour coïncider au mieux avec les points cardinaux de Mezalando.
             <img src="../../img/images/enseignes.png" alt="">
         </p>
-    </div>
-    <!-- Sidebar -->
-    <?php set_mezalando_sidebar(1); ?>
-</div>
-
-<!-- Portfolio -->
-<?php set_portfolio(2);
-// Footer
-echo TXT_FOOTER;
-// Copyright
-echo TXT_COPYRIGHT; ?>
-<script type="application/javascript" target="_parent" src="../../js/general_script.js"></script>
-</body>
-</html>
+');

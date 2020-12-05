@@ -30,7 +30,7 @@ require_once('../inc/common.php'); ?>
                 <li><a href="#">Nenien</a></li>
             </ul>
         </li>
-        <li class="deroulant"><a href="../Stardust/index.php">Ratus</a>
+        <li class="deroulant"><a href="../ratus/index.php">Ratus</a>
             <ul class="sous">
                 <li><a href="#">Sous 1</a></li>
                 <li><a href="#">Sous 2</a></li>
@@ -102,9 +102,9 @@ require_once('../inc/common.php'); ?>
             <div class="title">
                 <h2>Stardust</h2>
             </div>
-            <a href="../Stardust/index.php" class="image image-full">
+            <a href="../ratus/index.php" class="image image-full">
                 <img src="../img/background/mbg_stardust.jpg" alt=""/></a>
-            <a href="../Stardust/index.php" class="icon icon-arrow-right button">
+            <a href="../ratus/index.php" class="icon icon-arrow-right button">
                 My musical projects
             </a></div>
     </div>

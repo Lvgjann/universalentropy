@@ -1,15 +1,7 @@
 <?php include '../../decide-lang.php';
 require_once('../../common.php');
-set_head(2, "mez", "Objets enchantés"); ?>
-<body>
-
-<!-- Menu -->
-<?php set_menu(2); ?>
-
-<!-- Content -->
-<div id="page">
-    <div id="page_content">
-        <div class="title">
+generate(2, "mez", "Objets enchantés",
+'<div class="title">
             <span class="byline">Objets enchantés</span></div>
         <p>
             Les potions, charmes et artefacts sont des objets créés par les Derwenn qui se spécialisent dans
@@ -27,9 +19,9 @@ set_head(2, "mez", "Objets enchantés"); ?>
             être emballées dans des capsules souples légèrement gélatineuses et tirées depuis des pistolets de type
             “nerf” modifiés. Les capsules explosent au contact, libérant le contenu de la potion. <br>
             Les potions s’invoquent durant leur fabrication, et ne se conservent donc pas plus de quelques semaines. Il
-            faut aussi noter que l'effet n'est pas immédiat : il faut de quelques secondes à quelques minutes pour qu'il
-            se manifeste. Leur effet est souvent longue durée, de 6h pour les moins puissantes jusqu'à plusieurs
-            semaines, si on ne prend pas de douche d'eau salée entre temps.
+            faut aussi noter que l\'effet n\'est pas immédiat : il faut de quelques secondes à quelques minutes pour qu\'il
+            se manifeste. Leur effet est souvent longue durée, de 6h pour les moins puissantes jusqu\'à plusieurs
+            semaines, si on ne prend pas de douche d\'eau salée entre temps.
         </p>
         <p>
             La plupart des potions sont à usage médical ou assimilé : anti-douleur, amélioration de la régénération,
@@ -37,32 +29,32 @@ set_head(2, "mez", "Objets enchantés"); ?>
             médicaments utilisés par les médecins et les hôpitaux. <br>
             Parmi les potions moins courantes, et moins légales, on trouve les potions d’amnésie et de métamorphose. Bon
             nombre de potions circulant au marché noir sont également des psychotropes plus ou moins puissants, dont la
-            tristement célèbre "potion d'amour" qui n'est ni plus ni moins qu'une drogue du viol magique au goût
+            tristement célèbre "potion d\'amour" qui n\'est ni plus ni moins qu\'une drogue du viol magique au goût
             prononcé de fruits rouges. <br>
             Mais la plus controversée des potions est celle de sommeil. Développée au départ comme anesthésiant dans les
-            hôpitaux, elle a été utilisée pendant très longtemps comme arme d'auto-défense. Suite à de nombreux abus et
-            accidents, elle n'est plus autorisée aujourd'hui que pour les forces de l'ordre, mais en pratique il est
-            toujours assez facile de s'en procurer.
+            hôpitaux, elle a été utilisée pendant très longtemps comme arme d\'auto-défense. Suite à de nombreux abus et
+            accidents, elle n\'est plus autorisée aujourd\'hui que pour les forces de l\'ordre, mais en pratique il est
+            toujours assez facile de s\'en procurer.
         </p>
         <div class="title">
             <span class="byline">Les Charmes</span></div>
         <p>
-            Les charmes sont des supports en bois, cuir ou os, parfois d'autres matières animales et végétales qui
-            stockent un effet magique. Ils faut les invoquer au moment de les utiliser, et ils ont une durée d'effet de
+            Les charmes sont des supports en bois, cuir ou os, parfois d\'autres matières animales et végétales qui
+            stockent un effet magique. Ils faut les invoquer au moment de les utiliser, et ils ont une durée d\'effet de
             quelques minutes à quelques heures. <br>
-            En pratique, la plupart fonctionne au contact de la peau, et leur durée d'effet n'est décomptée que
-            lorsqu'ils sont actifs. Les Derwenn peuvent donc souvent les invoquer à l'avance, et les vendre à d'autres
+            En pratique, la plupart fonctionne au contact de la peau, et leur durée d\'effet n\'est décomptée que
+            lorsqu\'ils sont actifs. Les Derwenn peuvent donc souvent les invoquer à l\'avance, et les vendre à d\'autres
             races qui pourront les stocker plusieurs mois et les utiliser quand ils veulent. <br>
             Parmi les charmes courants et bon marché on trouve des charmes anti-douleur, de maquillage ou de vigilance
-            (très prisés par les étudiants en période de partiel pour ne pas s'endormir lors des révisions de dernière
+            (très prisés par les étudiants en période de partiel pour ne pas s\'endormir lors des révisions de dernière
             minute). <br>
-            En boutique spécialisée, on peut trouver des charmes d'augmentation des sens, de détection de la magie, ou
+            En boutique spécialisée, on peut trouver des charmes d\'augmentation des sens, de détection de la magie, ou
             qui améliorent la résistance des vêtements. On peut également demander à faire sur mesure des charmes
-            d'illusions plus poussés, par exemple pour donner une apparence humaine à des alters qui ont des attributs
+            d\'illusions plus poussés, par exemple pour donner une apparence humaine à des alters qui ont des attributs
             non humains. <br>
-            Il existe quelques exemples de charmes qui ne semblent pas avoir de durée limite d'utilisation tant qu'ils
-            ne sont pas désenchantés ou plongés dans l'eau salée, mais qui ont en revanche un temps de recharge entre
-            deux utilisations. C'est le cas par exemple des poupées vaudou, des lunettes de vision au-travers des
+            Il existe quelques exemples de charmes qui ne semblent pas avoir de durée limite d\'utilisation tant qu\'ils
+            ne sont pas désenchantés ou plongés dans l\'eau salée, mais qui ont en revanche un temps de recharge entre
+            deux utilisations. C\'est le cas par exemple des poupées vaudou, des lunettes de vision au-travers des
             illusions, et des totems de téléportation Alfren. Dans tous les cas, ce sont des objets incroyablement
             rares, chers, et dont le secret de fabrication est jalousement gardé ou perdu à jamais.
         </p>
@@ -70,7 +62,7 @@ set_head(2, "mez", "Objets enchantés"); ?>
             <span class="byline">Les artefacts</span></div>
         <p>
             Les artefacts sont des objets en métal enchantés grâce à un cristal Maen ou des fragments de ces cristaux.
-            Ils sont insensibles à l’eau salée et fonctionnent à vie, tant que l’objet n’a pas été désenchanté par
+            Ils sont insensibles à l’eau salée et fonctionnent à vie, tant que l\’objet n’a pas été désenchanté par
             anti-magie et que le cristal n’est pas endommagé. <br>
             Presque tous les artefacts sont des objets uniques, enchantés pour une personne particulière avec un effet
             précis. Il est donc difficile de dire des généralités sur ces objets. Cependant, on sait que la plupart
@@ -80,21 +72,7 @@ set_head(2, "mez", "Objets enchantés"); ?>
             consomment plus de saàp, ont un nombre limité d’utilisations avant de devoir recharger le cristal.
             Les plus courants des artefacts sont ceux qui ont les mêmes effets que des charmes. Bien plus chers que des
             charmes, ils sont cependant relativement bon marché pour des artefacts car leur technique de fabrication
-            est bien connue, et ils ne sont pas affectés par les durées d'utilisation ou le sel. Beaucoup d'anges et de
-            démons investissent ainsi dans des artefacts d'illusion pour prendre une apparence humaine sans risquer
-            d'accident d'eau salée.
-        </p>
-    </div>
-    <!-- Sidebar -->
-    <?php set_mezalando_sidebar(1); ?>
-</div>
-
-<!-- Portfolio -->
-<?php set_portfolio(2);
-// Footer
-echo TXT_FOOTER;
-// Copyright
-echo TXT_COPYRIGHT; ?>
-<script type="application/javascript" target="_parent" src="../../js/general_script.js"></script>
-</body>
-</html>
+            est bien connue, et ils ne sont pas affectés par les durées d\'utilisation ou le sel. Beaucoup d\'anges et de
+            démons investissent ainsi dans des artefacts d\'illusion pour prendre une apparence humaine sans risquer
+            d\'accident d\'eau salée.
+        </p>'); ?>

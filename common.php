@@ -49,6 +49,9 @@ define('TXT_FOOTER', '<div id="footer-wrapper">
 define('TXT_COPYRIGHT', '<div id="copyright" class="content">
     <p>&copy; N13 Development. All rights reserved. | Created by Fi Skirata</p>
 </div>');
+define('TXT_SIDEBAR_DANTE', '');
+define('TXT_SIDEBAR_MEZALANDO', '');
+define('TXT_SIDEBAR_MEZALANDO', '');
 
 function target($n)
 {
@@ -63,6 +66,19 @@ function target($n)
 
 function set_head($n, $param, $title)
 {
+    switch ($param) {
+        case "mez":
+            $src = 'p_23.PNG';
+            break;
+        case "cos":
+            $src = 'p_05.png';
+            break;
+        case "ratus":
+            break;
+        default:
+            $src = 'p_18.png';
+            break;
+    }
     $target = target($n);
     $head = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
@@ -70,10 +86,11 @@ function set_head($n, $param, $title)
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-        <link rel="icon" href="' . $target . 'img/icons/p_23.PNG">
+        <link rel="icon" href="' . $target . 'img/icons/' . $src . '">
         <link href="' . $target . 'css/' . $param . '.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/gen.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="' . $target . 'css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="application/javascript" src="' . $target . 'js/general_script.js"></script>
         <script>function hideShow(id) {
     var i = document.getElementById(id);
@@ -82,7 +99,8 @@ function set_head($n, $param, $title)
     else
         i.style.display = "none";
 }</script>
-    </head>';
+    </head>
+    <body>';
     echo $head;
 }
 
@@ -91,23 +109,54 @@ function set_menu($n)
     $target = target($n);
     $menu = '<nav id="menu">
     <ul>
-        <li><a href="' . $target . '../index.php" class="current_page_item">Home</a></li>
+        <li><a href="' . $target . 'index.php" class="current_page_item">Home</a></li>
         <li><a href="' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
         <li><a href="' . $target . 'mezalando/index.php">Mezalando</a></li>
-        <li><a href="' . $target . 'FireNebula/index.php">Litterature</a></li>
         <li><a href="' . $target . 'Stardust/index.php">Ratus</a></li>
-        <!--<li><a href="?lang=fr">Français</a></li>
-        <li><a href="?lang=en">English</a></li>-->
-        <!--<li><a href="#">Language</a>
-            <ul>
-                <li><a href="#?lang=en">English</a></li>
-                <li><a href="#?lang=fr">French</a></li>
-            </ul>
-        </li>-->
     </ul>
 </nav>
 <div id="banner"></div>';
     echo $menu;
+}
+
+function set_menu_d($n)
+{
+    $target = target($n);
+    $menu = '<nav>
+    <ul>
+        <li class="dropdown"><a href="' . $target . 'index.php">Home &ensp;</a>
+            <ul class="dropdown-child">
+                <li> <a href="#">Test</a></li>
+                <li> <a href="#">Test</a></li>
+                <li> <a href="#">Test</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="' . $target . 'cosmicvoid/index.php" >Cosmic Void &ensp;</a>
+            <ul class="dropdown-child">
+                <li> <a href="' . $target . 'cosmicvoid/dante.php">Dante313</a></li>
+                <li> <a href="' . $target . 'cosmicvoid/continental.php">The Continental</a></li>
+                <li> <a href="#">No Way Out</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="' . $target . 'mezalando/index.php">Mezalando &ensp;</a>
+            <ul class="dropdown-child">
+                <li> <a href="' . $target . 'mezalando/erentia/acces.php">Erentia</a></li>
+                <li> <a href="' . $target . 'mezalando/nenien/vie.php">Nenien</a></li>
+                <li> <a href="#">No Way Out</a></li>
+            </ul>
+        </li>
+        <li><a href="' . $target . 'Stardust/index.php">Ratus</a></li>
+    </ul>
+</nav>
+<div id="banner"></div>';
+    echo $menu;
+}
+
+function set_page($content) {
+    echo'<div id="page">
+    <div id="page_content">' . $content .' </div>';
+    set_mezalando_sidebar(1);
+    echo '</div>';
 }
 
 function set_portfolio($n)
@@ -212,100 +261,105 @@ function set_dante_sidebar($n)
 
 function set_mezalando_sidebar($n)
 {
-
     $target = target($n);
     echo '
     <div id="sidebar">
         <div class="box2">
             <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'context\');">
-                Contexte général &#9662</a></h2>
+                <h2>Contexte général</h2>
             </div>
-            <div id="context" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'index.php">Résumé</a></li>
-                <li><a href="' . $target . 'histoire/factions.php">Factions</a></li>
+            <a href="' . $target . 'index.php">L\'univers en 5 minutes</a>
+            <a href="' . $target . 'projets.php">Les projets autour de Mezalando</a>
+            <div class="title">
+                <h2>L\'encyclopédie de Mezalando</h2>
+            </div>
+            <a href="' . $target . 'histoire/factions.php">Factions et conflits</a>
+            <button class="dropdown-btn">Races  <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="' . $target . 'races/alters.php">Les races Alters</a>
+                <a href="' . $target . 'races/derwenn.php">Derwenn</a>
+                <a href="' . $target . 'races/mutants.php">Mutants</a>
+                <a href="' . $target . 'races/loenn.php">Loenn</a>
+                <a href="' . $target . 'races/mirien.php">Mirien</a>
+                <a href="' . $target . 'races/anges.php">Anges</a>
+                <a href="' . $target . 'races/demons.php">Démons</a>
+                <a href="' . $target . 'races/esprits.php">Esprits</a>
+                <a href="' . $target . 'races/gwarden.php">Gwarden</a>
+                <a href="' . $target . 'races/alfren.php">Alfren</a>
+                <a href="' . $target . 'races/einherjars.php">Einherjärs</a>
+                <a href="' . $target . 'races/maestri.php">Maestri</a>
+            </div>
+            <button class="dropdown-btn">Magie  <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="' . $target . 'magie/magie.php">Magie</a>
+                <a href="' . $target . 'magie/voies.php">Voies et branches</a>
+                <a href="' . $target . 'magie/objets.php">Objets enchantés</a>
+                <a href="' . $target . 'magie/invocations.php">Invocations et animations</a>
+            </div>
+            <button class="dropdown-btn">Religions et croyances  <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="' . $target . 'societe/enseignes.php">Invocations et animations</a>
+            </div>
+            <a href="' . $target . 'societe/alternet.php">Alternet</a>
+            <a href="' . $target . 'societe/noms.php">Noms</a>
             </ul>
+            <div class="title">
+                <h2>Erentia</h2>
+            </div>
+            <a href="' . $target . 'erentia/histoire.php">Histoire</a>
+            <a href="' . $target . 'erentia/geographie.php">Géographie</a>
+            <button class="dropdown-btn">Société  <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="' . $target . 'erentia/certificats.php">Cartificats de magie</a>
+                <a href="' . $target . 'erentia/guildes.php">Guildes</a>
+                <a href="' . $target . 'erentia/gouvernance.php">Gouvernance et économie</a>
+                <a href="' . $target . 'erentia/lois.php">Lois de l\'île</a>
+                <a href="' . $target . 'erentia/garde.php">Garde et police</a>
+                <a href="' . $target . 'erentia/traditons.php">Célébrations et traditions</a>
+                <a href="' . $target . 'erentia/education.php">Éducation</a>
+            </div>
+            <button class="dropdown-btn">Vie pratique  <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="' . $target . 'erentia/langue.php">Langue, monnaie et calendrier</a>
+                <a href="' . $target . 'erentia/acces.php">Accès à l\'île</a>
+                <a href="' . $target . 'erentia/technologie.php">Technologie</a>
+                <a href="' . $target . 'erentia/communication.php">Communication</a>
+                <a href="' . $target . 'erentia/deplacements.php">Déplacements</a>
+                <a href="' . $target . 'erentia/drogues.php">Drogues et alcool</a>
+                <a href="' . $target . 'erentia/medecine.php">Médecine et accès aux soins</a>
+                <a href="' . $target . 'erentia/sports.php">sports</a>
             </div>
             <div class="title">
-                <h2><a href="javascript:void(0)" onclick="hideShow(\'races\');" style="text-decoration: none;">
-                Races &#9662</a></h2>
+                <h2>Nenien</h2>
             </div>
-            <div id="races" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'races/alters.php">Les races Alters</a></li>
-                <li><a href="' . $target . 'dante/thunder.php">WIP</a></li>
-                <li><a href="' . $target . '#">WIP</a></li>
-                <li><a href="' . $target . '#">WIP</a></li>
-            </ul>
-            </div>
+            <a href="' . $target . 'nenien/generalites.php">Généralités</a>
+            <a href="' . $target . 'nenien/vie.php">Vie pratique</a>
+            <a href="' . $target . 'nenien/lieux.php">Lieux</a>
+            <a href="' . $target . 'nenien/personnages.php">Personnages importants</a>
             <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'magic\');">
-                Magie &#9662</a></h2>
+                <h2>Système</h2>
             </div>
-            <div id="magic" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'magie/magie.php">Magie</a></li>
-                <li><a href="' . $target . 'magie/voies.php">Voies et branches</a></li>
-                <li><a href="' . $target . 'magie/objets.php">Objets enchantés</a></li>
-                <li><a href="' . $target . 'magie/invocations.php">Invocations et animations</a></li>
-            </ul>
-            </div>
-            <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick=hideShow(\'histgeo\');>
-                Histoire et géographie &#9662</a></h2>
-            </div>
-            <div id="histgeo" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'histoire/generale.php">Histoire</a></li>
-                <li><a href="' . $target . 'geographie/climat.php">Géographie et climat</a></li>
-            </ul>
-            </div>
-            <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'society\');">
-                Société &#9662</a></h2>
-            </div>
-            <div id="society" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'societe/gouvernance.php">Gouvernance et économie</a></li>
-                <li><a href="' . $target . 'societe/lois.php">Lois de l\'île</a></li>
-                <li><a href="' . $target . 'societe/certificat.php">Certificats de magie</a></li>
-                <li><a href="' . $target . 'societe/garde.php">Garde et police</a></li>
-                <li><a href="' . $target . 'societe/guildes.php">Guildes et status</a></li>
-                <li><a href="' . $target . 'societe/religions.php">Religions et croyances</a></li>
-                <li><a href="' . $target . 'societe/enseignes.php">Enseignes</a></li>
-                <li><a href="' . $target . 'societe/traditions.php">Célébrations et traditions</a></li>
-            </ul>
-            </div>
-            <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'life\');">
-                Vie pratique &#9662</a></h2>
-            </div>
-            <div id="life" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'vie/acces.php">Accès à l\'île</a></li>
-                <li><a href="' . $target . 'vie/communication.php">Communication</a></li>
-                <li><a href="' . $target . 'vie/deplacements.php">Déplacements</a></li>
-                <li><a href="' . $target . 'vie/drogues.php">Drogues et alcool</a></li>
-                <li><a href="' . $target . 'vie/langue.php">Langue et noms</a></li>
-                <li><a href="' . $target . 'vie/medecine.php">Médecine et accès aux soins</a></li>
-                <li><a href="' . $target . 'vie/monnaie.php">Monnaie</a></li>
-                <li><a href="' . $target . 'vie/sports.php">Sports</a></li>
-                <li><a href="' . $target . 'vie/technologie.php">Technologie</a></li>
-            </ul>
-            </div>
-            <div class="title">
-                <h2><a href="javascript:void(0)" style="text-decoration: none;" onclick="hideShow(\'system\');">
-                Système &#9662</a></h2>
-            </div>
-            <div id="system" style="display: none;">
-            <ul class="style2">
-                <li><a href="' . $target . 'systeme/mecaniques.php">Mécaniques</a></li>
-                <li><a href="' . $target . 'systeme/fiche.php">Fiche de personnage</a></li>
-            </ul>
-            </div>
+            <a href="' . $target . 'systeme/mecanique.php">Mécaniques</a>
+            <a href="' . $target . 'systeme/fiches.php">Fiches de personnage</a>
         </div>
-    </div>';
+    </div>
+<script >
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>';
 }
 
 function set_ratus_sidebar($n)
@@ -354,4 +408,86 @@ function set_ratus_sidebar($n)
         </div>
     </div>';
     echo $sidebar;
+}
+
+function set_footer($content, $n) {
+    switch ($content) {
+        case "mez":
+            $box1 = '';
+            $title1 = '';
+            $box2 = '';
+            $title2 = '';
+            break;
+        case "cos":
+            $box1 = '';
+            $title1 = '';
+            $box2 = '';
+            $title2 = '';
+            break;
+        default:
+            break;
+    }
+    $target = target($n);
+    $footer = '<div id="footer-wrapper">
+    <div id="footer" class="content">
+        <div id="box1">
+            <div class="title">
+                <h2>External sources</h2>
+            </div>
+            <ul class="style1">
+                <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
+                <li><a href="#">https://mezalando.forumactif.com</a></li>
+                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+                <li><a href="#">Consequat etiam lorem phasellus</a></li>
+            </ul>
+        </div>
+        <div id="box2">
+            <div class="title">
+                <h2>See also</h2>
+            </div>
+            <ul class="style1">
+                <li><a href="#">Semper mod quis eget mi dolore</a></li>
+                <li><a href="#">Quam turpis feugiat sit dolor</a></li>
+                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+                <li><a href="#">Consequat etiam lorem phasellus</a></li>
+            </ul>
+        </div>
+        <div id="box3">
+            <div class="title">
+                <h2>Join us on Discord</h2>
+            </div>
+            <ul class="style1">
+                <li><a href="https://discord.gg/bRb9VJYgTR">
+                <img src="' . $target . 'img/icons/discord.png" alt="Join Mezalando!" width="40" height="40"></a></li>
+                <li><a href="https://discord.gg/bRb9VJYgTR">
+            <img src="' . $target . 'img/icons/discord.png" alt="Join The Cosmic Void!" width="40" height="40"></a></li>
+            </ul>
+            <!--
+            <ul class="contact">
+                <li><a href="https://twitter.com/Lvgjann" class="icon icon-twitter"><span>Twitter</span></a></li>
+                <li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
+                <li><a href="https://www.linkedin.com/in/florian-crampe-skirata/" class="icon icon-linkedin"><span>Linkedin</span></a></li>
+                <li><a href="https://github.com/Lvgjann" class="icon icon-github"><span>Github</span></a></li>
+                <li><a href="#" class="icon icon-youtube"><span>Youtube</span></a></li>
+            </ul> -->
+</div>
+        </div>
+    </div>
+</div>';
+    echo $footer;
+}
+
+function generate($n, $section, $title, $content) {
+    set_head($n, $section, $title);
+    //set_menu(2);
+    set_menu_d(2);
+    set_page($content);
+    set_footer("cos", 2);
+    // Footer
+    //echo TXT_FOOTER;
+    // Copyright
+    echo TXT_COPYRIGHT;
+    echo '
+</body>
+</html>';
 }

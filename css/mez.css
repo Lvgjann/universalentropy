@@ -42,22 +42,11 @@ body {
 
 /** MENU */
 
-#menu-wrapper {
+
+nav {
     background: #cc0099;
 }
 
-#menu {
-    background: #cc0099;
-    overflow: hidden;
-    width: 100%;
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    height: 50px;
-    line-height: normal;
-    text-align: center;
-    box-shadow: 0 2px #cc0099;
-}
 
 /** PAGE */
 

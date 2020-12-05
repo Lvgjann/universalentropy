@@ -1,23 +1,15 @@
 <?php include '../decide-lang.php';
 require_once('../common.php');
-set_head(1, "mez", "Mezalando");?>
-<body>
-
-<!-- Menu -->
-<?php set_menu(1); ?>
-
-<!-- Content -->
-<div id="page">
-    <div id="page_content">
-        <div class="title">
-            <h2>Erentia : L'univers en cinq minutes</h2>
+generate(1, "mez", "Mezalando",
+'<div class="title">
+            <h2>Erentia : L\'univers en cinq minutes</h2>
             <span class="byline">Mémoires de Mezalando</span></div>
         <p>Entre le monde des démons et le royaume des anges se trouve Mezalando, la terre des Hommes. Changeante,
-            perpétuellement au bord de la destruction, aride en énergie magique, c'est une terre cruelle où la Vie
-            doit s'adapter, ou disparaître. Une minorité d'êtres sont pourtant capables de pratiquer la Magie, se
+            perpétuellement au bord de la destruction, aride en énergie magique, c\'est une terre cruelle où la Vie
+            doit s\'adapter, ou disparaître. Une minorité d\'êtres sont pourtant capables de pratiquer la Magie, se
             cachant aux yeux des autres dans un monde où la technologie domine.
              
-            Les mémoires de Mezalando sont l'ensemble des projets se déroulant dans cet univers de fantaisie
+            Les mémoires de Mezalando sont l\'ensemble des projets se déroulant dans cet univers de fantaisie
             urbaine.
         </p>
         <div class="title">
@@ -95,23 +87,10 @@ set_head(1, "mez", "Mezalando");?>
             Erentia est le plus grand refuge d’Alters de Mezalando, et de loin. Contrairement aux autres refuges,
             c’est un état indépendant, constitué par une petite île au large de la Nouvelle-Zélande. Cette île n’est
             pas cachée des Nerics, mais un vaste plan de désinformation et de contrôle mental léger vise à la faire
-            passer pour un état sous-développé et sans rien d'intéressant appelée Saint-Pédestre. Jusqu'à présent,
-            les Witch Hunters n'ont pas découvert la supercherie, et les Alters peuvent y vivre sans se cacher et
+            passer pour un état sous-développé et sans rien d\'intéressant appelée Saint-Pédestre. Jusqu\'à présent,
+            les Witch Hunters n\'ont pas découvert la supercherie, et les Alters peuvent y vivre sans se cacher et
             pratiquer la magie librement.
-            Pourtant, la vie n'y est pas paradisiaque pour autant : l'île subit de fortes tensions internes entre
-            différentes factions ayant des idéaux différents, est en proie à des actes de terrorismes d'une
+            Pourtant, la vie n\'y est pas paradisiaque pour autant : l\'île subit de fortes tensions internes entre
+            différentes factions ayant des idéaux différents, est en proie à des actes de terrorismes d\'une
             organisation anti-gouvernementale nommée SPADE, et la criminalité y est également très élevée.
-        </p>
-    </div>
-    <!-- Sidebar -->
-    <?php set_mezalando_sidebar(0); ?>
-</div>
-
-<!-- Portfolio -->
-<?php set_portfolio(1);
-// Footer
-echo TXT_FOOTER;
-// Copyright
-echo TXT_COPYRIGHT; ?>
-</body>
-</html>
+        </p>'); ?>

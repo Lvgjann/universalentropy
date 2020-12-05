@@ -47,6 +47,19 @@ body {
     background: #000000;
 }
 
+#menu {
+    background: #4D004D;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50px;
+    line-height: normal;
+    text-align: center;
+    box-shadow: 0 2px #410b41;
+}
+
 nav {
     background: #000000;
     width: 100%;
