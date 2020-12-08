@@ -1,3 +1,19 @@
+#sidebar {
+    width: 25%;
+    position: relative;
+}
+
+#sidebar:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 75%;
+  border-right: 1px dotted #cc0099;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 #sidebar ul {
     list-style: none;
     padding: 0;

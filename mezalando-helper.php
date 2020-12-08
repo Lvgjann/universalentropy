@@ -148,6 +148,9 @@ function set_mezalando_sidebar($n)
 <script >
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
+var sidebar = document.querySelector("#sidebar");
+var initialSidebarPos = sidebar.getBoundingClientRect();
+var mainContent = document.querySelector("main");
 
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
@@ -164,5 +167,25 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+document.addEventListener("scroll", function () {
+    if (!sidebar || !mainContent) return;
+    var pos = sidebar.getBoundingClientRect();
+    var mainPos = mainContent.getBoundingClientRect();
+    if (initialSidebarPos.top - window.scrollY <= 0) {
+        sidebar.style.position = "fixed";
+        console.log(mainPos.bottom - 50 <= pos.bottom);
+        if (mainPos.bottom <= pos.bottom - pos.top) {
+            sidebar.style.bottom = (window.innerHeight - mainPos.bottom) + "px";
+            sidebar.style.top = "auto";
+        } else {
+            sidebar.style.top = "2rem";
+            sidebar.style.bottom = "auto";
+        }
+    } else {
+        sidebar.style.position = "relative";
+        sidebar.style.top = "auto";
+    }
+});
 </script>';
 }
