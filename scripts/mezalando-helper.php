@@ -1,19 +1,5 @@
 <?php
 
-function generate($n, $section, $title, $content) {
-    set_head($n, $section, $title);
-    //set_menu(2);
-    set_menu_d($n, $section);
-    set_page($content, $n);
-    set_footer("cos", $n);
-    // Footer
-    //echo TXT_FOOTER;
-    // Copyright
-    echo TXT_COPYRIGHT;
-    echo '
-    </body>
-    </html>';
-}
 
 function set_mezalando_sidebar($n)
 {

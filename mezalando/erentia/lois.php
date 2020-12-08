@@ -1,5 +1,6 @@
-<?php include '../../decide-lang.php';
-require_once('../../common.php');
+<?php
+include('../../scripts/decide-lang.php');
+require_once('../../scripts/functions.php');
 generate(2, "mez", "Lois de l'île",
 '<div class="title">
             <h3 class="byline">Lois de l\'île</h3>

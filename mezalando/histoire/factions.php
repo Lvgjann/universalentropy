@@ -1,5 +1,6 @@
-<?php include '../../decide-lang.php';
-require_once('../../common.php');
+<?php
+include('../../scripts/decide-lang.php');
+require_once('../../scripts/functions.php');
 generate(2, "mez", "Factions et conflits",
 '<div class="title">
             <h2>Factions</h2></div>

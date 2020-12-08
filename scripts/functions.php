@@ -1,50 +1,7 @@
 <?php
+include("decide-lang.php");
 include('mezalando-helper.php');
 
-define('TXT_FOOTER', '<div id="footer-wrapper">
-    <div id="footer" class="content">
-        <div id="box1">
-            <div class="title">
-                <h2>External sources</h2>
-            </div>
-            <ul class="footer-list">
-                <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
-                <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                <li><a href="#">Consequat etiam lorem phasellus</a></li>
-            </ul>
-        </div>
-        <div id="box2">
-            <div class="title">
-                <h2>See also</h2>
-            </div>
-            <ul class="footer-list">
-                <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-            </ul>
-        </div>
-        <div id="box3">
-            <div class="title">
-                <h2>Follow Us</h2>
-            </div>
-            <p>Follow me on my social media !</p>
-            <ul class="contact">
-                <li><a href="https://twitter.com/Lvgjann" class="icon icon-twitter"><span>Twitter</span></a></li>
-                <li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
-                <li><a href="https://www.linkedin.com/in/florian-crampe-skirata/" class="icon icon-linkedin"><span>Linkedin</span></a></li>
-                <li><a href="https://github.com/Lvgjann" class="icon icon-github"><span>Github</span></a></li>
-                <li><a href="#" class="icon icon-youtube"><span>Youtube</span></a></li>
-            </ul>
-            <a href="javascript:void(0)" onclick="hideShow(\'languages\');" class="icon button">Languages</a>
-            <div id="languages" style="display: none;">
-            <ul>
-                <li style="color: white;"><a href="#?lang=en">English</a></li>
-                <li style="color: white;"><a href="#?lang=fr">French</a></li>
-            </ul>
-</div>
-        </div>
-    </div>
-</div>');
 define('TXT_COPYRIGHT', '<div id="copyright" class="content">
     <p>&copy; N13 Development. All rights reserved. | Created by Fi Skirata</p>
 </div>');
@@ -102,36 +59,41 @@ function set_head($n, $param, $title)
     echo $head;
 }
 
-function set_menu($n)
+function set_menu_legacy($n)
 {
     $target = target($n);
     $menu = '<nav id="navbar">
     <ul>
-        <li><a href="' . $target . 'index.php" class="current_page_item">Home</a></li>
-        <li><a href="' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
-        <li><a href="' . $target . 'mezalando/index.php">Mezalando</a></li>
-        <li><a href="' . $target . 'ratus/index.php">Ratus</a></li>
+        <li><a href="./' . $target . 'index.php" class="current_page_item">Home</a></li>
+        <li><a href="./' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
+        <li><a href="./' . $target . 'mezalando/index.php">Mezalando</a></li>
+        <li><a href="./' . $target . 'ratus/index.php">Ratus</a></li>
     </ul>
 </nav>
 <div id="banner"></div>';
     echo $menu;
 }
 
-function set_menu_d($n, $section)
+function set_menu($n, $section)
 {
     $target = target($n);
     $title = null;
     switch ($section) {
+        case 'cos':
+            $title = 'The Cosmic Void';
+            break;
         case 'mez':
             $title = 'Mezalando';
+            break;
+        case 'rat':
+            $title = 'La tanière du Ratus';
             break;
         default:
             break;
     }
     $menu = '<nav id="navbar">
     <ul>
-        
-        <li><a href="' . $target . '/index.php">Home</a></li>
+        <li><a href="' . $target . 'index.php">Home</a></li>
         <li class="dropdown"><a href="' . $target . 'cosmicvoid/index.php" >Cosmic Void &ensp;</a>
             <ul class="dropdown-child">
                 <li> <a href="' . $target . 'cosmicvoid/dante.php">Dante313</a></li>
@@ -146,7 +108,7 @@ function set_menu_d($n, $section)
                 <li> <a href="#">No Way Out</a></li>
             </ul>
         </li>
-        <li><a href="' . $target . 'Stardust/index.php">Ratus</a></li>
+        <li><a href="' . $target . 'ratus/index.php">Ratus</a></li>
     </ul>
 </nav>
 <div id="banner">' . ($title ? '<h1>' . $title . '</h1>' : '') . '</div>';
@@ -175,36 +137,36 @@ function set_portfolio($n)
             <div class="title">
                 <h2>Dante313</h2>
             </div>
-            <a href="' . $target . $root . 'cosmicvoid/index.php" class="image image-full">
+            <a href="' . $target . $root . 'cosmicvoid/dante.php" class="image image-full">
                 <img src="' . $target . 'img/background/mbg_cosmic.png" alt=""/></a>
-            <a href="' . $target . $root . 'cosmicvoid/index.php" class="icon icon-arrow-right button">
-                Fi\'s RPG universe
+            <a href="' . $target . $root . 'cosmicvoid/dante.php" class="icon icon-arrow-right button">
+                Dante313
             </a></div>>
         <div id="column2">
             <div class="title">
                 <h2>The Continental</h2>
             </div>
-            <a href="' . $target . $root . 'mezalando/index.php" class="image image-full">
-                <img src="' . $target . 'img/background/continental.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
-                Encyclopedia and projects
+            <a href="' . $target . $root . 'cosmicvoid/continental.php" class="image image-full">
+                <img src="' . $target . 'img/background/cv_con.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'cosmicvoid/continental.php" class="icon icon-arrow-right button">
+                The Continental
             </a></div>
         <div id="column3">
             <div class="title">
                 <h2>No Way Out</h2>
             </div>
-            <a href="' . $target . $root . 'FireNebula/index.php" class="image image-full">
-                <img src="' . $target . 'img/background/mbg_fire.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'FireNebula/index.php" class="icon icon-arrow-right button">
-                Litterature projects
+            <a href="' . $target . $root . 'cosmicvoid/nowayout.php" class="image image-full">
+                <img src="' . $target . 'img/background/cv_nwo.jpg" alt=""/></a>
+            <a href="' . $target . $root . 'cosmicvoid/nowayout.php" class="icon icon-arrow-right button">
+                No Way Out
             </a></div>
         <div id="column4">
             <div class="title">
                 <h2>See also...</h2>
             </div>
-            <a href="' . $target . $root . 'Stardust/index.php" class="image image-full">
+            <a href="' . $target . $root . 'mezalando/index.php" class="image image-full">
                 <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
-            <a href="' . $target . $root . 'Stardust/index.php" class="icon icon-arrow-right button">
+            <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
                 Mezalando
             </a></div
     </div>
@@ -309,9 +271,20 @@ function set_ratus_sidebar($n)
     echo $sidebar;
 }
 
-function set_footer($content, $n)
+function generate($n, $section, $title, $content) {
+    set_head($n, $section, $title);
+    set_menu($n, $section);
+    set_page($content, $n);
+    set_footer($section, $n);
+    echo TXT_COPYRIGHT;
+    echo '
+    </body>
+    </html>';
+}
+
+function set_footer($section, $n)
 {
-    switch ($content) {
+    switch ($section) {
         case "cos":
             $title1 = 'Sources externes';
             $box1 = '

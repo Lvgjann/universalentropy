@@ -1,5 +1,5 @@
-<?php include '../../decide-lang.php';
-require_once('../../common.php');
+<?php
+require_once('../../scripts/functions.php');
 generate(2, "mez", "Traditions",
 '<div class="title">
             <h3 class="byline">Célébrations et traditions</h3>
