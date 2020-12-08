@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Accès",
 '<div class="title">
-            <span class="byline">Accès à l\'île</span></div>
+            <h3 class="byline">Accès à l\'île</h3>
+        </div>
         <p>
             Erentia, depuis sa découverte par les premiers colons, a toujours été protégée. D’abord par des sorts de
             désorientation des bateaux qui auraient pu la trouver, puis par un énorme champs d’invisibilité recouvrant

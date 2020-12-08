@@ -14,9 +14,8 @@ p, ol, ul {
 p {
     text-align: justify;
     line-height: 190%;
-}
-
-strong {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
 }
 
 a {
@@ -77,23 +76,6 @@ hr {
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
-
-
-ul.style1 {
-    border-top: solid 1px #E5E5E5;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul.style1 li {
-    padding: 0.80em 0;
-}
-
-ul.style1 li:first-child {
-    border-top: 0;
-    padding-top: 0;
-}
 
 ul.style2 {
     border-top: solid 1px #E5E5E5;
@@ -297,7 +279,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 /* TODO : Update the menu bar */
 
-nav{
+nav#navbar {
     width: 100%;
     margin: 0 auto;
     position: sticky;
@@ -307,21 +289,20 @@ nav{
     height: 50px;
     line-height: normal;
     text-align: center;
-    box-shadow: 0 2px #cc0099;
 }
 
-nav ul {
+nav#navbar ul {
     list-style-type: none;
     text-align: center;
 }
 
-nav ul::after{
+nav#navbar ul::after{
      content: "";
      display: table;
      clear: both;
  }
 
-nav ul li {
+nav#navbar ul li {
     float: left;
     width: 25%;
     margin: auto;
@@ -329,7 +310,7 @@ nav ul li {
     position: relative;
 }
 
-nav a {
+nav#navbar a {
     display: block;
     color: #FFF;
     text-decoration: none;
@@ -340,7 +321,7 @@ nav a {
     padding: 0 2.5%;
 }
 
-nav a:hover{
+nav#navbar a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
@@ -352,7 +333,7 @@ nav a:hover{
     z-index: 1000;
 }
 
-nav > ul li:hover .dropdown-child{
+nav#navbar > ul li:hover .dropdown-child{
     display: block;
 }
 
@@ -444,11 +425,7 @@ nav > ul li:hover .dropdown-child{
     overflow-x: hidden;
 }
 
-#sidebar .box2 a {
-
-}
-
-#sidebar .box2 a, .dropdown-btn {
+#sidebar a, .dropdown-btn {
     padding: 4px 8px 4px 10px;
     text-decoration: none;
     font-size: 16px;
@@ -466,7 +443,7 @@ nav > ul li:hover .dropdown-child{
     padding: 0;
 }
 
-#sidebar .box2 a:hover, .dropdown-btn:hover {
+#sidebar a:hover, .dropdown-btn:hover {
     color: #B1B1B1;
 }
 
@@ -478,6 +455,8 @@ nav > ul li:hover .dropdown-child{
 .dropdown-container {
     display: none;
     padding-left: 8px;
+    transition: max-height 0.5s;
+    max-height: 0px;
 }
 
 /*********************************************************************************/
@@ -590,23 +569,45 @@ nav > ul li:hover .dropdown-child{
     color: #ADADAD;
 }
 
+#footer .title {
+    margin: 0;
+}
+
 #footer .title h2 {
     font-weight: 400;
     font-size: 1.2em;
     color: #FFF;
+    margin-bottom: 0.25rem;
 }
 
-#footer .title {
-    border-color: #2D2926 !important;
+#footer .footer-list {
+    border-top: solid 1px #E5E5E5;
+    margin: 0;
+    padding: 0.25rem 0 0;
+    list-style: none;
 }
 
-#footer .style1 li {
-    border-color: #2D2926 !important;
-}
-
-#footer .style1 a {
+#footer .footer-list a, #footer .footer-list div {
     font-size: 1.2em;
     color: #B1B1B1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-list .fa, #footer .footer-list .fas, #footer .footer-list .fab {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#footer .footer-list a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#footer .footer-list li {
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
 }
 
 #box1 {

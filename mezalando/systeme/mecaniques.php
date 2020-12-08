@@ -11,7 +11,8 @@ set_head(2, "mez", "Mécaniques"); ?>
     <div id="page_content">
         <div class="title">
             <h2>Mécaniques de jeu</h2>
-            <span class="byline">Caractéristiques</span></div>
+            <h3 class="byline">Caractéristiques</h3>
+        </div>
         <p>Refonte en cours</p>
         <!--
         <p>

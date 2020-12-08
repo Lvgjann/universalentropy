@@ -1,0 +1,46 @@
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar .title {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #6F6F6F;
+}
+
+#sidebar .title:first-child {
+    margin-top: 0;
+}
+
+#sidebar .title h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+#sidebar a:hover, #sidebar .dropdown-container a:hover, #sidebar button:hover {
+    color: #cc0099;
+}
+
+#sidebar .active:hover {
+    color: white;
+}
+
+#sidebar .dropdown-container {
+    display: block;
+    overflow: hidden;
+}
+
+#sidebar .dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidebar .dropdown-btn i {
+    transition: transform 0.2s;
+}
+
+#sidebar .caret-up {
+    transform: rotate(180deg);
+}

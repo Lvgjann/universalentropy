@@ -26,7 +26,8 @@ generate(2, "mez", "Drogues",
             proches les uns des autres, et réagissent de la même façon aux mêmes produits.
         </p>
         <div class="title">
-            <span class="byline">Sucre</span></div>
+            <h3 class="byline">Sucre</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races <br>
                 Autorisé pour toutes les races</b>
@@ -37,7 +38,8 @@ generate(2, "mez", "Drogues",
             les races démoniaques et angéliques.
         </p>
         <div class="title">
-            <span class="byline">Caféine, théine</span></div>
+            <h3 class="byline">Caféine, théine</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races sauf les Loenn <b></b>
                 Autorisé pour toutes les races</b>
@@ -48,7 +50,8 @@ generate(2, "mez", "Drogues",
             les Loenn, qui préfèrent donc se booster au sucre.
         </p>
         <div class="title">
-            <span class="byline">Alcool</span></div>
+            <h3 class="byline">Alcool</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races, plus toxique chez les races non humaines <br>
                 Vente contrôlée chez les majeurs</b>
@@ -71,7 +74,8 @@ generate(2, "mez", "Drogues",
             a aucune sécurité en cas d’accident.
         </p>
         <div class="title">
-            <span class="byline">Tabac</span></div>
+            <h3 class="byline">Tabac</h3>
+        </div>
         <p>
             <b>Uniquement races humaines <br>
                 Vente contrôlée chez les majeurs</b>
@@ -92,7 +96,8 @@ generate(2, "mez", "Drogues",
             au volant sur l’île (enfant dans la voiture ou pas).
         </p>
         <div class="title">
-            <span class="byline">Cannabinoïdes</span></div>
+            <h3 class="byline">Cannabinoïdes</h3>
+        </div>
         <p>
             <b>Uniquement races humaines <br>
                 Cannabis autorisé sur ordonnance pour les races humaines, les feuilles de cannabis sont autorisées (en
@@ -107,7 +112,8 @@ generate(2, "mez", "Drogues",
             feuilles leur est autorisé.
         </p>
         <div class="title">
-            <span class="byline">Benzodiazépines (anxiolytiques)</span></div>
+            <h3 class="byline">Benzodiazépines (anxiolytiques)</h3>
+        </div>
         <p>
             <b>Uniquement races humaines <br>
                 Autorisé sur ordonnance pour les races humaines</b><br>
@@ -117,7 +123,8 @@ generate(2, "mez", "Drogues",
             limitée
         </p>
         <div class="title">
-            <span class="byline">MDMA et autres amphétamines</span></div>
+            <h3 class="byline">MDMA et autres amphétamines</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races <br>
                 Interdits dans tous les cas</b><br>
@@ -125,7 +132,8 @@ generate(2, "mez", "Drogues",
             comme médicament psychotropes, on les retrouve donc plus facilement que les autres en circulation sur l’île.
         </p>
         <div class="title">
-            <span class="byline">Cocaïne</span></div>
+            <h3 class="byline">Cocaïne</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races <br>
                 Interdit, sauf les feuilles de coca (vente contrôlée pour les derwenn)</b><br>
@@ -134,7 +142,8 @@ generate(2, "mez", "Drogues",
             mêmes revendeurs pour les deux.
         </p>
         <div class="title">
-            <span class="byline">HéroÏne et autres opidoïdes</span></div>
+            <h3 class="byline">HéroÏne et autres opidoïdes</h3>
+        </div>
         <p>
             <b>Actifs sur toutes les races, mais beaucoup plus faiblement sur les races non humaines.<br>
                 Interdits pour la plupart. <br> Morphine et dérivée autorisés sur ordonnance. <br> Opium et graines de
@@ -153,7 +162,8 @@ generate(2, "mez", "Drogues",
             être cultivé sur l’île, le trafic de ses dérivés est intense, surtout dans l’ouest et le sud de l’île.
         </p>
         <div class="title">
-            <span class="byline">Écarlate</span></div>
+            <h3 class="byline">Écarlate</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races, mais particulièrement sur les mutants <br>
                 Illégal</b>
@@ -169,7 +179,8 @@ generate(2, "mez", "Drogues",
             répandus.
         </p>
         <div class="title">
-            <span class="byline">Or vert</span></div>
+            <h3 class="byline">Or vert</h3>
+        </div>
         <p>
             <b>Actif sur toutes les races mais avec des effets différents <br>
                 Illégal</b>
@@ -204,7 +215,8 @@ generate(2, "mez", "Drogues",
             basée à Icnoyalt.
         </p>
         <div class="title">
-            <span class="byline">Autres cas notables</span></div>
+            <h3 class="byline">Autres cas notables</h3>
+        </div>
         <p>
             Le chocolat est toxique pour les Loenn. Il ne fait pas l’objet d’une vente contrôlée, mais les produits
             contenants du chocolat doivent contenir une indication claire sur le paquet. Pour les biscuits et autres

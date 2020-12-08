@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Lois de l'île",
 '<div class="title">
-            <span class="byline">Lois de l\'île</span></div>
+            <h3 class="byline">Lois de l\'île</h3>
+        </div>
         <p>
 La législation sur l’île n’est pas bien différente de partout ailleurs, la violence physique ou verbale, le
             vol, le viol, les fraudes et les meurtres étant bien évidemment interdits, avec la production, vente et

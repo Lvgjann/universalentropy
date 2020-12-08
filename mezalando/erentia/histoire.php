@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Histoire",
 '<div class="title">
-            <span class="byline">Les premiers habitants</span></div>
+            <h3 class="byline">Les premiers habitants</h3>
+        </div>
         <p>
             Avant l\'arrivée des premiers colons vivaient sur l\'île des autochtones qui semblent être des Alfren, ou une
             race très proche. On le sait grâce aux ruines que ces derniers ont laissés derrière eux, et aux bas-reliefs
@@ -10,7 +11,8 @@ generate(2, "mez", "Histoire",
             donc sur eux que ce que les recherches archéologiques peuvent nous apprendre.
         </p>
         <div class="title">
-            <span class="byline">L\'arrivée des colons Alters</span></div>
+            <h3 class="byline">L\'arrivée des colons Alters</h3>
+        </div>
         <p>
             La première vague de colons arriva au XVème siècle et était composée de magiciens européens qui voyageaient
             pour échapper aux premières grandes chasses aux sorcières. Ce sont eux qui baptisèrent l’île Erentia. Facile
@@ -37,7 +39,8 @@ generate(2, "mez", "Histoire",
             à l\'unification en un seul Royaume.
         </p>
         <div class="title">
-            <span class="byline">La découverte des ruines</span></div>
+            <h3 class="byline">La découverte des ruines</h3>
+        </div>
         <p>
             Alors que des explorateurs s\'aventuraient toujours plus loin des villes pour cartographier entièrement l\'île
             et découvrir de nouvelles terres où s\'installer, ils découvrirent les premières ruines des Anciens dans la
@@ -48,7 +51,8 @@ generate(2, "mez", "Histoire",
             tous leurs secrets.
         </p>
         <div class="title">
-            <span class="byline">L\'unification de l\'Île</span></div>
+            <h3 class="byline">L\'unification de l\'Île</h3>
+        </div>
         <p>
             Au XVIIIème siècle, Erentia fut finalement unifiée par la Reine Eleanor d’Itzel, et l’île devint
             officiellement le Royaume d’Erentia. Icnoyalt fut la citée qui résista le plus longtemps et avec le plus de
@@ -68,22 +72,26 @@ generate(2, "mez", "Histoire",
             capitale, et le dirigeant de la ville est encore aujourd\’hui le président fantoche de l\’île.
         </p>
         <div class="title">
-            <span class="byline">La guerre des deux rois</span></div>
+            <h3 class="byline">La guerre des deux rois</h3>
+        </div>
         <p>
             À suivre...
         </p>
         <div class="title">
-            <span class="byline">La grande extinction et la création des territoires indépendants</span></div>
+            <h3 class="byline">La grande extinction et la création des territoires indépendants</h3>
+        </div>
         <p>
             À suivre...
         </p>
         <div class="title">
-            <span class="byline">La chute de Nenien et la mort de Sigrùn</span></div>
+            <h3 class="byline">La chute de Nenien et la mort de Sigrùn</h3>
+        </div>
         <p>
             À suivre...
         </p>
         <div class="title">
-            <span class="byline">Situation actuelle</span></div>
+            <h3 class="byline">Situation actuelle</h3>
+        </div>
         <p>
             À suivre...
         </p>'); ?>

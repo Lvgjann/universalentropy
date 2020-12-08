@@ -4,7 +4,8 @@ generate(2, "mez", "Factions et conflits",
 '<div class="title">
             <h2>Factions</h2></div>
         <div class="title">
-            <span class="byline">Les Witch Hunters</span></div>
+            <h3 class="byline">Les Witch Hunters</h3>
+        </div>
         <p>
         Les Witch Hunters sont une société secrète composée d’humains et dont l’unique but est l’éradication totale des
         Alters pour protéger l’Humanité.
@@ -20,7 +21,8 @@ generate(2, "mez", "Factions et conflits",
         divin et censé être immortel.
         </p>
         <div class="title">
-            <span class="byline">La Diaspora Démons</span></div>
+            <h3 class="byline">La Diaspora Démons</h3>
+        </div>
         <p>
         Les démons, qui sont techniquement des réfugiés climatiques, sont nombreux à Nenien, et ont tendance à vivre
         entre eux, pour tenter de préserver leur culture d\'origine autant que possible.
@@ -38,7 +40,8 @@ generate(2, "mez", "Factions et conflits",
             uns aux autres.
         </p>
         <div class="title">
-            <span class="byline">Pénurie de cristaux Maen</span></div>
+            <h3 class="byline">Pénurie de cristaux Maen</h3>
+        </div>
         <p>
             Les cristaux Maen sont la seule forme stable et fiable de stockage de Saàp pour les alters qui n\'ont pas de
             réserves par eux-même, ou trop faibles, notamment la totalité des anges et des démons.
@@ -63,7 +66,8 @@ generate(2, "mez", "Factions et conflits",
             plaque tournante du traffic de cristaux Maen.
         </p>
         <div class="title">
-            <span class="byline">Drogue</span></div>
+            <h3 class="byline">Drogue</h3>
+        </div>
         <p>
             Toutes les drogues humaines ne sont pas forcément efficaces sur les Alters, ou pas sur tous. Cependant, les
             Alters ont leurs propres drogues, et deux en particulier sont importantes : l\'Or Vert et l\'Ecarlate.
@@ -75,7 +79,8 @@ generate(2, "mez", "Factions et conflits",
             d\'une plante endémique de l\'île.
         </p>
         <div class="title">
-            <span class="byline">Technologie, Magie et traditions</span></div>
+            <h3 class="byline">Technologie, Magie et traditions</h3>
+        </div>
         <p>
             Si une grande partie des Alters voient la technologie comme un moyen des Nerics pour contrebalancer
             l\'absence de Magie, et donc un accessoire pas forcément indispensable pour eux, d\'autres ont un point de vue
@@ -93,7 +98,8 @@ generate(2, "mez", "Factions et conflits",
             devraient les gouverner. Ils pensent également que les Mutants sont des aberrations, des "sous-Alters".
         </p>
         <div class="title">
-            <span class="byline">Crime organisé</span></div>
+            <h3 class="byline">Crime organisé</h3>
+        </div>
         <p>
             Les Alters n\'échappent pas au crime organisé (ou non), et on trouve sur Mezalando des gangs ou organisations
             composés et/ou dirigés par des Alters. Les plus grandes organisations, qui ont des ramifications sur tous
@@ -119,7 +125,8 @@ generate(2, "mez", "Factions et conflits",
             MCC (Maen Catalyst Collectors) : récupération et revente de cristaux Maen
         </p>
         <div class="title">
-            <span class="byline">Organisations gouvernementales sur Erentia</span></div>
+            <h3 class="byline">Organisations gouvernementales sur Erentia</h3>
+        </div>
         <p>
             La Garde Royale s\'occupe du maintien de l\'ordre dans la vie de tous les jours, de surveiller les côtes, les
             routes et les forêts, ainsi que des arrestations.
@@ -132,7 +139,8 @@ generate(2, "mez", "Factions et conflits",
             pas, la Brigade les ramène de force sur l\'île.
         </p>
         <div class="title">
-            <span class="byline">Organisations caritatives</span></div>
+            <h3 class="byline">Organisations caritatives</h3>
+        </div>
         <p>
             VISION : un groupe qui vise à aider les Alters à s\'intégrer à la culture des Nerics.
             Dans Nenien, ils sont particulièrement connus pour leur grand réseau d\'aide des Démons en provenance
@@ -141,7 +149,8 @@ generate(2, "mez", "Factions et conflits",
             détournement de cadavres à la Morgue ou de dons du sang).
         </p>
         <div class="title">
-            <span class="byline">Groupes clandestins</span></div>
+            <h3 class="byline">Groupes clandestins</h3>
+        </div>
         <p>
             SPADE : un groupe de technophiles organisé entièrement via internet, qui s\'oppose au gouvernement d\'Erentia
             et à sa politique conservatrice. Leurs actions vont des tags et collage de tracts anti-système à hacker les

@@ -1,8 +1,9 @@
 <?php include '../../decide-lang.php';
 require_once('../../common.php');
-generate(2, "mez", '
+generate(2, "mez", 'Enseignes', '
 <div class="title">
-            <span class="byline">Enseignes</span></div>
+            <h3 class="byline">Enseignes</h3>
+        </div>
         <p>
             Les Démons d’Ignïs, bien qu’ils soient férus d’Astronomie, n’ont pas d’équivalent de l’astrologie. Plutôt
             que de placer une naissance sous le signe d’une constellation, les nouveaux-nés sont laissés à la protection
@@ -21,7 +22,8 @@ generate(2, "mez", '
             les enseignes hors de Ignïs.
         </p>
         <div class="title">
-            <span class="byline">Les enseignes</span></div>
+            <h3 class="byline">Les enseignes</h3>
+        </div>
         <p>
             L’Épée représente les combats. Elle est associée à la bravoure, mais aussi à la violence. On la prie avant
             une épreuve difficile, un combat, ou un match. <br>
@@ -57,7 +59,8 @@ La Lanterne représente la lumière et les ténèbres, la connaissance et l\'ign
             elle-même. On fait parfois appel à elle avant de se sacrifier pour quelqu’un ou quelque chose.
         </p>
         <div class="title">
-            <span class="byline">La rose des vents</span></div>
+            <h3 class="byline">La rose des vents</h3>
+        </div>
         <p>
             Elle fait figure de boussole sur Ignïs, qui a dont 12 points cardinaux.
             Elle est ici orientée pour coïncider au mieux avec les points cardinaux de Mezalando.

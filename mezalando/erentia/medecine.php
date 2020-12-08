@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Médecine",
 '<div class="title">
-            <span class="byline">Se faire soigner sur Erentia</span></div>
+            <h3 class="byline">Se faire soigner sur Erentia</h3>
+        </div>
         <p>
             Sur Erentia cohabitent de nombreuses races, Humains compris, et toutes ont des biologies différentes. Un
             médecin sur l\'île ne peut en général pas toutes les soigner, qu’il utilise la science ou un pouvoir de soin.

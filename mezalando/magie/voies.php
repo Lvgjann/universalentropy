@@ -287,7 +287,8 @@ generate(2, "mez", "Voies et branches",
             Cette classification est celle en domaines et types d\'actions.
         </p>
         <div class="title">
-            <span class="byline">Les domaines d\'action</span></div>
+            <h3 class="byline">Les domaines d\'action</h3>
+        </div>
         <p>
             Il existe 5 domaines d\'actions, en fonction de la cible de la Magie :
         </p>
@@ -314,7 +315,8 @@ generate(2, "mez", "Voies et branches",
             difficile à pratiquer.
         </p>
         <div class="title">
-            <span class="byline">Les types d\'action</span></div>
+            <h3 class="byline">Les types d\'action</h3>
+        </div>
         <p>
             Il existe 5 types d\'actions, elles aussi classées par ordre de difficulté : ressentir, contrôler,
             lier/combiner (exemple dans la création de potions, d\'objets animés...), modifier et créer. <br>
@@ -323,7 +325,8 @@ generate(2, "mez", "Voies et branches",
             créer de nouveaux souvenirs pour un spécialiste du contrôle mental est très compliqué.
         </p>
         <div class="title">
-            <span class="byline">La portée, la durée et la quantité</span></div>
+            <h3 class="byline">La portée, la durée et la quantité</h3>
+        </div>
         <p>
             En plus du domaine et du type d\'action, la "difficulté" à créer un effet magique dépend de la portée, de la
             durée de l\'effet et/ou de la quantité. <br>
@@ -331,7 +334,8 @@ generate(2, "mez", "Voies et branches",
             il est assez difficile de le formaliser précisément, en particulier les interactions complexes entre les 3.
         </p>
         <div class="title">
-            <span class="byline">Les conditions et les pénalités</span></div>
+            <h3 class="byline">Les conditions et les pénalités</h3>
+        </div>
         <p>
             Dans la pratique traditionnelle de la Magie, plus on recherche un effet puissant, plus le rituel nécessaire
             pour l\'obtenir devient compliqué, qu\'il s\'agisse d\'une incantation orale, d\'une chorégraphie, d\'ingrédients
@@ -343,7 +347,8 @@ generate(2, "mez", "Voies et branches",
             Saàp pour obtenir des effets puissants.
         </p>
         <div class="title">
-            <span class="byline">La pratique traditionnelle et l\'individualité</span></div>
+            <h3 class="byline">La pratique traditionnelle et l\'individualité</h3>
+        </div>
         <p>
             La pratique traditionnelle de la Magie est codifiée, et ces codes sont un savoir qui se transmet d\'un Alter
             aux autres, que ça soit par apprentissage direct, écriture de livres ou transmission orale. <br>

@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Guildes",
 '<div class="title">
-            <span class="byline">Guildes et status</span></div>
+            <h3 class="byline">Guildes et status</h3>
+        </div>
         <p>
             Les guildes et les statuts sont des groupes auxquels appartiennent les citoyens d’Erentia, et qui sont notés
             sur leurs bracelets d’identité. Ils leurs donnent accès à certains droits et avantages. La législation de
@@ -21,7 +22,8 @@ generate(2, "mez", "Guildes",
             plusieurs.
         </p>
         <div class="title">
-            <span class="byline">Statut de citoyen : mineur, majeur ou visiteur</span></div>
+            <h3 class="byline">Statut de citoyen : mineur, majeur ou visiteur</h3>
+        </div>
         <p>
             Ces trois statuts sont mutuellement exclusifs, et il est obligatoire d’avoir un des trois (si on est en
             situation régulière en tous cas). <br>
@@ -54,7 +56,8 @@ generate(2, "mez", "Guildes",
             partiel, ou les retraités qui continuent d\'exercer une activité en freelance.
         </p>
         <div class="title">
-            <span class="byline">Situation de handicap</span></div>
+            <h3 class="byline">Situation de handicap</h3>
+        </div>
         <p>
             Les personnes en situation de handicap possèdent le statut “handicap”, qui leur permet d\’accéder à tous les
             droits et aides qui leurs sont réservés. <br>
@@ -63,7 +66,8 @@ generate(2, "mez", "Guildes",
             par l\’île sont plus développées que la moyenne des autres pays industrialisés.
         </p>
         <div class="title">
-            <span class="byline">Personnes âgées </span></div>
+            <h3 class="byline">Personnes âgées </h3>
+        </div>
         <p>
             Les personnes âgées ont également le droit à un statut particulier de “senior”, notamment pour accéder à de
             nombreux tarifs préférentiels. L\’âge auquel on devient un senior dépend de la race de l’alter, tout comme
@@ -89,7 +93,8 @@ generate(2, "mez", "Guildes",
             plus facilement et plus rapidement.
         </p>
         <div class="title">
-            <span class="byline">Sécurité</span></div>
+            <h3 class="byline">Sécurité</h3>
+        </div>
         <p>
             Regroupe l’Armée, la Police, la Garde royale, et tous les organismes qui sont des extensions de la garde
             (sauveteurs en mer, en montagne, garde-chasse, pompiers…). <br>
@@ -101,7 +106,8 @@ generate(2, "mez", "Guildes",
             partout sur l’île, notamment dans les zones dangereuses et/ou protégées.
         </p>
         <div class="title">
-            <span class="byline">JustiCe</span></div>
+            <h3 class="byline">JustiCe</h3>
+        </div>
         <p>
             Cette guilde est la plus petite en nombre, mais une des plus puissantes. Elle regroupe tous les métiers
             ayant trait à la justice et au droit d’Erentia (avocats, procureurs, juges, mais aussi tous les métiers qui
@@ -110,7 +116,8 @@ generate(2, "mez", "Guildes",
             réserve d’autorisation préalable.
         </p>
         <div class="title">
-            <span class="byline">Recherche</span></div>
+            <h3 class="byline">Recherche</h3>
+        </div>
         <p>
             Regroupe tous les acteurs de la recherche, à l’exception des recherches en biologie et santé qui font partie
             de la guilde santé. La guilde Recherche contient évidemment les fonctionnaires de la recherche publique,
@@ -119,7 +126,8 @@ generate(2, "mez", "Guildes",
             pour leurs recherches, notamment les zones dangereuses/protégées.
         </p>
         <div class="title">
-            <span class="byline">Santé</span></div>
+            <h3 class="byline">Santé</h3>
+        </div>
         <p>
             Toutes les personnes dont l’emploi est lié à la santé publique peuvent faire partie de la guilde Santé. Les
             médecines, évidemment, mais aussi les infirmiers, aides-soignants, pharmaciens, secrétaires médicaux, les
@@ -132,7 +140,8 @@ generate(2, "mez", "Guildes",
             normalement cryptées. Leurs lecteurs ne peuvent pas lire les autres rubriques des bracelets.
         </p>
         <div class="title">
-            <span class="byline">Enseignement</span></div>
+            <h3 class="byline">Enseignement</h3>
+        </div>
         <p>
             Le plus gros de la guilde Enseignement est constitué d’enseignants, de la primaire à l’enseignement
             supérieur, mais d’autres métiers associés à l’enfance appartiennent aussi à cette guilde (animateurs,
@@ -142,7 +151,8 @@ generate(2, "mez", "Guildes",
             exercices, livres, tarifs préférentiels pour assister à des évènements culturels ou des conférences…
         </p>
         <div class="title">
-            <span class="byline">Art et culture</span></div>
+            <h3 class="byline">Art et culture</h3>
+        </div>
         <p>
             Ceux qui seraient en France des intermittents du spectacle composent le gros des membres de cette guilde,
             mais on y trouve aussi tous les métiers associés aux lieux historiques, aux musées, aux évènements
@@ -152,7 +162,8 @@ generate(2, "mez", "Guildes",
             et des sessions d’examens qui leurs sont réservés.
         </p>
         <div class="title">
-            <span class="byline">Agriculture et alimentation</span></div>
+            <h3 class="byline">Agriculture et alimentation</h3>
+        </div>
         <p>
             Historiquement, c’était une guilde d’agriculteurs, de pêcheurs et d’éleveurs, mais elle a été remaniée il y
             a quelques années pour intégrer aussi tous les métiers de l’industrie agro-alimentaire et de la distribution
@@ -164,7 +175,8 @@ generate(2, "mez", "Guildes",
             bateaux/avions/trains, les membres de la guilde ont la priorité sur les autres.
         </p>
         <div class="title">
-            <span class="byline">Finances</span></div>
+            <h3 class="byline">Finances</h3>
+        </div>
         <p>
             Une guilde un peu “fourre-tout”, qui regroupe tous les autres métiers. La plus grande en nombre, mais, du
             fait de la très grande variété de profils représentés, elle n’a pas réellement d’unité. Les compagnies de la

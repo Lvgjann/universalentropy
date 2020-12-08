@@ -354,7 +354,8 @@ Ils sont doués d\'empathie (dans le sens magique du terme), et se nourrissent d
 
         <br>
         <div class="title">
-            <span class="byline">Rareté des races</span></div>
+            <h3 class="byline">Rareté des races</h3>
+        </div>
         <p>
             Les Derwenn sont, de très loin, les plus nombreux des Alters et représentent environ 40% du total.
             Les Loenn représentent environ 20% du total, les Démons et les Mirien 15%.
@@ -374,7 +375,8 @@ Ils sont doués d\'empathie (dans le sens magique du terme), et se nourrissent d
             plusieurs centaines (comme toute leur population est concentrée sur Erentia).
         </p>
         <div class="title">
-            <span class="byline">Reproduction</span></div>
+            <h3 class="byline">Reproduction</h3>
+        </div>
         Toutes les races ne peuvent se reproduire qu\'entre elles, avec des exceptions :
         <ul>
             <li>
@@ -398,7 +400,8 @@ Ils sont doués d\'empathie (dans le sens magique du terme), et se nourrissent d
             </li>
         </ul>
         <div class="title">
-            <span class="byline">Quelques notes de vocabulaire</span></div>
+            <h3 class="byline">Quelques notes de vocabulaire</h3>
+        </div>
         <p>
             Les "vieilles âmes" désignent les Esprits, Gwarden, Einherjärs et Maestri qui dépassent les deux siècles
             d\'existence (environ, il n\'y a pas de limite stricte). Les Valkyries, qui dépassent allégrement le

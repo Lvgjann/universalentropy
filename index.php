@@ -9,13 +9,13 @@ require_once('common.php'); ?>
     <meta name="description" content=""/>
     <link href="css/null.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/gen.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css" media="all"/>
     <script type="application/javascript" src="js/general_script.js"></script>
 </head>
 <body>
 
 <!-- Menu -->
-<nav id="menu">
+<nav id="navbar">
     <ul>
         <li><a href="index.php" class="current_page_item">Home</a></li>
         <li><a href="cosmicvoid/index.php">Cosmic Void</a></li>
