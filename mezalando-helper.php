@@ -148,9 +148,6 @@ function set_mezalando_sidebar($n)
 <script >
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
-var sidebar = document.querySelector("#sidebar");
-var initialSidebarPos = sidebar.getBoundingClientRect();
-var mainContent = document.querySelector("main");
 
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
@@ -169,13 +166,16 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 document.addEventListener("scroll", function () {
+    var navbar = document.querySelector("#navbar");
+    var sidebar = document.querySelector("#sidebar");
+    var mainContent = document.querySelector("main");
     if (!sidebar || !mainContent) return;
+    if (mainContent.offsetHeight <= sidebar.offsetHeight) return;
     var pos = sidebar.getBoundingClientRect();
     var mainPos = mainContent.getBoundingClientRect();
-    if (initialSidebarPos.top - window.scrollY <= 0) {
+    if (mainPos.top <= (navbar ? navbar.offsetHeight : 0)) {
         sidebar.style.position = "fixed";
-        console.log(mainPos.bottom - 50 <= pos.bottom);
-        if (mainPos.bottom <= pos.bottom - pos.top) {
+        if (mainPos.bottom <= sidebar.offsetHeight) {
             sidebar.style.bottom = (window.innerHeight - mainPos.bottom) + "px";
             sidebar.style.top = "auto";
         } else {
