@@ -601,8 +601,11 @@ nav#navbar > ul li:hover .dropdown-child{
     font-size: 1.5rem;
 }
 
-#footer .footer-list a:hover {
+#footer .footer-list li:hover * {
     color: white;
+}
+
+#footer .footer-list a:hover {
     text-decoration: underline;
 }
 
