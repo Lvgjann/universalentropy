@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Noms",
     '<div class="title">
-            <span class="byline">noms</span></div>
+            <h3 class="byline">noms</h3>
+        </div>
         <p>
             Pour les noms de personnes, races par race (incluant les races non jouables) : <br>
             <b>Humains, Mutants et Derwenn</b> :  toute consonance de culture humaine contemporaine <br>

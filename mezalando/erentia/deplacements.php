@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Déplacements",
 '<div class="title">
-            <span class="byline">Transports dans les villes</span></div>
+            <h3 class="byline">Transports dans les villes</h3>
+        </div>
         <p>
             Sur Erentia, il est relativement facile de se déplacer à l’intérieur des villes grâce aux nombreux bus et
             taxis. Itzel, et Mazalt ont de plus un système de tramway assez développé, tandis que Xinya dispose d’un
@@ -19,7 +20,8 @@ generate(2, "mez", "Déplacements",
             n\'est pas adapté à un véhicule à roues.
         </p>
         <div class="title">
-            <span class="byline">Transports entre les villes</span></div>
+            <h3 class="byline">Transports entre les villes</h3>
+        </div>
         <p>
             Pour aller d’une ville à l’autre ou se déplacer entre les villages, les moyens sont peu nombreux : il n’y a
             pas d’autoroutes, et les routes elles-mêmes ne sont pas très larges ni très lisses, rendant le trajet long
@@ -29,7 +31,8 @@ generate(2, "mez", "Déplacements",
             très développés en l\'absence d\'autres moyens.
         </p>
         <div class="title">
-            <span class="byline">Transports entre les villes</span></div>
+            <h3 class="byline">Transports entre les villes</h3>
+        </div>
         <p>
             Pour aller d’une ville à l’autre ou se déplacer entre les villages, les moyens sont peu nombreux : il n’y a
             pas d’autoroutes, et les routes elles-mêmes ne sont pas très larges ni très lisses, rendant le trajet long
@@ -39,7 +42,8 @@ generate(2, "mez", "Déplacements",
             très développés en l\'absence d\'autres moyens.
         </p>
         <div class="title">
-            <span class="byline">Le train</span></div>
+            <h3 class="byline">Le train</h3>
+        </div>
         <p>
             Le moyen le plus sûr et le plus abordable pour les longs trajets sur l’île reste le train : le chemin de fer
             fait presque tout le tour de l’île à l’exception des alentours du Tibirt, et il y a un départ toutes les 30
@@ -52,7 +56,8 @@ generate(2, "mez", "Déplacements",
             leur part à une vitesse comme celle des trains actuels.
         </p>
         <div class="title">
-            <span class="byline">La téléportation</span></div>
+            <h3 class="byline">La téléportation</h3>
+        </div>
         <p>
             La téléportation est un don rare, et la plupart de ceux qui le possèdent ne peuvent pas aller plus loin que
             quelques kilomètres, ce qui est suffisant pour se déplacer en ville mais pas pour traverser l\'île. Il existe

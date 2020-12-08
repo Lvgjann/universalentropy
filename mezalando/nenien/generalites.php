@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Vie Généralités",
     '<div class="title">
-            <span class="byline">Nenien : Généralités</span></div>
+            <h3 class="byline">Nenien : Généralités</h3>
+        </div>
         <p>
             TO COMPLETE
         </p>'); ?>

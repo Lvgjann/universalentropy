@@ -169,7 +169,7 @@ set_head(1, "cos", "The Continental");?>
             <div class="title">
                 <h2>External sources</h2>
             </div>
-            <ul class="style1">
+            <ul class="footer-list">
                 <li><a href="#">Semper mod quis eget mi dolore</a></li>
                 <li><a href="#">Quam turpis feugiat sit dolor</a></li>
                 <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
@@ -180,7 +180,7 @@ set_head(1, "cos", "The Continental");?>
             <div class="title">
                 <h2>See also</h2>
             </div>
-            <ul class="style1">
+            <ul class="footer-list">
                 <li><a href="#">Semper mod quis eget mi dolore</a></li>
                 <li><a href="#">Quam turpis feugiat sit dolor</a></li>
                 <li><a href="#">Amet ornare in hendrerit in lectus</a></li>

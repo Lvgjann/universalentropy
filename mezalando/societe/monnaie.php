@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Monnaie", '
 <div class="title">
-            <span class="byline">Monnaie</span></div>
+            <h3 class="byline">Monnaie</h3>
+        </div>
         <p>
             La monnaie sur Erentia est le Kröne, abrégé K, et son petit frère le öne, abrégé e. Dans les deux cas le
             “öne” se prononce comme dans “couronne”. Il faut 100 e pour faire un K. <br>

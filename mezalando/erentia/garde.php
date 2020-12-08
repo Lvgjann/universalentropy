@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Garde et police",
 '<div class="title">
-            <span class="byline">Garde et police</span></div>
+            <h3 class="byline">Garde et police</h3>
+        </div>
         <p>
             Les forces de l’ordre sont composées de deux entités séparées mais travaillant ensemble : la garde royale,
             en uniforme bleu roi et or et la police, en civil ou en uniforme noir et blanc.

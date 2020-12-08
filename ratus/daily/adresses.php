@@ -9,7 +9,7 @@
     <!-- <script src="js/plotly-latest.min.js"></script> -->
     <link href="../../css/gen.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../../css/stardust.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="../../css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../css/fontawesome.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>
 

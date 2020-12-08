@@ -37,16 +37,13 @@ body {
     background-size: cover;
 }
 
-#banner .image {
-}
-
 /** MENU */
 
 #menu-wrapper {
     background: #4D004D;
 }
 
-#menu {
+#navbar {
     background: #4D004D;
     overflow: hidden;
     width: 100%;

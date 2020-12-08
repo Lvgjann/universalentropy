@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Gouvernance",
 '<div class="title">
-            <span class="byline">Gouvernance et économie</span></div>
+            <h3 class="byline">Gouvernance et économie</h3>
+        </div>
         <p>
             Erentia est une monarchie constitutionnelle parlementaire, mais, ayant évolué en marge de la société humaine
             pendant des siècles, son fonctionnement est assez particulier : <br>

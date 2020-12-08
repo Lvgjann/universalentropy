@@ -8,7 +8,7 @@ require_once('../../inc/common.php'); ?>
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
     <link href="../css/gen.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../css/stardust.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="../css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/fontawesome.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>
 

@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Traditions",
 '<div class="title">
-            <span class="byline">Célébrations et traditions</span></div>
+            <h3 class="byline">Célébrations et traditions</h3>
+        </div>
         <p>
             TO COMPLETE <br>
             [Naissance

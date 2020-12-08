@@ -3,7 +3,8 @@ require_once('../../common.php');
 generate(2, "mez", "Certificats de magie",
 '<div class="title">
             <h2>Certificats de magie</h2>
-            <span class="byline">La magie chez les enfants Alters</span></div>
+            <h3 class="byline">La magie chez les enfants Alters</h3>
+        </div>
         <p>
             Les Alters ne sont pas capables de pratiquer la Magie dès la naissance. Le développement des capacités
             magiques des enfants suivent leur développement physique et mental. <br>
@@ -25,7 +26,8 @@ generate(2, "mez", "Certificats de magie",
             une période propice aux émotions intenses.
         </p>
         <div class="title">
-            <span class="byline">La magie chez les mutants</span></div>
+            <h3 class="byline">La magie chez les mutants</h3>
+        </div>
         <p>
             C\'est particulièrement problématique chez les mutants, qui ont tendance à avoir des réserves de Saàp plus
             importantes que les autres et qui en plus n\'ont souvent personne pour leur apprendre à contrôler leurs
@@ -41,7 +43,8 @@ generate(2, "mez", "Certificats de magie",
             limiteurs.
         </p>
         <div class="title">
-            <span class="byline">Les bracelets limiteurs</span></div>
+            <h3 class="byline">Les bracelets limiteurs</h3>
+        </div>
         <p>
             Les bracelets limiteurs sont des objets enchantés dont la particularité est de limiter les flux de Saàp
             entrant et sortant de son porteur. Ils n\'empêchent pas l\'utilisation de la Magie complètement, mais limitent
@@ -57,7 +60,8 @@ generate(2, "mez", "Certificats de magie",
             Ils sont exportés en-dehors d\'Erentia, mais sont rares et chers hors de l\'île.
         </p>
         <div class="title">
-            <span class="byline">Les bracelets suppresseurs</span></div>
+            <h3 class="byline">Les bracelets suppresseurs</h3>
+        </div>
         <p>
             Il existe également des bracelets dits "suppresseurs", qui, comme leur nom l\'indiquent, suppriment
             totalement la capacité du porteur à faire de la Magie, en draînant en permanence le Saàp dans son corps.
@@ -76,7 +80,8 @@ generate(2, "mez", "Certificats de magie",
             Cependant, cette pratique a été jugée trop dure pour les enfants, et c\'est maintenant formellement interdit.
         </p>
         <div class="title">
-            <span class="byline">Le certificat de maîtrise de la magie</span></div>
+            <h3 class="byline">Le certificat de maîtrise de la magie</h3>
+        </div>
         <p>
             Sur Erentia, tous les enfants (à partir de la première manifestation de leurs pouvoirs) et tous les nouveaux
             arrivants doivent porter un bracelet limiteur, jusqu\'à ce qu\'ils passent un examen qui prouve qu\'ils
@@ -114,7 +119,8 @@ generate(2, "mez", "Certificats de magie",
             comme pour les bracelets d\'identité, il est assez facile de passer outre la loi.
         </p>
         <div class="title">
-            <span class="byline">Les autres niveaux de certificat</span></div>
+            <h3 class="byline">Les autres niveaux de certificat</h3>
+        </div>
         <p>
             Comme son nom l\'indique, le certifiat de niveau I est le premier d\'une série. Il en existe deux autres,
             ingénieusement nommés certificat de niveau II et III respectivement.

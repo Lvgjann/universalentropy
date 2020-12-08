@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Technologie",
 '<div class="title">
-            <span class="byline">Technologie</span></div>
+            <h3 class="byline">Technologie</h3>
+        </div>
         <p>
             L\'avancement technologique des Alters est un sujet qui divise. <br>
             La technologie humaine s\'est en effet développée en parallèle des avancées magiques des Alters, pour

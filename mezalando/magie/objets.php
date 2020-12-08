@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Objets enchantés",
 '<div class="title">
-            <span class="byline">Objets enchantés</span></div>
+            <h3 class="byline">Objets enchantés</h3>
+        </div>
         <p>
             Les potions, charmes et artefacts sont des objets créés par les Derwenn qui se spécialisent dans
             l’enchantement. Ils doivent être “invoqués” (activés) une première fois par un Derwenn avec son sang pour
@@ -13,7 +14,8 @@ generate(2, "mez", "Objets enchantés",
             le manteau, mais il n’est pas forcément facile de convaincre le vendeur de les montrer.
         </p>
         <div class="title">
-            <span class="byline">Les potions</span></div>
+            <h3 class="byline">Les potions</h3>
+        </div>
         <p>
             Les potions sont des sorts liquides destinés à être ingérés ou aspergés sur une cible. Elles peuvent aussi
             être emballées dans des capsules souples légèrement gélatineuses et tirées depuis des pistolets de type
@@ -37,7 +39,8 @@ generate(2, "mez", "Objets enchantés",
             toujours assez facile de s\'en procurer.
         </p>
         <div class="title">
-            <span class="byline">Les Charmes</span></div>
+            <h3 class="byline">Les Charmes</h3>
+        </div>
         <p>
             Les charmes sont des supports en bois, cuir ou os, parfois d\'autres matières animales et végétales qui
             stockent un effet magique. Ils faut les invoquer au moment de les utiliser, et ils ont une durée d\'effet de
@@ -59,7 +62,8 @@ generate(2, "mez", "Objets enchantés",
             rares, chers, et dont le secret de fabrication est jalousement gardé ou perdu à jamais.
         </p>
         <div class="title">
-            <span class="byline">Les artefacts</span></div>
+            <h3 class="byline">Les artefacts</h3>
+        </div>
         <p>
             Les artefacts sont des objets en métal enchantés grâce à un cristal Maen ou des fragments de ces cristaux.
             Ils sont insensibles à l’eau salée et fonctionnent à vie, tant que l\’objet n’a pas été désenchanté par

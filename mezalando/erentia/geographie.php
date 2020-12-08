@@ -3,7 +3,8 @@ require_once('../../common.php');
 generate(2, "mez", "Géographie et climat",
     '
         <div class="title">
-            <span class="byline">Géographie et climat</span></div>
+            <h3 class="byline">Géographie et climat</h3>
+        </div>
         <p>
             TO COMPLETE
         </p>'); ?>

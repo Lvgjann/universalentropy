@@ -2,7 +2,8 @@
 require_once('../../common.php');
 generate(2, "mez", "Sports",
 '<div class="title">
-            <span class="byline">Sports</span></div>
+            <h3 class="byline">Sports</h3>
+        </div>
         <p>
             Le sport est très apprécié et pratiqué sur Erentia, de façon amateur comme professionnelle.
             Au vu des capacités extraordinaires des habitants de l\'île, les sports pratiqués diffèrent de ceux du reste

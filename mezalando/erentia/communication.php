@@ -3,7 +3,8 @@ require_once('../../common.php');
 generate(2, "mez", "Communication",
 '<div class="title">
             <h2>Communication</h2>
-            <span class="byline">Communication entre Erentia et l\'Extérieur</span></div>
+            <h3 class="byline">Communication entre Erentia et l\'Extérieur</h3>
+        </div>
         <p>
             Le gouvernement d\'Erentia est extrêmement pointilleux sur la communication avec le reste du monde.
         </p>
@@ -33,7 +34,8 @@ generate(2, "mez", "Communication",
             bonnes personnes pour faire le set-up de l\'ordinateur.
         </p>
         <div class="title">
-            <span class="byline">Communication interne à Erentia</span></div>
+            <h3 class="byline">Communication interne à Erentia</h3>
+        </div>
         <p>
             On ne capte aucun réseau mobile sur Erentia, les téléphones mobiles classiques sont donc inutiles.
             Il existe cependant depuis une petite dizaine d\'années des "mobiles" magiques, qui sont des objets enchantés
@@ -72,7 +74,8 @@ generate(2, "mez", "Communication",
             largement Rois.
         </p>
         <div class="title">
-            <span class="byline">Alternet</span></div>
+            <h3 class="byline">Alternet</h3>
+        </div>
         <p>
             L\'Alternet est le Réseau Internet Alters. C\'est en fait une petite sous-portion du dark web dédiée à l\'usage
             des Alters partout dans le monde.

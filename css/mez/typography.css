@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+p {
+    text-align: justify;
+    line-height: 140%;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h1 {
+    font-family: 'Merienda One', cursive;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0 0 4px white;
+}
+
+.title h2 {
+    font-weight: 300;
+    font-size: 1.75em;
+    color: #6F6F6F;
+}
+
+main .title {
+    margin-bottom: 0.25rem;
+}
+
+main .title h2 {
+    margin-top: 2rem;
+}
+
+main .title .byline {
+    margin-top: 1rem;
+}
+
+main .title:first-child h2 {
+    margin-top: 0;
+}
+
+.byline {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.25em;
+    color: #800060;
+}

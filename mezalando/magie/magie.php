@@ -3,7 +3,8 @@ require_once('../../common.php');
 generate(2, "mez", "Magie",
 '<div class="title">
             <h2>La magie</h2>
-            <span class="byline">Concept de base</span></div>
+            <h3 class="byline">Concept de base</h3>
+        </div>
         <p>La Magie est un terme désignant tous les phénomènes qui ne peuvent pas être expliqués par les lois de la
             physique. Elle repose sur l’utilisation du saàp comme énergie pour forcer la création et le maintien de ces
             phénomènes non naturels. <br>
@@ -13,7 +14,8 @@ generate(2, "mez", "Magie",
             appelées [[Voies et Branches]].
         </p>
         <div class="title">
-            <span class="byline">Saàp</span></div>
+            <h3 class="byline">Saàp</h3>
+        </div>
         <p>
             Le saàp est l’énergie universelle qui est consommée lors de la pratique de la Magie pour obtenir les effets
             surnaturels. Sur Mezalando, il n’existe qu’en quantités très faibles dans la nature. Il est produit par
@@ -33,7 +35,8 @@ generate(2, "mez", "Magie",
             Les Valkyries, qui produisent leur propre saàp, ne sont pas concernées par cette limitation.
         </p>
         <div class="title">
-            <span class="byline">Bracelets limiteurs et suppresseurs</span></div>
+            <h3 class="byline">Bracelets limiteurs et suppresseurs</h3>
+        </div>
         <p>
             Les bracelets limiteurs et suppresseurs sont des objets que l\'on trouve sur Erentia, rarement en-dehors, et
             qui permettent de limiter (resp. complètement supprimer) la capacité d\'un Alter à pratiquer la Magie. Ils
@@ -50,7 +53,8 @@ generate(2, "mez", "Magie",
             être désenchantés par la personne qui les porte.
         </p>
         <div class="title">
-            <span class="byline">Stockage du Saàp</span></div>
+            <h3 class="byline">Stockage du Saàp</h3>
+        </div>
         <p>
             Le bois, les racines et écorces séchées, les os, poils et cornes, les dents, les sabots et les peaux
             d\'animaux, ainsi que les métaux et cristaux sont capables de stocker de petites quantités de saàp. <br>
@@ -87,7 +91,8 @@ generate(2, "mez", "Magie",
             incontrôlée autour d\'eux.
         </p>
         <div class="title">
-            <span class="byline">La limite entre les Nerics et les Alters</span></div>
+            <h3 class="byline">La limite entre les Nerics et les Alters</h3>
+        </div>
         <p>
             La limite entre les Alters, qui peuvent utiliser la Magie, et les Nerics, qui ne peuvent pas, est beaucoup
             plus floue qu\'on l\'imagine au premier abord. <br>
@@ -103,7 +108,8 @@ generate(2, "mez", "Magie",
             que des effets magiques se manifestent spontanément, parfois de façon spectaculaire.
         </p>
         <div class="title">
-            <span class="byline">La magie et le sel</span></div>
+            <h3 class="byline">La magie et le sel</h3>
+        </div>
         <p>
             Le sel, plus particulièrement dissout dans de l\'eau, possède la propriété de libérer dans l\'atmosphère le
             saàp stocké dans les matières organiques. En pratique, le sel et l\'eau salée dissipent les effets des
