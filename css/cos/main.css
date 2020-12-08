@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #cc0099;
+    background: #4D004D;
     font-family: 'Chivo', sans-serif;
     font-size: 12pt;
     font-weight: 300;
@@ -23,15 +23,19 @@ body {
 #banner {
     overflow: hidden;
     height: 330px;
-    background: url(../../img/background/bg_mez.jpg) no-repeat center;
+    background: url(../../img/background/mbg_cosmic.png) no-repeat center;
     background-size: cover;
 }
 
 /** MENU */
 
+#menu-wrapper {
+    background: #4D004D;
+}
+
 
 nav#navbar {
-    background: #cc0099;
+    background: #4D004D;
 }
 
 
@@ -65,7 +69,7 @@ nav#navbar {
 
 #portfolio .byline {
     font-size: 0.75em;
-    color: #800060;
+    color: #55009F;
 }
 
 /*********************************************************************************/
@@ -76,7 +80,7 @@ nav#navbar {
     display: inline-block;
     margin-top: 1.5em;
     padding: 0.50em 3em 0.50em 2em;
-    background: #800060;
+    background: #602060;
     letter-spacing: 0.20em;
     text-decoration: none;
     text-transform: uppercase;

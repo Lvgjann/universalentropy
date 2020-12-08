@@ -1,0 +1,32 @@
+h1, h2, h3 {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+p, ol, ul {
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 190%;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: #171717;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+table, td, th {
+    border: 1px black;
+    column-width: 200px;
+}

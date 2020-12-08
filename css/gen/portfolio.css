@@ -1,0 +1,24 @@
+#portfolio-wrapper {
+    background: rgba(0, 0, 0, .04);
+    padding: 1% 2%;
+    color: rgba(255, 255, 255, .7);
+}
+
+#portfolio {
+    overflow: hidden;
+}
+
+#portfolio .title h2 {
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+#column1, #column2, #column3, #column4, #column5 {
+    width: 22%;
+}
+
+#column1, #column2, #column3, #column4, #column5 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}

@@ -1,7 +1,5 @@
 === Universal Entropy ===
 
-* Contact page must only be in the Universal Entropy section.
-
 =========================
 
 Cosmic Void : Dante313
@@ -27,25 +25,3 @@ Nenien : WIP
 Systeme : OK
 
 Stardust : Empty
-
-============================
-# Menu
-
-Home
-| About
-| Contact
-| Projects
-Cosmid Void
-| Dante313
-| The Continental
-| No Way Out
-Fire Nebula
-| N13 Entertainment
-| N13 Production
-Constellations
-| TODO : Erentia
-Stardust
-| [None]
-Langues
-| FR
-| EN

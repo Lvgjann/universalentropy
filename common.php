@@ -21,8 +21,6 @@ define('TXT_FOOTER', '<div id="footer-wrapper">
             <ul class="footer-list">
                 <li><a href="#">Semper mod quis eget mi dolore</a></li>
                 <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                <li><a href="#">Consequat etiam lorem phasellus</a></li>
             </ul>
         </div>
         <div id="box3">
@@ -112,7 +110,7 @@ function set_menu($n)
         <li><a href="' . $target . 'index.php" class="current_page_item">Home</a></li>
         <li><a href="' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
         <li><a href="' . $target . 'mezalando/index.php">Mezalando</a></li>
-        <li><a href="' . $target . 'Stardust/index.php">Ratus</a></li>
+        <li><a href="' . $target . 'ratus/index.php">Ratus</a></li>
     </ul>
 </nav>
 <div id="banner"></div>';
@@ -123,7 +121,7 @@ function set_menu_d($n, $section)
 {
     $target = target($n);
     $title = null;
-    switch($section) {
+    switch ($section) {
         case 'mez':
             $title = 'Mezalando';
             break;
@@ -132,13 +130,8 @@ function set_menu_d($n, $section)
     }
     $menu = '<nav id="navbar">
     <ul>
-        <li class="dropdown"><a href="' . $target . 'index.php">Home &ensp;</a>
-            <ul class="dropdown-child">
-                <li> <a href="#">Test</a></li>
-                <li> <a href="#">Test</a></li>
-                <li> <a href="#">Test</a></li>
-            </ul>
-        </li>
+        
+        <li><a href="' . $target . '/index.php">Home</a></li>
         <li class="dropdown"><a href="' . $target . 'cosmicvoid/index.php" >Cosmic Void &ensp;</a>
             <ul class="dropdown-child">
                 <li> <a href="' . $target . 'cosmicvoid/dante.php">Dante313</a></li>
@@ -160,9 +153,10 @@ function set_menu_d($n, $section)
     echo $menu;
 }
 
-function set_page($content, $n) {
-    echo'<div id="page">
-    <main id="page_content">' . $content .' </main>';
+function set_page($content, $n)
+{
+    echo '<div id="page">
+    <main id="page_content">' . $content . ' </main>';
     set_mezalando_sidebar($n - 1);
     echo '</div>';
 }
@@ -179,7 +173,7 @@ function set_portfolio($n)
     <div id="portfolio" class="content">
         <div id="column1">
             <div class="title">
-                <h2>Cosmic Void</h2>
+                <h2>Dante313</h2>
             </div>
             <a href="' . $target . $root . 'cosmicvoid/index.php" class="image image-full">
                 <img src="' . $target . 'img/background/mbg_cosmic.png" alt=""/></a>
@@ -188,16 +182,16 @@ function set_portfolio($n)
             </a></div>>
         <div id="column2">
             <div class="title">
-                <h2>Mezalando</h2>
+                <h2>The Continental</h2>
             </div>
             <a href="' . $target . $root . 'mezalando/index.php" class="image image-full">
-                <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
+                <img src="' . $target . 'img/background/continental.jpg" alt=""/></a>
             <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
                 Encyclopedia and projects
             </a></div>
         <div id="column3">
             <div class="title">
-                <h2>Fire Nebula</h2>
+                <h2>No Way Out</h2>
             </div>
             <a href="' . $target . $root . 'FireNebula/index.php" class="image image-full">
                 <img src="' . $target . 'img/background/mbg_fire.jpg" alt=""/></a>
@@ -206,12 +200,12 @@ function set_portfolio($n)
             </a></div>
         <div id="column4">
             <div class="title">
-                <h2>Stardust</h2>
+                <h2>See also...</h2>
             </div>
             <a href="' . $target . $root . 'Stardust/index.php" class="image image-full">
-                <img src="' . $target . 'img/background/mbg_stardust.jpg" alt=""/></a>
+                <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
             <a href="' . $target . $root . 'Stardust/index.php" class="icon icon-arrow-right button">
-                Work in progress
+                Mezalando
             </a></div
     </div>
 </div>';
@@ -315,19 +309,42 @@ function set_ratus_sidebar($n)
     echo $sidebar;
 }
 
-function set_footer($content, $n) {
+function set_footer($content, $n)
+{
     switch ($content) {
-        case "mez":
-            $box1 = '';
-            $title1 = '';
-            $box2 = '';
-            $title2 = '';
-            break;
         case "cos":
-            $box1 = '';
-            $title1 = '';
+            $title1 = 'Sources externes';
+            $box1 = '
+                <ul class="footer-list">
+                    <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
+                    <li><a href="https://www.artstation.com/alexnice">Alex Nice</a></li>
+                </ul>';
+            $title2 = 'Tools for RPG';
+            $box2 = '<ul class="footer-list">
+                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
+                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
+                </ul>';
+            break;
+        case "mez":
+            $title1 = 'Sources externes';
+            $box1 = '
+                <ul class="footer-list">
+                    <li><a href="https://mezalando.forumactif.com/ ">Forum RP de Mezalando</a></li>
+                </ul>';
+            $title2 = 'Tools for RPG';
+            $box2 = '<ul class="footer-list">
+                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
+                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
+                </ul>';
+            break;
+        case "rat":
+            $title1 = 'Ultia';
+            $box1 = '<ul class="footer-list">
+                    <li><a href="https://www.twitch.tv/ultia/">Chaîne Twitch de Ultia</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PLrK0ltVp4S8VuAEY3DZq85UOCGfywdURH">Les chroniques Ratus de Ultia</a></li>
+                </ul>';
+            $title2 = 'À voir aussi';
             $box2 = '';
-            $title2 = '';
             break;
         default:
             break;
@@ -338,25 +355,13 @@ function set_footer($content, $n) {
         <footer id="footer" class="content">
             <div>
                 <div class="title">
-                    <h2>External sources</h2>
+                    <h2>' . $title1 . '</h2>
+                </div> ' . $box1 . '
                 </div>
-                <ul class="footer-list">
-                    <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
-                    <li><a href="https://mezalando.forumactif.com">Forum Mezalando</a></li>
-                    <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                    <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                </ul>
-            </div>
             <div>
                 <div class="title">
-                    <h2>See also</h2>
-                </div>
-                <ul class="footer-list">
-                    <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                    <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                    <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                    <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                </ul>
+                    <h2>' . $title2 . '</h2>
+                </div> ' . $box2 . '
             </div>
             <div>
                 <div class="title">
@@ -380,14 +385,6 @@ function set_footer($content, $n) {
                         </div>
                     </li>
                 </ul>
-                <!--
-                <ul class="contact">
-                    <li><a href="https://twitter.com/Lvgjann" class="icon icon-twitter"><span>Twitter</span></a></li>
-                    <li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/florian-crampe-skirata/" class="icon icon-linkedin"><span>Linkedin</span></a></li>
-                    <li><a href="https://github.com/Lvgjann" class="icon icon-github"><span>Github</span></a></li>
-                    <li><a href="#" class="icon icon-youtube"><span>Youtube</span></a></li>
-                </ul> -->
             </div>
         </footer>
     </div>';

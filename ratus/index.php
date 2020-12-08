@@ -1,5 +1,5 @@
 <?php include '../decide-lang.php';
-require_once('../../inc/common.php'); ?>
+require_once('../common.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
 <head>
@@ -7,7 +7,7 @@ require_once('../../inc/common.php'); ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet"/>
     <link href="../css/gen.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="../css/stardust.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/rat.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../css/fontawesome.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>

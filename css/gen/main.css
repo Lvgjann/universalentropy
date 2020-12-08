@@ -1,0 +1,143 @@
+@import './copyright.css';
+@import './footer.css';
+@import './menu.css';
+@import './portfolio.css';
+@import './sidebar.css';
+@import './typo.css';
+
+html, body {
+    height: 100%;
+}
+
+.general {
+    text-align: justify;
+}
+
+.image {
+    display: inline-block;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image-full {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
+hr {
+    display: none;
+}
+
+ul.style2 {
+    border-top: solid 1px #E5E5E5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.style2 li {
+    padding: 0.80em 0;
+}
+
+ul.style2 li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 10px;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.skill {
+    width: 100%;
+    text-align: left;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title {
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+}
+
+.main_content {
+    width: 100%;
+}
+
+.content {
+    padding: 2% 2%;
+    width: 96%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button:before {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFF;
+}
