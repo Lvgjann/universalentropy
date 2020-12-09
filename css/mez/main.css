@@ -1,6 +1,7 @@
 @import './typo.css';
 @import './footer.css';
 @import './sidebar.css';
+@import './navbar.css';
 
 * {
     box-sizing: border-box;
@@ -26,14 +27,6 @@ body {
     background: url(../../img/background/bg_mez.jpg) no-repeat center;
     background-size: cover;
 }
-
-/** MENU */
-
-
-nav#navbar {
-    background: #cc0099;
-}
-
 
 /** PAGE */
 

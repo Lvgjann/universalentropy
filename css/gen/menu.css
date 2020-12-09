@@ -1,11 +1,11 @@
 nav#navbar {
+    background: #4D004D;
     width: 100%;
     margin: 0 auto;
-    position: sticky;
+    position: fixed;
     top: 0px;
-    overflow: hidden;
     display: block;
-    height: 50px;
+    height: 52px;
     line-height: normal;
     text-align: center;
     z-index: 50;
@@ -14,65 +14,88 @@ nav#navbar {
 nav#navbar ul {
     list-style-type: none;
     text-align: center;
+    padding: 0;
 }
 
-nav#navbar ul::after{
-    content: "";
-    display: table;
-    clear: both;
+nav#navbar > ul {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    margin: 0;
+}
+
+nav#navbar > ul > li:hover {
+    border-bottom: 2px solid gold;
 }
 
 nav#navbar ul li {
-    float: left;
     width: 25%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     position: relative;
 }
 
-nav#navbar a {
+nav#navbar a, nav#navbar .dropdown button {
     display: block;
     color: #FFF;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.30em;
+    font-size: 1.25rem;
     line-height: 50px;
     padding: 0 2.5%;
 }
 
-nav#navbar a:hover{
+nav#navbar li a:hover, nav#navbar li button:hover {
     color: orange;
-    border-bottom: 2px solid gold;
 }
-.dropdown-child{
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
+
+/* Dropdown */
+
+nav#navbar .dropdown button {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+nav#navbar .dropdown .fa-caret-down {
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+}
+
+nav#navbar .dropdown-list {
     position: absolute;
     width: 100%;
-    z-index: 1000;
+    z-index: 60;
+    top: calc(100% + 2px);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    background: #4D004D;
 }
 
-nav#navbar > ul li:hover .dropdown-child{
-    display: block;
+nav#navbar > ul li:hover .dropdown-list {
+    max-height: 500px;
+    transition: max-height 0.2s;
 }
 
-.dropdown-child li{
+nav#navbar .dropdown-list li {
     float: none;
     width: 100%;
     text-align: left;
 }
-.dropdown-child a{
+
+nav#navbar .dropdown-list a {
     padding: 10px;
     border-bottom: none;
+    font-size: 1rem;
 }
-.dropdown-child a:hover{
+
+nav#navbar .dropdown-list a:hover{
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
-}
-.dropdown > a::after{
-    content:" ▼";
-    font-size: 12px;
+    background-color: rgba(0,0,0,0.1);
 }
 
 /** CONTENT */

@@ -1,4 +1,4 @@
-<?php include '../decide-lang.php';
+<?php require '../decide-lang.php';
 require_once('../../inc/common.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
@@ -13,7 +13,7 @@ require_once('../../inc/common.php'); ?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(1); ?>
+<?php set_menu('rat'); ?>
 
 <!-- Content -->
 <div id="page">
@@ -30,8 +30,7 @@ require_once('../../inc/common.php'); ?>
 
 <!-- Portfolio -->
 <?php set_portfolio(1);
-// Footer
-echo TXT_FOOTER;
+
 // Copyright
 echo TXT_COPYRIGHT; ?>
 <script type="application/javascript" target="_parent" src="../js/general_script.js"></script>

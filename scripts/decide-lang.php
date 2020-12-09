@@ -9,12 +9,12 @@ if (isset($_COOKIE['lang'])) {
 // Language selector
 if (isset($_GET['lang'])) {
     if ($_GET['lang'] == 'fr') {
-        include('lang/fr-lang.php');
+        require_once(dirname(__FILE__) . '/../lang/fr-lang.php');
     } elseif ($_GET['lang'] == 'en') {
-        include('lang/en-lang.php');
+        require_once(dirname(__FILE__) . '/../lang/en-lang.php');
     }
 } else {
-    include('lang/fr-lang.php');
+    require_once(dirname(__FILE__) . '/../lang/fr-lang.php');
 }
 
 // Cookie duration

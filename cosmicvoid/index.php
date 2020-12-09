@@ -1,10 +1,10 @@
-<?php include '../decide-lang.php';
-require_once('../common.php');
-set_head(1, "cos", "The Cosmic Void");?>
+<?php require '../scripts/decide-lang.php';
+require_once('../scripts/functions.php');
+set_head("cos", "The Cosmic Void");?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(1);?>
+<?php set_menu('cos');?>
 
 <!-- Content -->
 <div class="main_content">
@@ -29,8 +29,8 @@ set_head(1, "cos", "The Cosmic Void");?>
 
 <!-- Portfolio -->
 <?php set_portfolio(1);
-// Footer
-echo TXT_FOOTER;
+set_footer('cos', 0);
+
 // Copyright
 echo TXT_COPYRIGHT;?>
 <script type="application/javascript" target="_parent" src="../js/general_script.js"></script>

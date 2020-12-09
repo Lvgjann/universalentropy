@@ -38,9 +38,6 @@ body {
     background-size: cover;
 }
 
-#banner .image {
-}
-
 /** MENU */
 
 #menu-wrapper {
@@ -48,7 +45,6 @@ body {
 }
 
 #navbar {
-    background: #4D004D;
     overflow: hidden;
     width: 100%;
     display: block;
@@ -57,7 +53,6 @@ body {
     height: 50px;
     line-height: normal;
     text-align: center;
-    box-shadow: 0 2px #410b41;
 }
 
 nav {
