@@ -115,7 +115,7 @@ function set_portfolio($n)
                 <img src="' . $target . 'img/background/mbg_cosmic.png" alt=""/></a>
             <a href="' . $target . $root . 'cosmicvoid/dante.php" class="icon icon-arrow-right button">
                 Dante313
-            </a></div>>
+            </a></div>
         <div id="column2">
             <div class="title">
                 <h2>The Continental</h2>
