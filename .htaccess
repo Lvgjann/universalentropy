@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}\.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+RewriteCond %{THE_REQUEST} \.html
+RewriteRule ^(.+)\.html $1 [R=permanent]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} ^(.+)\.html
+RewriteCond %1\.php -f
+RewriteRule ^(.+)\.html $1.php [L]
