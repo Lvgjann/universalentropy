@@ -17,11 +17,11 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'L\'univers en 5 minutes',
-                    'link' => $target . 'index.php'
+                    'link' => $target . 'index'
                 ],
                 [
                     'text' => 'Les projets autour de Mezalando',
-                    'link' => $target . 'projects.php'
+                    'link' => $target . 'projects'
                 ],
             ]
         ],
@@ -30,58 +30,58 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'Factions et conflits',
-                    'link' => $target . 'histoire/factions.php'
+                    'link' => $target . 'histoire/factions'
                 ],
                 [
                     'text' => 'Races',
                     'links' => [
                         [
                             'text' => 'Les races Alters',
-                            'link' => $target . 'races/alters.php'
+                            'link' => $target . 'races/alters'
                         ],
                         [
                             'text' => 'Derwenn',
-                            'link' => $target . 'races/derwenn.php'
+                            'link' => $target . 'races/derwenn'
                         ],
                         [
                             'text' => 'Mutants',
-                            'link' => $target . 'races/mutants.php'
+                            'link' => $target . 'races/mutants'
                         ],
                         [
                             'text' => 'Loenn',
-                            'link' => $target . 'races/loenn.php'
+                            'link' => $target . 'races/loenn'
                         ],
                         [
                             'text' => 'Mirien',
-                            'link' => $target . 'races/mirien.php'
+                            'link' => $target . 'races/mirien'
                         ],
                         [
                             'text' => 'Anges',
-                            'link' => $target . 'races/anges.php'
+                            'link' => $target . 'races/anges'
                         ],
                         [
                             'text' => 'Démons',
-                            'link' => $target . 'races/demons.php'
+                            'link' => $target . 'races/demons'
                         ],
                         [
                             'text' => 'Esprits',
-                            'link' => $target . 'races/esprits.php'
+                            'link' => $target . 'races/esprits'
                         ],
                         [
                             'text' => 'Gwarden',
-                            'link' => $target . 'races/gwarden.php'
+                            'link' => $target . 'races/gwarden'
                         ],
                         [
                             'text' => 'Alfren',
-                            'link' => $target . 'races/alfren.php'
+                            'link' => $target . 'races/alfren'
                         ],
                         [
                             'text' => 'Einherjärs',
-                            'link' => $target . 'races/einherjars.php'
+                            'link' => $target . 'races/einherjars'
                         ],
                         [
                             'text' => 'Maestri',
-                            'link' => $target . 'races/maestri.php'
+                            'link' => $target . 'races/maestri'
                         ],
                     ]
                 ],
@@ -90,33 +90,33 @@ function set_mezalando_sidebar($n)
                     'links' => [
                         [
                             'text' => 'Magie',
-                            'link' => $target . 'magie/magie.php'
+                            'link' => $target . 'magie/magie'
                         ],
                         [
                             'text' => 'Voies et branches',
-                            'link' => $target . 'magie/voies.php'
+                            'link' => $target . 'magie/voies'
                         ],
                         [
                             'text' => 'Objets enchantés',
-                            'link' => $target . 'magie/objets.php'
+                            'link' => $target . 'magie/objets'
                         ],
                         [
                             'text' => 'Invocations et animations',
-                            'link' => $target . 'magie/invocations.php'
+                            'link' => $target . 'magie/invocations'
                         ],
                     ]
                 ],
                 [
                     'text' => 'Religions et croyances',
-                    'link' => $target . 'religions.php'
+                    'link' => $target . 'religions'
                 ],
                 [
                     'text' => 'Alternet',
-                    'link' => $target . 'alternet.php'
+                    'link' => $target . 'alternet'
                 ],
                 [
                     'text' => 'Noms',
-                    'link' => $target . 'noms.php'
+                    'link' => $target . 'noms'
                 ]
             ]
         ],
@@ -125,42 +125,42 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'Histoire',
-                    'link' => $target . 'erentia/histoire.php'
+                    'link' => $target . 'erentia/histoire'
                 ],
                 [
                     'text' => 'Géographie',
-                    'link' => $target . 'erentia/geographie.php'
+                    'link' => $target . 'erentia/geographie'
                 ],
                 [
                     'text' => 'Société',
                     'links' => [
                         [
                             'text' => 'Certificats de magie',
-                            'link' => $target . 'erentia/certificats.php'
+                            'link' => $target . 'erentia/certificats'
                         ],
                         [
                             'text' => 'Guildes',
-                            'link' => $target . 'erentia/guildes.php'
+                            'link' => $target . 'erentia/guildes'
                         ],
                         [
                             'text' => 'Gouvernance et économie',
-                            'link' => $target . 'erentia/gouvernance.php'
+                            'link' => $target . 'erentia/gouvernance'
                         ],
                         [
                             'text' => 'Lois de l\'île',
-                            'link' => $target . 'erentia/lois.php'
+                            'link' => $target . 'erentia/lois'
                         ],
                         [
                             'text' => 'Garde et police',
-                            'link' => $target . 'erentia/garde.php'
+                            'link' => $target . 'erentia/garde'
                         ],
                         [
                             'text' => 'Célébrations et traditions',
-                            'link' => $target . 'erentia/traditions.php'
+                            'link' => $target . 'erentia/traditions'
                         ],
                         [
                             'text' => 'Éducation',
-                            'link' => $target . 'erentia/education.php'
+                            'link' => $target . 'erentia/education'
                         ],
                     ]
                 ],
@@ -169,35 +169,35 @@ function set_mezalando_sidebar($n)
                     'links' => [
                         [
                             'text' => 'Langue, monnaie et calendrier',
-                            'link' => $target . 'erentia/langue.php'
+                            'link' => $target . 'erentia/langue'
                         ],
                         [
                             'text' => 'Accès à l\'île',
-                            'link' => $target . 'erentia/acces.php'
+                            'link' => $target . 'erentia/acces'
                         ],
                         [
                             'text' => 'Technologie',
-                            'link' => $target . 'erentia/technologie.php'
+                            'link' => $target . 'erentia/technologie'
                         ],
                         [
                             'text' => 'Communication',
-                            'link' => $target . 'erentia/communication.php'
+                            'link' => $target . 'erentia/communication'
                         ],
                         [
                             'text' => 'Déplacement',
-                            'link' => $target . 'erentia/deplacements.php'
+                            'link' => $target . 'erentia/deplacements'
                         ],
                         [
                             'text' => 'Drogues et alcool',
-                            'link' => $target . 'erentia/drogues.php'
+                            'link' => $target . 'erentia/drogues'
                         ],
                         [
                             'text' => 'Médecine et accès aux soins',
-                            'link' => $target . 'erentia/medecine.php'
+                            'link' => $target . 'erentia/medecine'
                         ],
                         [
                             'text' => 'Sports',
-                            'link' => $target . 'erentia/sports.php'
+                            'link' => $target . 'erentia/sports'
                         ],
                     ]
                 ],
@@ -208,19 +208,19 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'Généralités',
-                    'link' => $target . 'nenien/generalites.php'
+                    'link' => $target . 'nenien/generalites'
                 ],
                 [
                     'text' => 'Vie pratique',
-                    'link' => $target . 'nenien/vie.php'
+                    'link' => $target . 'nenien/vie'
                 ],
                 [
                     'text' => 'Lieux',
-                    'link' => $target . 'nenien/lieux.php'
+                    'link' => $target . 'nenien/lieux'
                 ],
                 [
                     'text' => 'Personnages importants',
-                    'link' => $target . 'nenien/personnages.php'
+                    'link' => $target . 'nenien/personnages'
                 ],
             ]
         ],
@@ -229,11 +229,11 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'Mécaniques',
-                    'link' => $target . 'systeme/mecaniques.php'
+                    'link' => $target . 'systeme/mecaniques'
                 ],
                 [
                     'text' => 'Fiches de personnage',
-                    'link' => $target . 'systeme/fiches.php'
+                    'link' => $target . 'systeme/fiches'
                 ],
             ]
         ],

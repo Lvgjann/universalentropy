@@ -25,22 +25,17 @@ function target($n)
     }
 
     $currentURI = explode('/', $currentURI);
-    // le if est temporaire avant le .htaccess
-    if(strpos(end($currentURI), '.') !== false) {
-        array_pop($currentURI);
-    }
-    //
-    while ($n > 0) {
-        $n -= 1;
-        array_shift($currentURI);
-    }
+    // delete current route
+    array_pop($currentURI);
+    
+    $currentURI = array_slice($currentURI, 0, count($currentURI) - $n < 0 ? 0 : count($currentURI) - $n);
     
     $target = APP_BASE_URL;
     if($sub) {
         $target .= APP_SUB_BASE_URIS[$sub];
     }
     
-    return $target . implode('/', $currentURI);
+    return $target . ($currentURI ? implode('/', $currentURI) . '/' : '');
 }
 
 function set_head($param, $title)
