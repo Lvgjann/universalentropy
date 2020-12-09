@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<?php set_menu(2); ?>
+<?php set_menu('rat'); ?>
 
 <!-- Content -->
 <div id="page">
@@ -32,9 +32,6 @@
 
 <!-- Portfolio -->
 <?php set_portfolio(2); ?>
-
-<!-- Footer -->
-<?php echo TXT_FOOTER;?>
 
 <!-- Copyright -->
 <?php echo TXT_COPYRIGHT;?>

@@ -19,8 +19,11 @@
     margin-bottom: 0.25rem;
 }
 
-#footer .footer-list {
+#footer .footer-list:not(.no-border) {
     border-top: solid 1px #E5E5E5;
+}
+
+#footer .footer-list {
     margin: 0;
     padding: 0.25rem 0 0;
     list-style: none;

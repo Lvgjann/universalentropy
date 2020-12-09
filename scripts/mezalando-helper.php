@@ -1,177 +1,243 @@
 <?php
-
+require_once('helpers.php');
 
 function set_mezalando_sidebar($n)
 {
     $target = target($n);
-    
-    echo '
-    <nav id="sidebar">
-        <div class="title">
-            <h4>Contexte général</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="' . $target . 'index.php">L\'univers en 5 minutes</a>
-            </li>
-            <li>
-                <a href="' . $target . 'projets.php">Les projets autour de Mezalando</a>
-            </li>
-        </ul>
-        <div class="title">
-            <h4>L\'encyclopédie de Mezalando</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="' . $target . 'histoire/factions.php">Factions et conflits</a>
-            </li>
-            <li>
-                <button class="dropdown-btn">Races  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="' . $target . 'races/alters.php">Les races Alters</a>
-                    <a href="' . $target . 'races/derwenn.php">Derwenn</a>
-                    <a href="' . $target . 'races/mutants.php">Mutants</a>
-                    <a href="' . $target . 'races/loenn.php">Loenn</a>
-                    <a href="' . $target . 'races/mirien.php">Mirien</a>
-                    <a href="' . $target . 'races/anges.php">Anges</a>
-                    <a href="' . $target . 'races/demons.php">Démons</a>
-                    <a href="' . $target . 'races/esprits.php">Esprits</a>
-                    <a href="' . $target . 'races/gwarden.php">Gwarden</a>
-                    <a href="' . $target . 'races/alfren.php">Alfren</a>
-                    <a href="' . $target . 'races/einherjars.php">Einherjärs</a>
-                    <a href="' . $target . 'races/maestri.php">Maestri</a>
-                </div>
-            </li>
-            <li>
-                <button class="dropdown-btn">Magie  <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-container">
-                    <a href="' . $target . 'magie/magie.php">Magie</a>
-                    <a href="' . $target . 'magie/voies.php">Voies et branches</a>
-                    <a href="' . $target . 'magie/objets.php">Objets enchantés</a>
-                    <a href="' . $target . 'magie/invocations.php">Invocations et animations</a>
-                </div>
-            </li>
-            <li>
-                <button class="dropdown-btn">Religions et croyances  <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-container">
-                    <a href="' . $target . 'societe/enseignes.php">Invocations et animations</a>
-                </div>
-            </li>
-            <li>
-                <a href="' . $target . 'societe/alternet.php">Alternet</a>
-            </li>
-            <li>
-                <a href="' . $target . 'societe/noms.php">Noms</a>
-            </li>
-        </ul>
-        </ul>
-        <div class="title">
-            <h4>Erentia</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="' . $target . 'erentia/histoire.php">Histoire</a>
-            </li>
-            <li>
-                <a href="' . $target . 'erentia/geographie.php">Géographie</a>
-            </li>
-            <li>
-                <button class="dropdown-btn">Société  <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-container">
-                    <a href="' . $target . 'erentia/certificats.php">Cartificats de magie</a>
-                    <a href="' . $target . 'erentia/guildes.php">Guildes</a>
-                    <a href="' . $target . 'erentia/gouvernance.php">Gouvernance et économie</a>
-                    <a href="' . $target . 'erentia/lois.php">Lois de l\'île</a>
-                    <a href="' . $target . 'erentia/garde.php">Garde et police</a>
-                    <a href="' . $target . 'erentia/traditons.php">Célébrations et traditions</a>
-                    <a href="' . $target . 'erentia/education.php">Éducation</a>
-                </div>
-            </li>
-            <li>
-                <button class="dropdown-btn">Vie pratique  <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-container">
-                    <a href="' . $target . 'erentia/langue.php">Langue, monnaie et calendrier</a>
-                    <a href="' . $target . 'erentia/acces.php">Accès à l\'île</a>
-                    <a href="' . $target . 'erentia/technologie.php">Technologie</a>
-                    <a href="' . $target . 'erentia/communication.php">Communication</a>
-                    <a href="' . $target . 'erentia/deplacements.php">Déplacements</a>
-                    <a href="' . $target . 'erentia/drogues.php">Drogues et alcool</a>
-                    <a href="' . $target . 'erentia/medecine.php">Médecine et accès aux soins</a>
-                    <a href="' . $target . 'erentia/sports.php">sports</a>
-                </div>
-            </li>
-        </ul>
-        <div class="title">
-            <h4>Nenien</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="' . $target . 'nenien/generalites.php">Généralités</a>
-            </li>
-            <li>
-                <a href="' . $target . 'nenien/vie.php">Vie pratique</a>
-            </li>
-            <li>
-                <a href="' . $target . 'nenien/lieux.php">Lieux</a>
-            </li>
-            <li>
-                <a href="' . $target . 'nenien/personnages.php">Personnages importants</a>
-            </li>
-        </ul>
-        <div class="title">
-            <h4>Système</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="' . $target . 'systeme/mecanique.php">Mécaniques</a>
-            </li>
-            <li>
-                <a href="' . $target . 'systeme/fiches.php">Fiches de personnage</a>
-            </li>
-        </ul>
-    </nav>
-<script >
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+    /**
+     * section => link
+     *         => dropdown => links
+     */
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var arrow = this.querySelector(".fa-caret-down");
-    if(arrow) {
-        arrow.classList.toggle("caret-up");
-    }
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.maxHeight === "500px") {
-      dropdownContent.style.maxHeight = "0px";
-    } else {
-      dropdownContent.style.maxHeight = "500px";
-    }
-  });
-}
+    // used in require
+    $currentUrl = getCurrentUrl();
+    $sidebarLinks = [
+        [
+            'title' => 'Contexte général',
+            'links' => [
+                [
+                    'text' => 'L\'univers en 5 minutes',
+                    'link' => $target . 'index.php'
+                ],
+                [
+                    'text' => 'Les projets autour de Mezalando',
+                    'link' => $target . 'projects.php'
+                ],
+            ]
+        ],
+        [
+            'title' => 'L\'encyclopédie de Mezalando',
+            'links' => [
+                [
+                    'text' => 'Factions et conflits',
+                    'link' => $target . 'histoire/factions.php'
+                ],
+                [
+                    'text' => 'Races',
+                    'links' => [
+                        [
+                            'text' => 'Les races Alters',
+                            'link' => $target . 'races/alters.php'
+                        ],
+                        [
+                            'text' => 'Derwenn',
+                            'link' => $target . 'races/derwenn.php'
+                        ],
+                        [
+                            'text' => 'Mutants',
+                            'link' => $target . 'races/mutants.php'
+                        ],
+                        [
+                            'text' => 'Loenn',
+                            'link' => $target . 'races/loenn.php'
+                        ],
+                        [
+                            'text' => 'Mirien',
+                            'link' => $target . 'races/mirien.php'
+                        ],
+                        [
+                            'text' => 'Anges',
+                            'link' => $target . 'races/anges.php'
+                        ],
+                        [
+                            'text' => 'Démons',
+                            'link' => $target . 'races/demons.php'
+                        ],
+                        [
+                            'text' => 'Esprits',
+                            'link' => $target . 'races/esprits.php'
+                        ],
+                        [
+                            'text' => 'Gwarden',
+                            'link' => $target . 'races/gwarden.php'
+                        ],
+                        [
+                            'text' => 'Alfren',
+                            'link' => $target . 'races/alfren.php'
+                        ],
+                        [
+                            'text' => 'Einherjärs',
+                            'link' => $target . 'races/einherjars.php'
+                        ],
+                        [
+                            'text' => 'Maestri',
+                            'link' => $target . 'races/maestri.php'
+                        ],
+                    ]
+                ],
+                [
+                    'text' => 'Magie',
+                    'links' => [
+                        [
+                            'text' => 'Magie',
+                            'link' => $target . 'magie/magie.php'
+                        ],
+                        [
+                            'text' => 'Voies et branches',
+                            'link' => $target . 'magie/voies.php'
+                        ],
+                        [
+                            'text' => 'Objets enchantés',
+                            'link' => $target . 'magie/objets.php'
+                        ],
+                        [
+                            'text' => 'Invocations et animations',
+                            'link' => $target . 'magie/invocations.php'
+                        ],
+                    ]
+                ],
+                [
+                    'text' => 'Religions et croyances',
+                    'link' => $target . 'religions.php'
+                ],
+                [
+                    'text' => 'Alternet',
+                    'link' => $target . 'alternet.php'
+                ],
+                [
+                    'text' => 'Noms',
+                    'link' => $target . 'noms.php'
+                ]
+            ]
+        ],
+        [
+            'title' => 'Erentia',
+            'links' => [
+                [
+                    'text' => 'Histoire',
+                    'link' => $target . 'erentia/histoire.php'
+                ],
+                [
+                    'text' => 'Géographie',
+                    'link' => $target . 'erentia/geographie.php'
+                ],
+                [
+                    'text' => 'Société',
+                    'links' => [
+                        [
+                            'text' => 'Certificats de magie',
+                            'link' => $target . 'erentia/certificats.php'
+                        ],
+                        [
+                            'text' => 'Guildes',
+                            'link' => $target . 'erentia/guildes.php'
+                        ],
+                        [
+                            'text' => 'Gouvernance et économie',
+                            'link' => $target . 'erentia/gouvernance.php'
+                        ],
+                        [
+                            'text' => 'Lois de l\'île',
+                            'link' => $target . 'erentia/lois.php'
+                        ],
+                        [
+                            'text' => 'Garde et police',
+                            'link' => $target . 'erentia/garde.php'
+                        ],
+                        [
+                            'text' => 'Célébrations et traditions',
+                            'link' => $target . 'erentia/traditions.php'
+                        ],
+                        [
+                            'text' => 'Éducation',
+                            'link' => $target . 'erentia/education.php'
+                        ],
+                    ]
+                ],
+                [
+                    'text' => 'Vie pratique',
+                    'links' => [
+                        [
+                            'text' => 'Langue, monnaie et calendrier',
+                            'link' => $target . 'erentia/langue.php'
+                        ],
+                        [
+                            'text' => 'Accès à l\'île',
+                            'link' => $target . 'erentia/acces.php'
+                        ],
+                        [
+                            'text' => 'Technologie',
+                            'link' => $target . 'erentia/technologie.php'
+                        ],
+                        [
+                            'text' => 'Communication',
+                            'link' => $target . 'erentia/communication.php'
+                        ],
+                        [
+                            'text' => 'Déplacement',
+                            'link' => $target . 'erentia/deplacements.php'
+                        ],
+                        [
+                            'text' => 'Drogues et alcool',
+                            'link' => $target . 'erentia/drogues.php'
+                        ],
+                        [
+                            'text' => 'Médecine et accès aux soins',
+                            'link' => $target . 'erentia/medecine.php'
+                        ],
+                        [
+                            'text' => 'Sports',
+                            'link' => $target . 'erentia/sports.php'
+                        ],
+                    ]
+                ],
+            ]
+        ],
+        [
+            'title' => 'Nenien',
+            'links' => [
+                [
+                    'text' => 'Généralités',
+                    'link' => $target . 'nenien/generalites.php'
+                ],
+                [
+                    'text' => 'Vie pratique',
+                    'link' => $target . 'nenien/vie.php'
+                ],
+                [
+                    'text' => 'Lieux',
+                    'link' => $target . 'nenien/lieux.php'
+                ],
+                [
+                    'text' => 'Personnages importants',
+                    'link' => $target . 'nenien/personnages.php'
+                ],
+            ]
+        ],
+        [
+            'title' => 'Système',
+            'links' => [
+                [
+                    'text' => 'Mécaniques',
+                    'link' => $target . 'systeme/mecanique.php'
+                ],
+                [
+                    'text' => 'Fiches de personnage',
+                    'link' => $target . 'systeme/fiches.php'
+                ],
+            ]
+        ],
+    ];
 
-document.addEventListener("scroll", function () {
-    var navbar = document.querySelector("#navbar");
-    var sidebar = document.querySelector("#sidebar");
-    var mainContent = document.querySelector("main");
-    if (!sidebar || !mainContent) return;
-    if (mainContent.offsetHeight <= sidebar.offsetHeight) return;
-    var pos = sidebar.getBoundingClientRect();
-    var mainPos = mainContent.getBoundingClientRect();
-    if (mainPos.top <= (navbar ? navbar.offsetHeight : 0)) {
-        sidebar.style.position = "fixed";
-        if (mainPos.bottom <= sidebar.offsetHeight) {
-            sidebar.style.bottom = (window.innerHeight - mainPos.bottom) + "px";
-            sidebar.style.top = "auto";
-        } else {
-            sidebar.style.top = "2rem";
-            sidebar.style.bottom = "auto";
-        }
-    } else {
-        sidebar.style.position = "relative";
-        sidebar.style.top = "auto";
-    }
-});
-</script>';
+    require(str_repeat('../', $n) . 'sidebar.html.php');
 }

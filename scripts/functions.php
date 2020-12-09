@@ -1,6 +1,7 @@
 <?php
-include("decide-lang.php");
-include('mezalando-helper.php');
+require_once('constants.php');
+require_once('helpers.php');
+require_once('mezalando-helper.php');
 
 define('TXT_COPYRIGHT', '<div id="copyright" class="content">
     <p>&copy; N13 Development. All rights reserved. | Created by Fi Skirata</p>
@@ -10,16 +11,39 @@ define('TXT_SIDEBAR_MEZALANDO', '');
 
 function target($n)
 {
-    $target = '';
-    if ($n != -1) {
-        for ($i = 0; $i < $n; $i++) {
-            $target = $target . '../';
+    if ($n === -1) {
+        return APP_BASE_URL;
+    }
+    $currentURI = str_replace(APP_BASE_URL, '', getCurrentUrl());
+    $sub = null;
+    foreach (APP_SUB_BASE_URIS as $key => $uri) {
+        if(strpos($currentURI, $uri) === 0) {
+            $sub = $key;
+            $currentURI = str_replace($uri, '', $currentURI);
+            break;
         }
     }
-    return $target;
+
+    $currentURI = explode('/', $currentURI);
+    // le if est temporaire avant le .htaccess
+    if(strpos(end($currentURI), '.') !== false) {
+        array_pop($currentURI);
+    }
+    //
+    while ($n > 0) {
+        $n -= 1;
+        array_shift($currentURI);
+    }
+    
+    $target = APP_BASE_URL;
+    if($sub) {
+        $target .= APP_SUB_BASE_URIS[$sub];
+    }
+    
+    return $target . implode('/', $currentURI);
 }
 
-function set_head($n, $param, $title)
+function set_head($param, $title)
 {
     switch ($param) {
         case "mez":
@@ -34,49 +58,20 @@ function set_head($n, $param, $title)
             $src = 'p_18.png';
             break;
     }
-    $target = target($n);
-    $head = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
-    <head><title>' . $title . '</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="keywords" content=""/>
-        <meta name="description" content=""/>
-        <link rel="icon" href="' . $target . 'img/icons/' . $src . '">
-        <link href="' . $target . 'css/fontawesome.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="' . $target . 'css/gen.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="' . $target . 'css/' . $param . '.css" rel="stylesheet" type="text/css" media="all"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="application/javascript" src="' . $target . 'js/general_script.js"></script>
-        <script>function hideShow(id) {
-    var i = document.getElementById(id);
-    if (i.style.display === "none")
-        i.style.display = "block";
-    else
-        i.style.display = "none";
-}</script>
-    </head>
-    <body>';
-    echo $head;
+    $target = target(-1);
+    
+    require(dirname(__FILE__) . '/../common-views/head.html.php');
 }
 
-function set_menu_legacy($n)
+function set_menu_legacy()
 {
-    $target = target($n);
-    $menu = '<nav id="navbar">
-    <ul>
-        <li><a href="./' . $target . 'index.php" class="current_page_item">Home</a></li>
-        <li><a href="./' . $target . 'cosmicvoid/index.php">Cosmic Void</a></li>
-        <li><a href="./' . $target . 'mezalando/index.php">Mezalando</a></li>
-        <li><a href="./' . $target . 'ratus/index.php">Ratus</a></li>
-    </ul>
-</nav>
-<div id="banner"></div>';
-    echo $menu;
+    $target = target(-1);
+    require(dirname(__FILE__) . '/../common-views/navbar.html.php');
 }
 
-function set_menu($n, $section)
+function set_menu($section)
 {
-    $target = target($n);
+    $target = target(-1);
     $title = null;
     switch ($section) {
         case 'cos':
@@ -91,28 +86,7 @@ function set_menu($n, $section)
         default:
             break;
     }
-    $menu = '<nav id="navbar">
-    <ul>
-        <li><a href="' . $target . 'index.php">Home</a></li>
-        <li class="dropdown"><a href="' . $target . 'cosmicvoid/index.php" >Cosmic Void &ensp;</a>
-            <ul class="dropdown-child">
-                <li> <a href="' . $target . 'cosmicvoid/dante.php">Dante313</a></li>
-                <li> <a href="' . $target . 'cosmicvoid/continental.php">The Continental</a></li>
-                <li> <a href="#">No Way Out</a></li>
-            </ul>
-        </li>
-        <li class="dropdown"><a href="' . $target . 'mezalando/index.php">Mezalando &ensp;</a>
-            <ul class="dropdown-child">
-                <li> <a href="' . $target . 'mezalando/erentia/acces.php">Erentia</a></li>
-                <li> <a href="' . $target . 'mezalando/nenien/vie.php">Nenien</a></li>
-                <li> <a href="#">No Way Out</a></li>
-            </ul>
-        </li>
-        <li><a href="' . $target . 'ratus/index.php">Ratus</a></li>
-    </ul>
-</nav>
-<div id="banner">' . ($title ? '<h1>' . $title . '</h1>' : '') . '</div>';
-    echo $menu;
+    require(dirname(__FILE__) . '/../common-views/navbar-dropdown.html.php');
 }
 
 function set_page($content, $n)
@@ -272,8 +246,8 @@ function set_ratus_sidebar($n)
 }
 
 function generate($n, $section, $title, $content) {
-    set_head($n, $section, $title);
-    set_menu($n, $section);
+    set_head($section, $title);
+    set_menu($section);
     set_page($content, $n);
     set_footer($section, $n);
     echo TXT_COPYRIGHT;

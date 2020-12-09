@@ -1,10 +1,10 @@
-<?php include '../../decide-lang.php';
+<?php require '../../decide-lang.php';
 require_once('../../common.php');
-set_head(2, "cos", "Iced Earth");?>
+set_head("cos", "Iced Earth");?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(2); ?>
+<?php set_menu('cos'); ?>
 
 <!-- Content -->
 <div id="page">
@@ -41,8 +41,7 @@ set_head(2, "cos", "Iced Earth");?>
 
 <!-- Portfolio -->
 <?php set_portfolio(2);
-// Footer
-echo TXT_FOOTER;
+
 // Copyright
 echo TXT_COPYRIGHT; ?>
 

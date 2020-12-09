@@ -1,10 +1,10 @@
-<?php include '../decide-lang.php';
+<?php require '../decide-lang.php';
 require_once('../common.php');
-set_head(1, "cos", "The Continental");?>
+set_head("cos", "The Continental");?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(1); ?>
+<?php set_menu('cos'); ?>
 
 <!-- Content -->
 <div id="page">
@@ -160,7 +160,7 @@ set_head(1, "cos", "The Continental");?>
             </a></div>
     </div>
 </div>
-<!-- TODO For PHP update : <?php include('inc/portfolio.php'); ?> -->
+<!-- TODO For PHP update : <?php require('inc/portfolio.php'); ?> -->
 
 <!-- Footer -->
 <div id="footer-wrapper">
@@ -207,7 +207,7 @@ set_head(1, "cos", "The Continental");?>
     <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
             href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
-<!-- TODO For PHP update : <?php include('inc/common.php'); ?> -->
+<!-- TODO For PHP update : <?php require('inc/common.php'); ?> -->
 
 
 <script type="application/javascript" target="_parent" src="../js/general_script.js"></script>

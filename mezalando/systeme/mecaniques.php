@@ -1,10 +1,10 @@
-<?php include '../../decide-lang.php';
+<?php require '../../decide-lang.php';
 require_once('../../common.php');
 set_head(2, "mez", "Mécaniques"); ?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(2); ?>
+<?php set_menu('mez'); ?>
 
 <!-- Content -->
 <div id="page">
@@ -319,8 +319,6 @@ set_head(2, "mez", "Mécaniques"); ?>
 
 <!-- Portfolio -->
 <?php set_portfolio(2);
-// Footer
-echo TXT_FOOTER;
 // Copyright
 echo TXT_COPYRIGHT; ?>
 <script type="application/javascript" target="_parent" src="../../js/general_script.js"></script>

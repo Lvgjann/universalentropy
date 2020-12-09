@@ -109,8 +109,7 @@ require_once('../inc/common.php'); ?>
             </a></div>
     </div>
 </div>
-// Footer
-echo TXT_FOOTER;
+
 // Copyright
 echo TXT_COPYRIGHT;?>
 <script type="application/javascript" target="_parent" src="../js/general_script.js"></script>

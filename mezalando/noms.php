@@ -1,7 +1,7 @@
 <?php
-include('../../scripts/decide-lang.php');
-require_once('../../scripts/functions.php');
-generate(2, "mez", "Noms",
+require('../scripts/decide-lang.php');
+require_once('../scripts/functions.php');
+generate(1, "mez", "Noms",
     '<div class="title">
             <h3 class="byline">noms</h3>
         </div>

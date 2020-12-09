@@ -1,4 +1,7 @@
 <?php
-include('../scripts/decide-lang.php');
+require('../scripts/decide-lang.php');
 require_once('../scripts/functions.php');
-generate(1, "mez", "Mezalando", file_get_contents('./index.html')); ?>
+ob_start();
+require('./index.html.php');
+$content = ob_get_clean();
+generate(1, "mez", "Mezalando", $content); ?>

@@ -1,10 +1,10 @@
-<?php include '../../decide-lang.php';
+<?php require '../../decide-lang.php';
 require_once('../../common.php');
-set_head(2, "cos", "Asylum 31");?>
+set_head("cos", "Asylum 31");?>
 <body>
 
 <!-- Menu -->
-<?php set_menu(2); ?>
+<?php set_menu('cos'); ?>
 
 <!-- End menu -->
 <div id="page">
@@ -36,8 +36,7 @@ set_head(2, "cos", "Asylum 31");?>
 
 <!-- Portfolio -->
 <?php set_portfolio(2);
-// Footer
-echo TXT_FOOTER;
+
 // Copyright
 echo TXT_COPYRIGHT; ?>
 
