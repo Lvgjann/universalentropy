@@ -229,7 +229,7 @@ function set_mezalando_sidebar($n)
             'links' => [
                 [
                     'text' => 'Mécaniques',
-                    'link' => $target . 'systeme/mecanique.php'
+                    'link' => $target . 'systeme/mecaniques.php'
                 ],
                 [
                     'text' => 'Fiches de personnage',
