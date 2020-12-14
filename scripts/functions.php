@@ -58,12 +58,6 @@ function set_head($param, $title)
     require(dirname(__FILE__) . '/../common-views/head.html.php');
 }
 
-function set_menu_legacy()
-{
-    $target = target(-1);
-    require(dirname(__FILE__) . '/../common-views/navbar.html.php');
-}
-
 function set_menu($section)
 {
     $target = target(-1);
@@ -137,7 +131,8 @@ function set_portfolio($n)
                 <img src="' . $target . 'img/background/bg_mez.jpg" alt=""/></a>
             <a href="' . $target . $root . 'mezalando/index.php" class="icon icon-arrow-right button">
                 Mezalando
-            </a></div
+            </a>
+        </div>
     </div>
 </div>';
     echo $portfolio;

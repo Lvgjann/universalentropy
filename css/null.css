@@ -44,21 +44,8 @@ body {
     background: #000000;
 }
 
-#navbar {
-    overflow: hidden;
-    width: 100%;
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    height: 50px;
-    line-height: normal;
-    text-align: center;
-}
-
-nav {
+nav#navbar, nav#navbar .dropdown-list {
     background: #000000;
-    width: 100%;
-    position: sticky;
 }
 
 /** PAGE */
