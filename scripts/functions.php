@@ -2,12 +2,11 @@
 require_once('constants.php');
 require_once('helpers.php');
 require_once('mezalando-helper.php');
+require_once('cosmicvoid-helper.php');
 
 define('TXT_COPYRIGHT', '<div id="copyright" class="content">
     <p>&copy; N13 Development. All rights reserved. | Created by Fi Skirata</p>
 </div>');
-define('TXT_SIDEBAR_DANTE', '');
-define('TXT_SIDEBAR_MEZALANDO', '');
 
 function target($n)
 {
@@ -17,7 +16,7 @@ function target($n)
     $currentURI = str_replace(APP_BASE_URL, '', getCurrentUrl());
     $sub = null;
     foreach (APP_SUB_BASE_URIS as $key => $uri) {
-        if(strpos($currentURI, $uri) === 0) {
+        if (strpos($currentURI, $uri) === 0) {
             $sub = $key;
             $currentURI = str_replace($uri, '', $currentURI);
             break;
@@ -27,14 +26,14 @@ function target($n)
     $currentURI = explode('/', $currentURI);
     // delete current route
     array_pop($currentURI);
-    
+
     $currentURI = array_slice($currentURI, 0, count($currentURI) - $n < 0 ? 0 : count($currentURI) - $n);
-    
+
     $target = APP_BASE_URL;
-    if($sub) {
+    if ($sub) {
         $target .= APP_SUB_BASE_URIS[$sub];
     }
-    
+
     return $target . ($currentURI ? implode('/', $currentURI) . '/' : '');
 }
 
@@ -54,7 +53,7 @@ function set_head($param, $title)
             break;
     }
     $target = target(-1);
-    
+
     require(dirname(__FILE__) . '/../common-views/head.html.php');
 }
 
@@ -78,11 +77,16 @@ function set_menu($section)
     require(dirname(__FILE__) . '/../common-views/navbar-dropdown.html.php');
 }
 
-function set_page($content, $n)
+function set_page($section, $content, $n)
 {
     echo '<div id="page">
     <main id="page_content">' . $content . ' </main>';
-    set_mezalando_sidebar($n - 1);
+    set_cosmicvoid_sidebar($n - 1);
+    /*
+    if ($section == "mez")
+        set_mezalando_sidebar($n - 1);
+    else if ($section == "cos")
+        set_cosmicvoid_sidebar($n - 1);*/
     echo '</div>';
 }
 
@@ -136,6 +140,88 @@ function set_portfolio($n)
     </div>
 </div>';
     echo $portfolio;
+}
+
+function set_footer($section, $n)
+{
+    switch ($section) {
+        case "cos":
+            $title1 = 'Sources externes';
+            $box1 = '
+                <ul class="footer-list">
+                    <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
+                    <li><a href="https://www.artstation.com/alexnice">Alex Nice</a></li>
+                </ul>';
+            $title2 = 'Tools for RPG';
+            $box2 = '<ul class="footer-list">
+                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
+                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
+                </ul>';
+            break;
+        case "mez":
+            $title1 = 'Sources externes';
+            $box1 = '
+                <ul class="footer-list">
+                    <li><a href="https://mezalando.forumactif.com/ ">Forum RP de Mezalando</a></li>
+                </ul>';
+            $title2 = 'Tools for RPG';
+            $box2 = '<ul class="footer-list">
+                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
+                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
+                </ul>';
+            break;
+        case "rat":
+            $title1 = 'Ultia';
+            $box1 = '<ul class="footer-list">
+                    <li><a href="https://www.twitch.tv/ultia/">Chaîne Twitch de Ultia</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PLrK0ltVp4S8VuAEY3DZq85UOCGfywdURH">Les chroniques Ratus de Ultia</a></li>
+                </ul>';
+            $title2 = 'À voir aussi';
+            $box2 = '';
+            break;
+        default:
+            break;
+    }
+    $target = target($n);
+    $footer = '
+    <div id="footer-wrapper">
+        <footer id="footer" class="content">
+            <div>
+                <div class="title">
+                    <h2>' . $title1 . '</h2>
+                </div> ' . $box1 . '
+                </div>
+            <div>
+                <div class="title">
+                    <h2>' . $title2 . '</h2>
+                </div> ' . $box2 . '
+            </div>
+            <div>
+                <div class="title">
+                    <h2>Join us on Discord</h2>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <div>
+                            <i class="fab fa-discord"></i>
+                            <a href="https://discord.gg/bRb9VJYgTR">
+                                Mezalando
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fab fa-discord"></i>
+                            <a href="https://discord.gg/bRb9VJYgTR">
+                                The Cosmic Void
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>';
+    echo $footer;
 }
 
 function set_dante_sidebar($n)
@@ -235,95 +321,14 @@ function set_ratus_sidebar($n)
     echo $sidebar;
 }
 
-function generate($n, $section, $title, $content) {
+function generate($n, $section, $title, $content)
+{
     set_head($section, $title);
     set_menu($section);
-    set_page($content, $n);
+    set_page($section, $content, $n);
     set_footer($section, $n);
     echo TXT_COPYRIGHT;
     echo '
     </body>
     </html>';
-}
-
-function set_footer($section, $n)
-{
-    switch ($section) {
-        case "cos":
-            $title1 = 'Sources externes';
-            $box1 = '
-                <ul class="footer-list">
-                    <li><a href="https://www.deviantart.com/saxonsurokov">Saxon Surokov, banners creator</a></li>
-                    <li><a href="https://www.artstation.com/alexnice">Alex Nice</a></li>
-                </ul>';
-            $title2 = 'Tools for RPG';
-            $box2 = '<ul class="footer-list">
-                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
-                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
-                </ul>';
-            break;
-        case "mez":
-            $title1 = 'Sources externes';
-            $box1 = '
-                <ul class="footer-list">
-                    <li><a href="https://mezalando.forumactif.com/ ">Forum RP de Mezalando</a></li>
-                </ul>';
-            $title2 = 'Tools for RPG';
-            $box2 = '<ul class="footer-list">
-                    <li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Azgaar\'s Fantasy Map Generator</a></li>
-                    <li><a href="https://www.fantasynamegenerators.com/ ">Fantasy Name Generators</a></li>
-                </ul>';
-            break;
-        case "rat":
-            $title1 = 'Ultia';
-            $box1 = '<ul class="footer-list">
-                    <li><a href="https://www.twitch.tv/ultia/">Chaîne Twitch de Ultia</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLrK0ltVp4S8VuAEY3DZq85UOCGfywdURH">Les chroniques Ratus de Ultia</a></li>
-                </ul>';
-            $title2 = 'À voir aussi';
-            $box2 = '';
-            break;
-        default:
-            break;
-    }
-    $target = target($n);
-    $footer = '
-    <div id="footer-wrapper">
-        <footer id="footer" class="content">
-            <div>
-                <div class="title">
-                    <h2>' . $title1 . '</h2>
-                </div> ' . $box1 . '
-                </div>
-            <div>
-                <div class="title">
-                    <h2>' . $title2 . '</h2>
-                </div> ' . $box2 . '
-            </div>
-            <div>
-                <div class="title">
-                    <h2>Join us on Discord</h2>
-                </div>
-                <ul class="footer-list">
-                    <li>
-                        <div>
-                            <i class="fab fa-discord"></i>
-                            <a href="https://discord.gg/bRb9VJYgTR">
-                                Mezalando
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <i class="fab fa-discord"></i>
-                            <a href="https://discord.gg/bRb9VJYgTR">
-                                The Cosmic Void
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    </div>';
-    echo $footer;
 }

@@ -111,9 +111,9 @@ set_head("cos", "The Continental");?>
                 <h2>Projects</h2>
             </div>
             <ul class="style2">
-                <li><a href="rpg/game_system.php">Game systems</a></li>
-                <li><a href="rpg/trivia.php">Trivia</a></li>
-                <li><a href="rpg/templates.php">Character sheet and templates</a></li>
+                <li><a href="misc/system.php">Game systems</a></li>
+                <li><a href="misc/trivia.php">Trivia</a></li>
+                <li><a href="misc/templates.php">Character sheet and templates</a></li>
             </ul>
         </div>
     </div>
