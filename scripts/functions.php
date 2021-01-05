@@ -81,12 +81,11 @@ function set_page($section, $content, $n)
 {
     echo '<div id="page">
     <main id="page_content">' . $content . ' </main>';
-    set_cosmicvoid_sidebar($n - 1);
-    /*
+    //set_cosmicvoid_sidebar($n - 1);
     if ($section == "mez")
         set_mezalando_sidebar($n - 1);
     else if ($section == "cos")
-        set_cosmicvoid_sidebar($n - 1);*/
+        set_cosmicvoid_sidebar($n - 1);
     echo '</div>';
 }
 
