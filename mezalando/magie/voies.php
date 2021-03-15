@@ -24,7 +24,7 @@ generate(2, "mez", "Voies et branches",
             <button class="tablinks" onclick="openTabs(\'P5\')">Divination</button>
             <button class="tablinks" onclick="openTabs(\'P6\')">Métamorphose</button>
             <button class="tablinks" onclick="openTabs(\'P7\')">Créomancie</button>
-            <button class="tablinks" onclick="openTabs(\'P8\')">Combination</button>
+            <button class="tablinks" onclick="openTabs(\'P8\')">Combinaison</button>
             <button class="tablinks" onclick="openTabs(\'P9\')">Anti-magie</button>
         </div>
 
@@ -319,8 +319,26 @@ generate(2, "mez", "Voies et branches",
             <h3 class="byline">Les types d\'action</h3>
         </div>
         <p>
-            Il existe 5 types d\'actions, elles aussi classées par ordre de difficulté : ressentir, contrôler,
-            lier/combiner (exemple dans la création de potions, d\'objets animés...), modifier et créer. <br>
+            Il existe 5 types d\'actions, elles aussi classées par ordre de difficulté :
+        </p>
+        <ul>
+            <li>
+                Ressentir
+            </li>
+            <li>
+                Contrôler
+            </li>
+            <li>
+                Lier / Combiner (exemple dans la création de potions, d\'objets animés...)
+            </li>
+            <li>
+                Modifier / Altérer
+            </li>
+            <li>
+                Créer
+            </li>
+        </ul>
+        <p>
             Il est facile de relier les voies traditionnelles à un domaine, et de comprendre, selon cette
             classification, pourquoi un élémentaliste expérimenté peut créer son élément à partir de rien alors que
             créer de nouveaux souvenirs pour un spécialiste du contrôle mental est très compliqué.
