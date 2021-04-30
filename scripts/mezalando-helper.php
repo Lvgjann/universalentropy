@@ -136,27 +136,27 @@ function set_mezalando_sidebar($n)
                     'links' => [
                         [
                             'text' => 'Certificats de magie',
-                            'link' => $target . 'erentia/certificats'
+                            'link' => $target . 'societe/certificats'
                         ],
                         [
                             'text' => 'Guildes',
-                            'link' => $target . 'erentia/guildes'
+                            'link' => $target . 'societe/guildes'
                         ],
                         [
                             'text' => 'Gouvernance et économie',
-                            'link' => $target . 'erentia/gouvernance'
+                            'link' => $target . 'societe/gouvernance'
                         ],
                         [
                             'text' => 'Lois de l\'île',
-                            'link' => $target . 'erentia/lois'
+                            'link' => $target . 'societe/lois'
                         ],
                         [
                             'text' => 'Garde et police',
-                            'link' => $target . 'erentia/garde'
+                            'link' => $target . 'societe/garde'
                         ],
                         [
                             'text' => 'Célébrations et traditions',
-                            'link' => $target . 'erentia/traditions'
+                            'link' => $target . 'societe/traditions'
                         ],
                         [
                             'text' => 'Éducation',
@@ -169,7 +169,7 @@ function set_mezalando_sidebar($n)
                     'links' => [
                         [
                             'text' => 'Langue, monnaie et calendrier',
-                            'link' => $target . 'erentia/langue'
+                            'link' => $target . 'vie/langue'
                         ],
                         [
                             'text' => 'Accès à l\'île',

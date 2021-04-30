@@ -2,7 +2,7 @@
 require('../../scripts/decide-lang.php');
 require_once('../../scripts/functions.php');
 ob_start();
-require('./drogues.html');
+require('./guildes.html');
 $content = ob_get_clean();
-generate(2, "mez", "Drogues",
+generate(2, "mez", "Guildes",
 $content); ?>

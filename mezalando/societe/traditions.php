@@ -1,5 +1,8 @@
 <?php
 require('../../scripts/decide-lang.php');
 require_once('../../scripts/functions.php');
-generate(2, "mez", "Guildes",
+ob_start();
+require('./traditions.html');
+$content = ob_get_clean();
+generate(2, "mez", "Traditions",
 $content); ?>
